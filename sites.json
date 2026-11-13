@@ -79,9 +79,8 @@
    },
    {
     "name": "ShuttleTV",
-    "url": "https://shuttletv.su/",
+    "url": "https://shuttletv.pk/",
     "mirrors": [
-     "https://shuttletv.pk/",
      "https://shuttletv.me/"
     ],
     "tags": [
@@ -201,6 +200,19 @@
     "index": false
    },
    {
+    "name": "dulo",
+    "url": "https://dulo.mov/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "ArrowTV",
     "url": "https://arrowtv.net/",
     "mirrors": [
@@ -242,19 +254,6 @@
      "1080p",
      "Dual Audio",
      "Popup + Redirect Free"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "dulo",
-    "url": "https://dulo.mov/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -406,6 +405,19 @@
     "index": false
    },
    {
+    "name": "Q62",
+    "url": "https://q62flix.ws/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Popup + Redirect Free"
+    ],
+    "group": "Dedicated-Server",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "PressPlay",
     "url": "https://pressplayz.top/",
     "mirrors": [],
@@ -457,6 +469,21 @@
     "index": false
    },
    {
+    "name": "Primeshows",
+    "url": "https://www.primeshows.org/",
+    "mirrors": [
+     "https://netshows.xyz/",
+     "https://youshows.org/"
+    ],
+    "tags": [
+     "9 Sources",
+     "Ad-Toggle"
+    ],
+    "group": "Multi-Server",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "ZetMoon",
     "url": "https://zetmoon.live/",
     "mirrors": [],
@@ -490,20 +517,6 @@
     "tags": [
      "11 Sources",
      "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "Primeshows",
-    "url": "https://www.primeshows.org/",
-    "mirrors": [
-     "https://netshows.xyz/",
-     "https://youshows.org/"
-    ],
-    "tags": [
-     "9 Sources"
     ],
     "group": "Multi-Server",
     "pick": true,
@@ -592,6 +605,7 @@
     "name": "BiliBili",
     "url": "https://www.bilibili.com/",
     "mirrors": [
+     "https://mikuinv.apicalshark.dedyn.io/",
      "https://watch.typetype.video/",
      "https://typetype.video/",
      "https://www.bilibili.tv/"
@@ -851,7 +865,7 @@
    },
    {
     "name": "Bingr",
-    "url": "https://bingr.one/",
+    "url": "https://bingr.st/home",
     "mirrors": [],
     "tags": [
      "1080p",
@@ -922,7 +936,9 @@
     "name": "CinemaOS",
     "url": "https://cinemaos.live/",
     "mirrors": [
-     "https://cinemaos.tech/"
+     "https://cinemaos.tech/",
+     "https://cinemoas.me",
+     "https://cinemaos.in"
     ],
     "tags": [
      "1080p",
@@ -1096,7 +1112,6 @@
     "name": "Cinemove",
     "url": "https://cinemove.cc/",
     "mirrors": [
-     "https://watchly.mom/",
      "https://cinex.lol/"
     ],
     "tags": [
@@ -1277,6 +1292,20 @@
     "index": false
    },
    {
+    "name": "FMFAU",
+    "url": "https://fmfau.com/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "External Subs",
+     "Dual Audio",
+     "Popup + Redirect Free"
+    ],
+    "group": "P-Stream Forks",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "StreamWatch",
     "url": "https://streamwatch.online/",
     "mirrors": [
@@ -1292,25 +1321,11 @@
     "index": false
    },
    {
-    "name": "FMFAU",
-    "url": "https://fmfau.com/",
+    "name": "StreamingUnity",
+    "url": "https://streamingunity.fun/",
     "mirrors": [],
     "tags": [
-     "1080p",
-     "External Subs",
-     "Dual Audio",
-     "Popup + Redirect Free"
-    ],
-    "group": "P-Stream Forks",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "Q62",
-    "url": "https://q62flix.ws/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
+     "720p",
      "Dual Audio",
      "Popup + Redirect Free"
     ],
@@ -1319,13 +1334,15 @@
     "index": false
    },
    {
-    "name": "StreamingUnity",
-    "url": "https://streamingunity.fun/",
+    "name": "ShowBox",
+    "url": "https://www.showbox.media/",
     "mirrors": [],
     "tags": [
-     "720p",
+     "4K",
      "Dual Audio",
-     "Popup + Redirect Free"
+     "External Subs",
+     "Popup + Redirect Free",
+     "Use"
     ],
     "group": "Dedicated-Server",
     "pick": false,
@@ -1352,21 +1369,6 @@
      "720p",
      "Dual Audio",
      "Ad-Toggle"
-    ],
-    "group": "Dedicated-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "ShowBox",
-    "url": "https://www.showbox.media/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Popup + Redirect Free",
-     "Use"
     ],
     "group": "Dedicated-Server",
     "pick": false,
@@ -1405,6 +1407,29 @@
      "720p",
      "Dual Audio",
      "Popup + Redirect Free"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "OnionPlay",
+    "url": "https://onionplay.ae/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Switch to Dedicated First Player"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "SoapGo",
+    "url": "https://soapgo.to/",
+    "mirrors": [],
+    "tags": [
+     "1080p"
     ],
     "group": "Dedicated-Server",
     "pick": false,
@@ -1598,10 +1623,9 @@
    },
    {
     "name": "Vidbox",
-    "url": "https://vidbox.vc/",
+    "url": "https://vidbox.wtf/",
     "mirrors": [
-     "https://cinehd.vc/",
-     "https://vidbox.wtf/"
+     "https://cinehd.vc/"
     ],
     "tags": [
      "46 Sources",
@@ -1696,18 +1720,6 @@
     "index": false
    },
    {
-    "name": "Consumit",
-    "url": "https://consumit.online/",
-    "mirrors": [],
-    "tags": [
-     "7 Sources",
-     "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Flixvo",
     "url": "https://flixvo.pro/",
     "mirrors": [
@@ -1777,17 +1789,6 @@
     "tags": [
      "32 Sources",
      "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "OnionPlay",
-    "url": "https://onionplay.ae/",
-    "mirrors": [],
-    "tags": [
-     "9 Sources"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -1914,11 +1915,11 @@
     "index": false
    },
    {
-    "name": "RabbitMeow",
-    "url": "https://rabbitmeow.online/",
+    "name": "Ev01",
+    "url": "https://ev01.ws/",
     "mirrors": [],
     "tags": [
-     "13 Sources"
+     "54 Sources"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -2370,6 +2371,18 @@
      "https://kisskh.is/",
      "https://kisskh.club/"
     ],
+    "tags": [
+     "TV",
+     "Movies"
+    ],
+    "group": "Drama Streaming",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "KissBae",
+    "url": "https://kissbae.com/",
+    "mirrors": [],
     "tags": [
      "TV",
      "Movies"
@@ -3047,9 +3060,8 @@
    },
    {
     "name": "ShuttleTV",
-    "url": "https://shuttletv.su/",
+    "url": "https://shuttletv.pk/",
     "mirrors": [
-     "https://shuttletv.pk/",
      "https://shuttletv.me/"
     ],
     "tags": [
@@ -3169,6 +3181,19 @@
     "index": false
    },
    {
+    "name": "dulo",
+    "url": "https://dulo.mov/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "ArrowTV",
     "url": "https://arrowtv.net/",
     "mirrors": [
@@ -3210,19 +3235,6 @@
      "1080p",
      "Dual Audio",
      "Popup + Redirect Free"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "dulo",
-    "url": "https://dulo.mov/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -3374,6 +3386,19 @@
     "index": false
    },
    {
+    "name": "Q62",
+    "url": "https://q62flix.ws/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Popup + Redirect Free"
+    ],
+    "group": "Dedicated-Server",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "PressPlay",
     "url": "https://pressplayz.top/",
     "mirrors": [],
@@ -3425,6 +3450,21 @@
     "index": false
    },
    {
+    "name": "Primeshows",
+    "url": "https://www.primeshows.org/",
+    "mirrors": [
+     "https://netshows.xyz/",
+     "https://youshows.org/"
+    ],
+    "tags": [
+     "9 Sources",
+     "Ad-Toggle"
+    ],
+    "group": "Multi-Server",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "ZetMoon",
     "url": "https://zetmoon.live/",
     "mirrors": [],
@@ -3458,20 +3498,6 @@
     "tags": [
      "11 Sources",
      "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "Primeshows",
-    "url": "https://www.primeshows.org/",
-    "mirrors": [
-     "https://netshows.xyz/",
-     "https://youshows.org/"
-    ],
-    "tags": [
-     "9 Sources"
     ],
     "group": "Multi-Server",
     "pick": true,
@@ -3723,7 +3749,7 @@
    },
    {
     "name": "Bingr",
-    "url": "https://bingr.one/",
+    "url": "https://bingr.st/home",
     "mirrors": [],
     "tags": [
      "1080p",
@@ -3794,7 +3820,9 @@
     "name": "CinemaOS",
     "url": "https://cinemaos.live/",
     "mirrors": [
-     "https://cinemaos.tech/"
+     "https://cinemaos.tech/",
+     "https://cinemoas.me",
+     "https://cinemaos.in"
     ],
     "tags": [
      "1080p",
@@ -3968,7 +3996,6 @@
     "name": "Cinemove",
     "url": "https://cinemove.cc/",
     "mirrors": [
-     "https://watchly.mom/",
      "https://cinex.lol/"
     ],
     "tags": [
@@ -4149,6 +4176,20 @@
     "index": false
    },
    {
+    "name": "FMFAU",
+    "url": "https://fmfau.com/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "External Subs",
+     "Dual Audio",
+     "Popup + Redirect Free"
+    ],
+    "group": "P-Stream Forks",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "StreamWatch",
     "url": "https://streamwatch.online/",
     "mirrors": [
@@ -4164,25 +4205,11 @@
     "index": false
    },
    {
-    "name": "FMFAU",
-    "url": "https://fmfau.com/",
+    "name": "StreamingUnity",
+    "url": "https://streamingunity.fun/",
     "mirrors": [],
     "tags": [
-     "1080p",
-     "External Subs",
-     "Dual Audio",
-     "Popup + Redirect Free"
-    ],
-    "group": "P-Stream Forks",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "Q62",
-    "url": "https://q62flix.ws/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
+     "720p",
      "Dual Audio",
      "Popup + Redirect Free"
     ],
@@ -4191,13 +4218,15 @@
     "index": false
    },
    {
-    "name": "StreamingUnity",
-    "url": "https://streamingunity.fun/",
+    "name": "ShowBox",
+    "url": "https://www.showbox.media/",
     "mirrors": [],
     "tags": [
-     "720p",
+     "4K",
      "Dual Audio",
-     "Popup + Redirect Free"
+     "External Subs",
+     "Popup + Redirect Free",
+     "Use"
     ],
     "group": "Dedicated-Server",
     "pick": false,
@@ -4224,21 +4253,6 @@
      "720p",
      "Dual Audio",
      "Ad-Toggle"
-    ],
-    "group": "Dedicated-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "ShowBox",
-    "url": "https://www.showbox.media/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Popup + Redirect Free",
-     "Use"
     ],
     "group": "Dedicated-Server",
     "pick": false,
@@ -4277,6 +4291,29 @@
      "720p",
      "Dual Audio",
      "Popup + Redirect Free"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "OnionPlay",
+    "url": "https://onionplay.ae/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Switch to Dedicated First Player"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "SoapGo",
+    "url": "https://soapgo.to/",
+    "mirrors": [],
+    "tags": [
+     "1080p"
     ],
     "group": "Dedicated-Server",
     "pick": false,
@@ -4470,10 +4507,9 @@
    },
    {
     "name": "Vidbox",
-    "url": "https://vidbox.vc/",
+    "url": "https://vidbox.wtf/",
     "mirrors": [
-     "https://cinehd.vc/",
-     "https://vidbox.wtf/"
+     "https://cinehd.vc/"
     ],
     "tags": [
      "46 Sources",
@@ -4568,18 +4604,6 @@
     "index": false
    },
    {
-    "name": "Consumit",
-    "url": "https://consumit.online/",
-    "mirrors": [],
-    "tags": [
-     "7 Sources",
-     "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Flixvo",
     "url": "https://flixvo.pro/",
     "mirrors": [
@@ -4649,17 +4673,6 @@
     "tags": [
      "32 Sources",
      "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "OnionPlay",
-    "url": "https://onionplay.ae/",
-    "mirrors": [],
-    "tags": [
-     "9 Sources"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -4786,11 +4799,11 @@
     "index": false
    },
    {
-    "name": "RabbitMeow",
-    "url": "https://rabbitmeow.online/",
+    "name": "Ev01",
+    "url": "https://ev01.ws/",
     "mirrors": [],
     "tags": [
-     "13 Sources"
+     "54 Sources"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -5361,6 +5374,18 @@
      "https://kisskh.is/",
      "https://kisskh.club/"
     ],
+    "tags": [
+     "TV",
+     "Movies"
+    ],
+    "group": "Drama Streaming",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "KissBae",
+    "url": "https://kissbae.com/",
+    "mirrors": [],
     "tags": [
      "TV",
      "Movies"
@@ -6012,9 +6037,11 @@
     "index": false
    },
    {
-    "name": "AURA Sports",
-    "url": "https://aurasports.xyz/",
-    "mirrors": [],
+    "name": "AuraSports",
+    "url": "https://aurasports.cfd/",
+    "mirrors": [
+     "https://aurasports.xyz/"
+    ],
     "tags": [],
     "group": "Live Sports",
     "pick": false,
@@ -6277,6 +6304,15 @@
    {
     "name": "Rerace",
     "url": "https://www.rerace.net/sports/",
+    "mirrors": [],
+    "tags": [],
+    "group": "Live Sports",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "ScoreZone TV",
+    "url": "https://scorezonetv.live/",
     "mirrors": [],
     "tags": [],
     "group": "Live Sports",
@@ -6912,10 +6948,10 @@
    },
    {
     "name": "Re:ANIME",
-    "url": "https://reanime.to/",
+    "url": "https://reanime.cz/",
     "mirrors": [
-     "https://reanime.cz/",
-     "https://reanime.wtf/"
+     "https://reanime.wtf/",
+     "https://anidream.to/"
     ],
     "tags": [
      "Sub",
@@ -7121,8 +7157,8 @@
     "index": false
    },
    {
-    "name": "Kazora",
-    "url": "https://kazora.cc/",
+    "name": "KickAssAnime",
+    "url": "https://kaa.lt/",
     "mirrors": [],
     "tags": [
      "Sub",
@@ -7134,8 +7170,8 @@
     "index": false
    },
    {
-    "name": "KickAssAnime",
-    "url": "https://kaa.lt/",
+    "name": "Anime Nexus",
+    "url": "https://anime.nexus/",
     "mirrors": [],
     "tags": [
      "Sub",
@@ -7264,12 +7300,11 @@
     "index": false
    },
    {
-    "name": "YumeZone",
-    "url": "https://yumezone.live/",
+    "name": "Kazora",
+    "url": "https://kazora.cc/",
     "mirrors": [],
     "tags": [
-     "Hard Subs",
-     "Soft Subs",
+     "Sub",
      "Dub",
      "Auto-Next"
     ],
@@ -7278,11 +7313,12 @@
     "index": false
    },
    {
-    "name": "Anime Nexus",
-    "url": "https://anime.nexus/",
+    "name": "YumeZone",
+    "url": "https://yumezone.live/",
     "mirrors": [],
     "tags": [
-     "Sub",
+     "Hard Subs",
+     "Soft Subs",
      "Dub",
      "Auto-Next"
     ],
@@ -7617,17 +7653,6 @@
     "index": false
    },
    {
-    "name": "PirateXplay",
-    "url": "https://piratexplay.cc/home",
-    "mirrors": [],
-    "tags": [
-     "Sub"
-    ],
-    "group": "Anime Streaming",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Kuroiru",
     "url": "https://kuroiru.co/",
     "mirrors": [
@@ -7723,6 +7748,19 @@
      "Sub"
     ],
     "group": "Anime Streaming",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "PirateXplay",
+    "url": "https://piratexplay.cc/home",
+    "mirrors": [],
+    "tags": [
+     "TV",
+     "Movies",
+     "Anime"
+    ],
+    "group": "Cartoon Streaming",
     "pick": false,
     "index": false
    },
@@ -8635,8 +8673,7 @@
      "TV",
      "Anime",
      "Sub",
-     "1080p",
-     "Use"
+     "1080p"
     ],
     "group": "Arabic",
     "pick": true,
@@ -8649,8 +8686,7 @@
     "tags": [
      "Anime",
      "Sub",
-     "1080p",
-     "Use"
+     "1080p"
     ],
     "group": "Arabic",
     "pick": true,
@@ -8676,8 +8712,7 @@
     "tags": [
      "Movies",
      "TV",
-     "Anime",
-     "Use"
+     "Anime"
     ],
     "group": "Arabic",
     "pick": false,
@@ -15072,6 +15107,18 @@
    {
     "name": "uzmax.net",
     "url": "https://uzmax.net/",
+    "mirrors": [],
+    "tags": [
+     "Movies",
+     "TV"
+    ],
+    "group": "Uzbek",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "UZMOVi",
+    "url": "https://uzmovi.net/",
     "mirrors": [],
     "tags": [
      "Movies",
