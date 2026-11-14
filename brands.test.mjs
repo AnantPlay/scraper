@@ -1,11 +1,13 @@
 // node --test
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { toTitle, finish, groupsOf } from './brands.mjs';
+import { toTitle, finish, groupsOf, tagsOf } from './brands.mjs';
 
 test('toTitle: shape, and what is left out', () => {
   const t = toTitle('tv', { id: 85271, name: 'WandaVision', first_air_date: '2021-01-15', poster_path: '/a.jpg' }, 'tt9140560', '2026-11-14');
-  assert.deepEqual(t, { id: 'tt9140560', type: 'series', name: 'WandaVision', year: '2021', poster: 'https://image.tmdb.org/t/p/w342/a.jpg', tmdb: '85271', date: '2021-01-15' });
+  assert.deepEqual(t, { id: 'tt9140560', type: 'series', name: 'WandaVision', year: '2021', poster: 'https://image.tmdb.org/t/p/w342/a.jpg', tmdb: '85271', pop: 0, date: '2021-01-15' });
+  const rated = toTitle('movie', { id: 5, title: 'Rated', release_date: '2020-01-01', vote_average: 7.849, vote_count: 1200, popularity: 33.456 }, 'tt5', '2026-11-14');
+  assert.deepEqual([rated.rating, rated.votes, rated.pop], ['7.8', 1200, 33.5]);
   assert.equal(toTitle('movie', { id: 1, title: 'No id', release_date: '2020-01-01' }, '', '2026-11-14'), null);
   assert.equal(toTitle('movie', { id: 2, title: 'Not out yet', release_date: '2027-05-01' }, 'tt1', '2026-11-14'), null);
   assert.equal(toTitle('movie', { id: 3, title: 'No date' }, 'tt2', '2026-11-14'), null);
@@ -27,4 +29,14 @@ test('tags: a brand group and animation; chips only for groups that narrow the l
   const titles = Array.from({ length: 12 }, (_, i) => ({ id: 'tt' + i, tags: i < 6 ? ['mcu'] : i < 9 ? ['animation'] : [] }));
   assert.deepEqual(groupsOf([{ id: 'mcu', name: 'MCU', with_keywords: '180547' }], titles), [{ id: 'mcu', name: 'MCU' }]);   // 3 animated: too few
   assert.deepEqual(groupsOf(null, titles.map(t => ({ ...t, tags: ['animation'] }))), []);   // all of them: no chip
+});
+
+test('tagsOf: by narrowed query, by name, or both', () => {
+  const groups = [{ id: 'mcu', name: 'MCU', with_keywords: '180547' }, { id: 'spiderman', name: 'Spider-Man', match: 'spider-man|venom' }, { id: 'both', name: 'Both', with_genres: '16', match: 'what if' }];
+  assert.deepEqual(tagsOf(groups, 'Spider-Man: Homecoming', ['mcu']), ['mcu', 'spiderman']);
+  assert.deepEqual(tagsOf(groups, 'Venom'), ['spiderman']);
+  assert.deepEqual(tagsOf(groups, 'What If...?', ['both']), ['both']);
+  assert.deepEqual(tagsOf(groups, 'What If...?', []), []);
+  assert.deepEqual(tagsOf(null, 'Anything'), []);
+  assert.deepEqual(toTitle('movie', { id: 1, title: 'Doc', release_date: '2020-01-01', genre_ids: [99] }, 'tt1', '2026-11-14').tags, ['documentary']);
 });

@@ -30,26 +30,38 @@ async function tmdb(path, params = {}) {
   }
 }
 
-const ANIMATION = 16;   // TMDB's genre id, the same for movies and series
+const GENRES = { 16: 'animation', 99: 'documentary' };   // TMDB's genre ids (the same for movies and series) that become tags
 
 /**
  * One TMDB result as the app's title; null without an IMDb id (the app keys titles by it) or before it is out.
- * `tags` are the brand's groups it belongs to (brands.json "groups": "mcu"); "animation" is added from its genres.
+ * `tags` are the brand's groups it belongs to (brands.json "groups": "mcu"); "animation" and "documentary" are added from its genres.
+ * `pop`, `votes` and `rating` let the app make its Trending, Popular and Top rated rows.
  */
 export function toTitle(kind, item, imdb, today, tags = []) {
   const date = item.release_date || item.first_air_date || '';
   if (!imdb || !/^tt\d+$/.test(imdb) || !date || date > today) return null;
-  const all = (item.genre_ids || []).includes(ANIMATION) ? [...tags, 'animation'] : tags;
+  const all = [...tags, ...Object.keys(GENRES).filter(g => (item.genre_ids || []).includes(+g)).map(g => GENRES[g])];
   return { id: imdb, type: kind === 'tv' ? 'series' : 'movie', name: item.title || item.name || '', year: date.slice(0, 4),
-    poster: item.poster_path ? IMG + item.poster_path : '', tmdb: String(item.id), ...(all.length ? { tags: all } : {}), date };
+    poster: item.poster_path ? IMG + item.poster_path : '', tmdb: String(item.id),
+    ...(item.vote_count ? { rating: Number(item.vote_average || 0).toFixed(1), votes: item.vote_count } : {}), pop: Math.round((item.popularity || 0) * 10) / 10,
+    ...(all.length ? { tags: all } : {}), date };
 }
 
 /**
- * The groups the app offers as chips on a brand's page: the brand's own (brands.json), then Animation. One that holds
+ * Which of a brand's groups a title is in. A group is the brand's own queries narrowed by more TMDB parameters (`found` = the ids
+ * of the groups whose narrowed queries returned this title), by a `match` on the title's name, or by both.
+ */
+export function tagsOf(groups, name, found = []) {
+  return (groups || []).filter(({ id, name: label, match, ...extra }) =>
+    (!Object.keys(extra).length || found.includes(id)) && (!match || new RegExp(match, 'i').test(name))).map(g => g.id);
+}
+
+/**
+ * The groups the app offers as chips on a brand's page: the brand's own (brands.json), then Animation and Documentaries. One that holds
  * fewer than MIN_GROUP titles, or nearly every title (Pixar is all animation), would be a chip that changes nothing: left out.
  */
 export function groupsOf(own, titles) {
-  return [...(own || []).map(g => ({ id: g.id, name: g.name })), { id: 'animation', name: 'Animation' }].filter(g => {
+  return [...(own || []).map(g => ({ id: g.id, name: g.name })), { id: 'animation', name: 'Animation' }, { id: 'documentary', name: 'Documentaries' }].filter(g => {
     const n = titles.filter(t => (t.tags || []).includes(g.id)).length;
     return n >= MIN_GROUP && n <= titles.length * 0.9;
   });
@@ -84,8 +96,8 @@ async function build(config, old) {
     for (const b of p.brands) {
       // A group is the brand's own queries narrowed further (MCU = Marvel's titles with TMDB's MCU keyword)
       const inGroup = new Map();   // "movie299534" > ["mcu"]
-      for (const { id, name, ...extra } of b.groups || [])
-        for (const { kind, match, ...query } of b.queries)
+      for (const { id, name, match: byName, ...extra } of b.groups || [])
+        if (Object.keys(extra).length) for (const { kind, match, ...query } of b.queries)
           for await (const item of discover(kind, { ...query, ...extra })) inGroup.set(kind + item.id, [...(inGroup.get(kind + item.id) || []), id]);
       const titles = [];
       // `match`: only titles whose name fits (a studio that makes more than the brand: Lucasfilm also made Indiana Jones)
@@ -95,7 +107,7 @@ async function build(config, old) {
           if (fits && !fits.test(item.title || item.name || '')) continue;
           let imdb = known.get((kind === 'tv' ? 'series' : 'movie') + item.id);
           if (!imdb) imdb = (await tmdb(`/${kind}/${item.id}/external_ids`)).imdb_id || '';
-          titles.push(toTitle(kind, item, imdb, today, inGroup.get(kind + item.id)));
+          titles.push(toTitle(kind, item, imdb, today, tagsOf(b.groups, item.title || item.name || '', inGroup.get(kind + item.id))));
         }
       }
       const done = finish(b.id, titles);

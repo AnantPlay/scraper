@@ -40,17 +40,33 @@
       {
        "id": "mcu",
        "name": "MCU",
-       "with_keywords": "180547"
+       "with_keywords": "180547",
+       "without_genres": "99"
+      },
+      {
+       "id": "avengers",
+       "name": "Avengers",
+       "match": "avengers|iron man|captain america|thor\\b|hulk|black widow|hawkeye|ant-man|black panther|doctor strange|captain marvel|the marvels"
+      },
+      {
+       "id": "spiderman",
+       "name": "Spider-Man",
+       "match": "spider-man|spidey|spider-verse|venom|morbius|kraven|madame web"
+      },
+      {
+       "id": "xmen",
+       "name": "X-Men",
+       "match": "x-men|^x2\\b|wolverine|deadpool|logan|mutant|dark phoenix|legion|the gifted"
       }
      ],
      "queries": [
       {
        "kind": "movie",
-       "with_companies": "420"
+       "with_companies": "420|7505|19551"
       },
       {
        "kind": "tv",
-       "with_companies": "420|38679"
+       "with_companies": "420|38679|7505|19551"
       }
      ]
     },

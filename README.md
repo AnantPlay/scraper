@@ -17,7 +17,7 @@ Node 20 or newer, no dependencies. The site lists belong to their maintainers; t
 
 ## Brands
 
-`brands.mjs` builds [`collections.json`](collections.json): the brand lists AnantPlay shows inside a platform (Disney+ > Disney, Pixar, Marvel, Star Wars, National Geographic), from [TMDB](https://www.themoviedb.org). `brands.json` says which TMDB companies, networks and keywords make up each brand. A GitHub Action runs it weekly with the `TMDB_KEY` repository secret; a brand that comes back with fewer than 10 titles fails the run and the old file stays. A brand's `groups` (Marvel: MCU, by TMDB keyword) and animated titles are tagged, and the app shows them as chips on the brand's page.
+`brands.mjs` builds [`collections.json`](collections.json): the brand lists AnantPlay shows inside a platform (Disney+ > Disney, Pixar, Marvel, Star Wars, National Geographic), from [TMDB](https://www.themoviedb.org). `brands.json` says which TMDB companies, networks and keywords make up each brand. A GitHub Action runs it weekly with the `TMDB_KEY` repository secret; a brand that comes back with fewer than 10 titles fails the run and the old file stays. A brand's `groups` (Marvel: MCU by TMDB keyword; Avengers, Spider-Man, X-Men by a `match` on the name), animated titles and documentaries are tagged, and the app shows them as chips on the brand's page. Each title carries TMDB's rating, vote count and popularity for the app's Trending, Popular and Top rated rows.
 
 ```sh
 TMDB_KEY=... node brands.mjs --check   # the names behind the ids in brands.json
