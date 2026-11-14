@@ -12,3 +12,5 @@ node scrape.mjs      # writes sites.json
 ```
 
 Node 20 or newer, no dependencies. The site lists belong to their maintainers; this repository only reshapes them.
+
+`extra.json` adds hand-picked sites on top of the lists (`{"rows": {"anime": [site, ...]}}`): a site already in a row takes the extra's fields (`"pick": true` moves it to the top), a new one is added.

@@ -2,6 +2,15 @@
  "rows": {
   "movies": [
    {
+    "name": "Bingr",
+    "url": "https://bingr.one/",
+    "mirrors": [],
+    "tags": [],
+    "group": "",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Movy",
     "url": "https://www.movy.sx/",
     "mirrors": [],
@@ -179,6 +188,7 @@
     ],
     "tags": [
      "4K",
+     "Dual Audio",
      "External Subs",
      "Ad-Toggle"
     ],
@@ -293,6 +303,20 @@
     "index": false
    },
    {
+    "name": "moanatv.",
+    "url": "https://lfmx.app/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Movie Night",
     "url": "https://movienig.ht/",
     "mirrors": [],
@@ -314,20 +338,6 @@
      "4K",
      "External Subs",
      "Popup + Redirect Free"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "moanatv.",
-    "url": "https://lfmx.app/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -2983,6 +2993,15 @@
   ],
   "tv": [
    {
+    "name": "Bingr",
+    "url": "https://bingr.one/",
+    "mirrors": [],
+    "tags": [],
+    "group": "",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Movy",
     "url": "https://www.movy.sx/",
     "mirrors": [],
@@ -3160,6 +3179,7 @@
     ],
     "tags": [
      "4K",
+     "Dual Audio",
      "External Subs",
      "Ad-Toggle"
     ],
@@ -3274,6 +3294,20 @@
     "index": false
    },
    {
+    "name": "moanatv.",
+    "url": "https://lfmx.app/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Movie Night",
     "url": "https://movienig.ht/",
     "mirrors": [],
@@ -3295,20 +3329,6 @@
      "4K",
      "External Subs",
      "Popup + Redirect Free"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "moanatv.",
-    "url": "https://lfmx.app/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -6902,6 +6922,19 @@
    }
   ],
   "anime": [
+   {
+    "name": "Bingr",
+    "url": "https://bingr.one/",
+    "mirrors": [],
+    "tags": [
+     "Sub",
+     "Dub",
+     "Auto-Next"
+    ],
+    "group": "Anime Streaming",
+    "pick": true,
+    "index": false
+   },
    {
     "name": "animepahe",
     "url": "https://animepahe.pw/",

@@ -1,0 +1,7 @@
+{
+ "rows": {
+  "movies": [{"name": "Bingr", "url": "https://bingr.one/", "pick": true}],
+  "tv": [{"name": "Bingr", "url": "https://bingr.one/", "pick": true}],
+  "anime": [{"name": "Bingr", "url": "https://bingr.one/", "tags": ["Sub", "Dub", "Auto-Next"], "group": "Anime Streaming", "pick": true}]
+ }
+}

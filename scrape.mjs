@@ -1,6 +1,6 @@
 // Turns the FREE-MEDIA streaming lists into sites.json, the "sites" source AnantPlay reads.
 // Usage: node scrape.mjs [out.json]   (default sites.json). Exits 1 and writes nothing when the result looks wrong.
-import { writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 
 const LISTS = 'https://raw.githubusercontent.com/fmhy/edit/main/docs';
 const MIN_SITES = 50;   // fewer means the lists changed their format: keep the last good file
@@ -101,6 +101,24 @@ export function parseLanguages(md) {
   return out;
 }
 
+/**
+ * Hand-picked additions on top of the lists (extra.json: {"rows": {"anime": [site, ...]}}): a site already in a row takes the
+ * extra's fields (pick: true moves it up), a new one is added; the row is ordered again.
+ */
+export function applyExtra(rows, extra) {
+  for (const [r, sites] of Object.entries((extra && extra.rows) || {})) {
+    if (!rows[r]) continue;
+    for (const x of sites) {
+      const i = rows[r].findIndex(s => s.url === x.url);
+      const site = { name: x.name, url: x.url, mirrors: [], tags: [], group: '', pick: false, index: false, ...(i >= 0 ? rows[r][i] : {}), ...x };
+      if (i >= 0) rows[r].splice(i, 1);
+      rows[r].unshift(site);
+    }
+    rows[r] = ordered(rows[r]);
+  }
+  return rows;
+}
+
 async function get(page, mustContain) {
   const r = await fetch(`${LISTS}/${page}`);
   const text = r.ok ? await r.text() : '';
@@ -110,7 +128,7 @@ async function get(page, mustContain) {
 
 if (import.meta.url === `file://${process.argv[1]}`) {
   const out = process.argv[2] || 'sites.json';
-  const rows = parseRows(await get('video.md', 'Streaming Sites'));
+  const rows = applyExtra(parseRows(await get('video.md', 'Streaming Sites')), existsSync('extra.json') ? JSON.parse(readFileSync('extra.json', 'utf8')) : null);
   const languages = parseLanguages(await get('non-english.md', '► '));
   const count = new Set(Object.values(rows).flat().map(s => s.url)).size;
   if (count < MIN_SITES) { console.error(`only ${count} sites found, keeping the old file`); process.exit(1); }

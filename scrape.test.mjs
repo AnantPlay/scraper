@@ -1,7 +1,7 @@
 // node --test
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { rowsOf, entry, parseRows, parseLanguages } from './scrape.mjs';
+import { rowsOf, entry, parseRows, parseLanguages, applyExtra } from './scrape.mjs';
 
 test('rows from section and tags', () => {
   const cases = [
@@ -69,4 +69,13 @@ test('parseLanguages keeps only Streaming subsections', () => {
   assert.deepEqual(Object.keys(l), ['Spanish', 'Hindi']);
   assert.deepEqual(l.Spanish.map(s => s.name), ['EsPick', 'Es']);
   assert.equal(l.Hindi[0].group, 'Hindi');
+});
+
+test('applyExtra adds a site, or updates and moves one already there', () => {
+  const rows = { movies: [{ name: 'P', url: 'https://p.example', pick: true }, { name: 'A', url: 'https://a.example', pick: false, tags: ['4K'] }], anime: [], tv: [] };
+  applyExtra(rows, { rows: { movies: [{ url: 'https://a.example', pick: true }], anime: [{ name: 'B', url: 'https://b.example', group: 'Anime Streaming' }], nope: [{ name: 'X', url: 'https://x.example' }] } });
+  assert.deepEqual(rows.movies.map(s => s.name), ['A', 'P']);
+  assert.deepEqual(rows.movies[0].tags, ['4K']);
+  assert.deepEqual(rows.anime.map(s => [s.name, s.group, s.pick]), [['B', 'Anime Streaming', false]]);
+  assert.equal(rows.nope, undefined);
 });
