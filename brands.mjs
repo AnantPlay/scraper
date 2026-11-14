@@ -15,7 +15,14 @@ async function tmdb(path, params = {}) {
   const bearer = key.length > 40;   // a v4 token goes in a header, a v3 key in the address
   if (!bearer) u.searchParams.set('api_key', key);
   for (let i = 0; ; i++) {
-    const r = await fetch(u, bearer ? { headers: { Authorization: `Bearer ${key}` } } : {});
+    let r;
+    try {
+      r = await fetch(u, bearer ? { headers: { Authorization: `Bearer ${key}` } } : {});
+    } catch (e) {   // a dropped connection: a few more tries before giving up
+      if (i >= 5) throw e;
+      await wait(1500 * (i + 1));
+      continue;
+    }
     if (r.status === 429 && i < 5) { await wait(2000 * (i + 1)); continue; }
     if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
     return r.json();
@@ -48,16 +55,14 @@ async function build(config, old) {
     out.platforms[pid] = { brands: [] };
     for (const b of p.brands) {
       const titles = [];
-      for (const { kind, keyword, ...query } of b.queries) {
+      // `match`: only titles whose name fits (a studio that makes more than the brand: Lucasfilm also made Indiana Jones)
+      for (const { kind, match, ...query } of b.queries) {
         const params = { ...query, sort_by: 'popularity.desc', include_adult: 'false', 'vote_count.gte': kind === 'tv' ? '10' : '30' };
-        if (keyword) {
-          const k = (await tmdb('/search/keyword', { query: keyword })).results.find(x => x.name.toLowerCase() === keyword.toLowerCase());
-          if (!k) throw new Error(`${b.id}: no TMDB keyword "${keyword}"`);
-          params.with_keywords = String(k.id);
-        }
+        const fits = match ? new RegExp(match, 'i') : null;
         for (let page = 1; page <= PAGES; page++) {
           const d = await tmdb(`/discover/${kind}`, { ...params, page: String(page) });
           for (const item of d.results) {
+            if (fits && !fits.test(item.title || item.name || '')) continue;
             const type = kind === 'tv' ? 'series' : 'movie';
             let imdb = known.get(type + item.id);
             if (!imdb) imdb = (await tmdb(`/${kind}/${item.id}/external_ids`)).imdb_id || '';
