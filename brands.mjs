@@ -5,7 +5,7 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 
 const API = 'https://api.themoviedb.org/3', IMG = 'https://image.tmdb.org/t/p/w342';
 const MIN = 10;      // fewer titles for a brand means a wrong id or a TMDB change: fail, keep the old file
-const PAGES = 10;    // per query: the 200 most popular
+const PAGES = 10;    // per query: the 200 most popular (a brand's `pages` in brands.json says otherwise: a big studio keeps its top 100)
 const MIN_GROUP = 5;
 
 const key = process.env.TMDB_KEY || '';
@@ -48,17 +48,19 @@ export function toTitle(kind, item, imdb, today, tags = []) {
 }
 
 /**
- * Which of a brand's groups a title is in. A group is the brand's own queries narrowed by more TMDB parameters (`found` = the ids
- * of the groups whose narrowed queries returned this title), by a `match` on the title's name, or by both.
+ * Which of a brand's groups a title ({name, kind, year}) is in. A group is the brand's own queries narrowed by more TMDB parameters
+ * (`found` = the ids of the groups whose narrowed queries returned this title), by a `match` on the name, by `kind` (movie | tv),
+ * by `from` / `to` years, or by several of these.
  */
-export function tagsOf(groups, name, found = []) {
-  return (groups || []).filter(({ id, name: label, match, ...extra }) =>
-    (!Object.keys(extra).length || found.includes(id)) && (!match || new RegExp(match, 'i').test(name))).map(g => g.id);
+export function tagsOf(groups, title, found = []) {
+  return (groups || []).filter(({ id, name: label, match, kind, from, to, ...extra }) =>
+    (!Object.keys(extra).length || found.includes(id)) && (!match || new RegExp(match, 'i').test(title.name)) &&
+    (!kind || kind === title.kind) && (!from || title.year >= from) && (!to || title.year <= to)).map(g => g.id);
 }
 
 /**
- * The groups the app offers as chips on a brand's page: the brand's own (brands.json), then Animation and Documentaries. One that holds
- * fewer than MIN_GROUP titles, or nearly every title (Pixar is all animation), would be a chip that changes nothing: left out.
+ * The groups the app offers as rows on a brand's page: the brand's own (brands.json), then Animation and Documentaries. One that holds
+ * fewer than MIN_GROUP titles, or nearly every title (Pixar is all animation), would be a row that says nothing: left out.
  */
 export function groupsOf(own, titles) {
   return [...(own || []).map(g => ({ id: g.id, name: g.name })), { id: 'animation', name: 'Animation' }, { id: 'documentary', name: 'Documentaries' }].filter(g => {
@@ -76,9 +78,9 @@ export function finish(brand, titles) {
 }
 
 /** A discover query's results, most popular first, PAGES pages at most. */
-async function* discover(kind, query) {
+async function* discover(kind, query, pages = PAGES) {
   const params = { ...query, sort_by: 'popularity.desc', include_adult: 'false', 'vote_count.gte': kind === 'tv' ? '10' : '30' };
-  for (let page = 1; page <= PAGES; page++) {
+  for (let page = 1; page <= pages; page++) {
     const d = await tmdb(`/discover/${kind}`, { ...params, page: String(page) });
     yield* d.results;
     if (page >= d.total_pages) break;
@@ -96,24 +98,25 @@ async function build(config, old) {
     for (const b of p.brands) {
       // A group is the brand's own queries narrowed further (MCU = Marvel's titles with TMDB's MCU keyword)
       const inGroup = new Map();   // "movie299534" > ["mcu"]
-      for (const { id, name, match: byName, ...extra } of b.groups || [])
-        if (Object.keys(extra).length) for (const { kind, match, ...query } of b.queries)
-          for await (const item of discover(kind, { ...query, ...extra })) inGroup.set(kind + item.id, [...(inGroup.get(kind + item.id) || []), id]);
+      for (const { id, name, match: byName, kind: only, from, to, ...extra } of b.groups || [])
+        if (Object.keys(extra).length) for (const { kind, match, ...query } of b.queries.filter(q => !only || q.kind === only))
+          for await (const item of discover(kind, { ...query, ...extra }, b.pages)) inGroup.set(kind + item.id, [...(inGroup.get(kind + item.id) || []), id]);
       const titles = [];
       // `match`: only titles whose name fits (a studio that makes more than the brand: Lucasfilm also made Indiana Jones)
       for (const { kind, match, ...query } of b.queries) {
         const fits = match ? new RegExp(match, 'i') : null;
-        for await (const item of discover(kind, query)) {
+        for await (const item of discover(kind, query, b.pages)) {
           if (fits && !fits.test(item.title || item.name || '')) continue;
           let imdb = known.get((kind === 'tv' ? 'series' : 'movie') + item.id);
           if (!imdb) imdb = (await tmdb(`/${kind}/${item.id}/external_ids`)).imdb_id || '';
-          titles.push(toTitle(kind, item, imdb, today, tagsOf(b.groups, item.title || item.name || '', inGroup.get(kind + item.id))));
+          const about = { name: item.title || item.name || '', kind, year: +(item.release_date || item.first_air_date || '').slice(0, 4) };
+          titles.push(toTitle(kind, item, imdb, today, tagsOf(b.groups, about, inGroup.get(kind + item.id))));
         }
       }
       const done = finish(b.id, titles);
       console.log(`${pid} ${b.id}: ${done.length} titles`);
       const groups = groupsOf(b.groups, done);
-      if (groups.length) console.log(`  chips: ${groups.map(g => `${g.name} ${done.filter(t => (t.tags || []).includes(g.id)).length}`).join(', ')}`);
+      if (groups.length) console.log(`  rows: ${groups.map(g => `${g.name} ${done.filter(t => (t.tags || []).includes(g.id)).length}`).join(', ')}`);
       out.platforms[pid].brands.push({ id: b.id, name: b.name, color: b.color, ...(groups.length ? { groups } : {}), titles: done });
     }
   }

@@ -31,12 +31,17 @@ test('tags: a brand group and animation; chips only for groups that narrow the l
   assert.deepEqual(groupsOf(null, titles.map(t => ({ ...t, tags: ['animation'] }))), []);   // all of them: no chip
 });
 
-test('tagsOf: by narrowed query, by name, or both', () => {
-  const groups = [{ id: 'mcu', name: 'MCU', with_keywords: '180547' }, { id: 'spiderman', name: 'Spider-Man', match: 'spider-man|venom' }, { id: 'both', name: 'Both', with_genres: '16', match: 'what if' }];
-  assert.deepEqual(tagsOf(groups, 'Spider-Man: Homecoming', ['mcu']), ['mcu', 'spiderman']);
-  assert.deepEqual(tagsOf(groups, 'Venom'), ['spiderman']);
-  assert.deepEqual(tagsOf(groups, 'What If...?', ['both']), ['both']);
-  assert.deepEqual(tagsOf(groups, 'What If...?', []), []);
-  assert.deepEqual(tagsOf(null, 'Anything'), []);
+test('tagsOf: by narrowed query, by name, by kind, by years', () => {
+  const groups = [{ id: 'mcu', name: 'MCU', with_keywords: '180547' }, { id: 'spiderman', name: 'Spider-Man', match: 'spider-man|venom' }, { id: 'both', name: 'Both', with_genres: '16', match: 'what if' },
+    { id: 'infinity', name: 'Infinity', with_keywords: '180547', to: 2019 }, { id: 'channel', name: 'Channel', kind: 'tv', with_networks: '54' }];
+  const t = (name, kind = 'movie', year = 2017) => ({ name, kind, year });
+  assert.deepEqual(tagsOf(groups, t('Spider-Man: Homecoming'), ['mcu', 'infinity']), ['mcu', 'spiderman', 'infinity']);
+  assert.deepEqual(tagsOf(groups, t('Spider-Man: No Way Home', 'movie', 2021), ['mcu', 'infinity']), ['mcu', 'spiderman']);
+  assert.deepEqual(tagsOf(groups, t('Venom')), ['spiderman']);
+  assert.deepEqual(tagsOf(groups, t('What If...?', 'tv'), ['both']), ['both']);
+  assert.deepEqual(tagsOf(groups, t('What If...?', 'tv'), []), []);
+  assert.deepEqual(tagsOf(groups, t('A show', 'tv'), ['channel']), ['channel']);
+  assert.deepEqual(tagsOf(groups, t('A film'), ['channel']), []);
+  assert.deepEqual(tagsOf(null, t('Anything')), []);
   assert.deepEqual(toTitle('movie', { id: 1, title: 'Doc', release_date: '2020-01-01', genre_ids: [99] }, 'tt1', '2026-11-14').tags, ['documentary']);
 });

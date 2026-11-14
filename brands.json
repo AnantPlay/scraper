@@ -15,6 +15,33 @@
        "kind": "tv",
        "with_networks": "2739|54"
       }
+     ],
+     "groups": [
+      {
+       "id": "classics",
+       "name": "Animated classics",
+       "kind": "movie",
+       "with_genres": "16",
+       "to": 1999
+      },
+      {
+       "id": "liveaction",
+       "name": "Live action",
+       "kind": "movie",
+       "without_genres": "16,99"
+      },
+      {
+       "id": "originals",
+       "name": "Disney+ Originals",
+       "kind": "tv",
+       "with_networks": "2739"
+      },
+      {
+       "id": "channel",
+       "name": "Disney Channel",
+       "kind": "tv",
+       "with_networks": "54"
+      }
      ]
     },
     {
@@ -30,6 +57,24 @@
        "kind": "tv",
        "with_companies": "3"
       }
+     ],
+     "groups": [
+      {
+       "id": "toystory",
+       "name": "Toy Story",
+       "match": "toy story|lightyear|forky"
+      },
+      {
+       "id": "cars",
+       "name": "Cars",
+       "match": "^cars\\b|mater|planes"
+      },
+      {
+       "id": "shorts",
+       "name": "Shorts",
+       "kind": "movie",
+       "with_runtime.lte": "40"
+      }
      ]
     },
     {
@@ -42,6 +87,20 @@
        "name": "MCU",
        "with_keywords": "180547",
        "without_genres": "99"
+      },
+      {
+       "id": "infinity",
+       "name": "The Infinity Saga",
+       "with_keywords": "180547",
+       "without_genres": "99",
+       "to": 2019
+      },
+      {
+       "id": "multiverse",
+       "name": "The Multiverse Saga",
+       "with_keywords": "180547",
+       "without_genres": "99",
+       "from": 2021
       },
       {
        "id": "avengers",
@@ -57,6 +116,11 @@
        "id": "xmen",
        "name": "X-Men",
        "match": "x-men|^x2\\b|wolverine|deadpool|logan|mutant|dark phoenix|legion|the gifted"
+      },
+      {
+       "id": "guardians",
+       "name": "Guardians of the Galaxy",
+       "match": "guardians of the galaxy|groot"
       }
      ],
      "queries": [
@@ -85,6 +149,19 @@
        "with_companies": "1",
        "match": "star wars|jedi|empire strikes back|rogue one|mandalorian|andor|ahsoka|obi-wan|boba fett|acolyte|skeleton crew|clone wars|bad batch|ewok|droids"
       }
+     ],
+     "groups": [
+      {
+       "id": "skywalker",
+       "name": "The Skywalker Saga",
+       "kind": "movie",
+       "match": "episode|^star wars$|empire strikes back|return of the jedi|force awakens|last jedi|rise of skywalker"
+      },
+      {
+       "id": "lego",
+       "name": "LEGO Star Wars",
+       "match": "lego"
+      }
      ]
     },
     {
@@ -99,6 +176,191 @@
       {
        "kind": "movie",
        "with_companies": "7521"
+      }
+     ]
+    }
+   ]
+  },
+  "kids": {
+   "brands": [
+    {
+     "id": "nickelodeon",
+     "name": "Nickelodeon",
+     "color": "#FF7A00",
+     "queries": [
+      {
+       "kind": "tv",
+       "with_networks": "13"
+      },
+      {
+       "kind": "movie",
+       "with_companies": "2348"
+      }
+     ]
+    },
+    {
+     "id": "cartoonnetwork",
+     "name": "Cartoon Network",
+     "color": "#FFFFFF",
+     "queries": [
+      {
+       "kind": "tv",
+       "with_networks": "56"
+      }
+     ]
+    }
+   ]
+  },
+  "studios": {
+   "brands": [
+    {
+     "id": "dreamworks",
+     "name": "DreamWorks",
+     "color": "#3FA9F5",
+     "queries": [
+      {
+       "kind": "movie",
+       "with_companies": "521"
+      },
+      {
+       "kind": "tv",
+       "with_companies": "521|42141"
+      }
+     ],
+     "groups": [
+      {
+       "id": "shrek",
+       "name": "Shrek",
+       "match": "shrek|puss in boots"
+      },
+      {
+       "id": "dragon",
+       "name": "How to Train Your Dragon",
+       "match": "dragon"
+      },
+      {
+       "id": "kungfu",
+       "name": "Kung Fu Panda",
+       "match": "kung fu panda"
+      },
+      {
+       "id": "madagascar",
+       "name": "Madagascar",
+       "match": "madagascar|penguins"
+      }
+     ]
+    },
+    {
+     "id": "illumination",
+     "name": "Illumination",
+     "color": "#FFD21F",
+     "queries": [
+      {
+       "kind": "movie",
+       "with_companies": "6704"
+      }
+     ],
+     "groups": [
+      {
+       "id": "minions",
+       "name": "Minions",
+       "match": "minion|despicable"
+      }
+     ]
+    },
+    {
+     "id": "paramount",
+     "name": "Paramount",
+     "color": "#3D8BFF",
+     "pages": 5,
+     "queries": [
+      {
+       "kind": "movie",
+       "with_companies": "4"
+      }
+     ]
+    },
+    {
+     "id": "universal",
+     "name": "Universal",
+     "color": "#FFFFFF",
+     "pages": 5,
+     "queries": [
+      {
+       "kind": "movie",
+       "with_companies": "33"
+      }
+     ]
+    },
+    {
+     "id": "warner",
+     "name": "Warner Bros.",
+     "color": "#4E8DFF",
+     "pages": 5,
+     "queries": [
+      {
+       "kind": "movie",
+       "with_companies": "174"
+      }
+     ]
+    },
+    {
+     "id": "sony",
+     "name": "Sony Pictures",
+     "color": "#FFFFFF",
+     "pages": 5,
+     "queries": [
+      {
+       "kind": "movie",
+       "with_companies": "5|34"
+      }
+     ]
+    },
+    {
+     "id": "fox",
+     "name": "20th Century",
+     "color": "#FFB81C",
+     "pages": 5,
+     "queries": [
+      {
+       "kind": "movie",
+       "with_companies": "25|127928"
+      }
+     ]
+    },
+    {
+     "id": "lionsgate",
+     "name": "Lionsgate",
+     "color": "#FF7A00",
+     "pages": 5,
+     "queries": [
+      {
+       "kind": "movie",
+       "with_companies": "1632"
+      }
+     ]
+    },
+    {
+     "id": "a24",
+     "name": "A24",
+     "color": "#FFFFFF",
+     "pages": 5,
+     "queries": [
+      {
+       "kind": "movie",
+       "with_companies": "41077"
+      }
+     ]
+    },
+    {
+     "id": "ghibli",
+     "name": "Studio Ghibli",
+     "color": "#7FD6FF",
+     "pages": 5,
+     "queries": [
+      {
+       "kind": "movie",
+       "with_companies": "10342"
       }
      ]
     }
