@@ -1,0 +1,23 @@
+{
+ "platforms": {
+  "dnp": {
+   "brands": [
+    {"id": "disney", "name": "Disney", "color": "#4E8DFF", "queries": [
+      {"kind": "movie", "with_companies": "2|6125"},
+      {"kind": "tv", "with_networks": "2739|54"}]},
+    {"id": "pixar", "name": "Pixar", "color": "#7FD6FF", "queries": [
+      {"kind": "movie", "with_companies": "3"},
+      {"kind": "tv", "with_companies": "3"}]},
+    {"id": "marvel", "name": "Marvel", "color": "#E62429", "queries": [
+      {"kind": "movie", "with_companies": "420"},
+      {"kind": "tv", "with_companies": "420|38679"}]},
+    {"id": "starwars", "name": "Star Wars", "color": "#FFE81F", "queries": [
+      {"kind": "movie", "with_companies": "1", "keyword": "star wars"},
+      {"kind": "tv", "with_companies": "1", "keyword": "star wars"}]},
+    {"id": "natgeo", "name": "National Geographic", "color": "#FFCC00", "queries": [
+      {"kind": "tv", "with_networks": "43"},
+      {"kind": "movie", "with_companies": "7521"}]}
+   ]
+  }
+ }
+}

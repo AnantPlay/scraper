@@ -14,3 +14,14 @@ node scrape.mjs      # writes sites.json
 Node 20 or newer, no dependencies. The site lists belong to their maintainers; this repository only reshapes them.
 
 `extra.json` adds hand-picked sites on top of the lists (`{"rows": {"anime": [site, ...]}}`): a site already in a row takes the extra's fields (`"pick": true` moves it to the top), a new one is added.
+
+## Brands
+
+`brands.mjs` builds [`collections.json`](collections.json): the brand lists AnantPlay shows inside a platform (Disney+ > Disney, Pixar, Marvel, Star Wars, National Geographic), from [TMDB](https://www.themoviedb.org). `brands.json` says which TMDB companies, networks and keywords make up each brand. A GitHub Action runs it weekly with the `TMDB_KEY` repository secret; a brand that comes back with fewer than 10 titles fails the run and the old file stays.
+
+```sh
+TMDB_KEY=... node brands.mjs --check   # the names behind the ids in brands.json
+TMDB_KEY=... node brands.mjs           # writes collections.json
+```
+
+This product uses the TMDB API but is not endorsed or certified by TMDB.

@@ -1,0 +1,33 @@
+name: Brands
+
+on:
+  schedule:
+    - cron: "41 4 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["brands.mjs", "brands.json"]
+
+permissions:
+  contents: write
+
+jobs:
+  brands:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node --test
+      - run: node brands.mjs collections.json
+        env:
+          TMDB_KEY: ${{ secrets.TMDB_KEY }}
+      - name: Commit when it changed
+        run: |
+          git add collections.json
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update collections.json"
+          git push
