@@ -36,6 +36,13 @@
      "id": "marvel",
      "name": "Marvel",
      "color": "#E62429",
+     "groups": [
+      {
+       "id": "mcu",
+       "name": "MCU",
+       "with_keywords": "180547"
+      }
+     ],
      "queries": [
       {
        "kind": "movie",

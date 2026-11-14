@@ -6,6 +6,12 @@
      "id": "disney",
      "name": "Disney",
      "color": "#4E8DFF",
+     "groups": [
+      {
+       "id": "animation",
+       "name": "Animation"
+      }
+     ],
      "titles": [
       {
        "id": "tt39325975",
@@ -29,7 +35,10 @@
        "name": "Star Wars: Visions Presents - The Ninth Jedi",
        "year": "2026",
        "poster": "https://image.tmdb.org/t/p/w342/AthqHRKJFOIbLa459I3D5yHdrQL.jpg",
-       "tmdb": "289324"
+       "tmdb": "289324",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt27419466",
@@ -45,7 +54,10 @@
        "name": "Adventure Time: Side Quests",
        "year": "2026",
        "poster": "https://image.tmdb.org/t/p/w342/9CzcOB5J2ld2mIRMzHIwYGYx1Cn.jpg",
-       "tmdb": "256694"
+       "tmdb": "256694",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt21057046",
@@ -53,7 +65,10 @@
        "name": "The Doomies",
        "year": "2026",
        "poster": "https://image.tmdb.org/t/p/w342/zTUuiutD2Kj8lwd552uX8dzxA24.jpg",
-       "tmdb": "204137"
+       "tmdb": "204137",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt36594331",
@@ -61,7 +76,10 @@
        "name": "Star Wars: Maul - Shadow Lord",
        "year": "2026",
        "poster": "https://image.tmdb.org/t/p/w342/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
-       "tmdb": "289219"
+       "tmdb": "289219",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt39961100",
@@ -101,7 +119,10 @@
        "name": "Diary of a Wimpy Kid: The Last Straw",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/emcCjpC289NxAGuVwlItHCTrgT7.jpg",
-       "tmdb": "1392796"
+       "tmdb": "1392796",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt26443597",
@@ -109,7 +130,10 @@
        "name": "Zootopia 2",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
-       "tmdb": "1084242"
+       "tmdb": "1084242",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt36188448",
@@ -125,7 +149,10 @@
        "name": "Disney Twisted-Wonderland: The Animation",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/4hT2pA7J7uvdlNZzYIHQzapXCY6.jpg",
-       "tmdb": "136342"
+       "tmdb": "136342",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt6604188",
@@ -141,7 +168,10 @@
        "name": "Cat's Eye",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/wg4LPYsGyEfQnCi9otmR41jRDRc.jpg",
-       "tmdb": "286691"
+       "tmdb": "286691",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt16027014",
@@ -149,7 +179,10 @@
        "name": "Marvel Zombies",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/mwKj9ERGFXsWot0nXgQ5yMQf9I7.jpg",
-       "tmdb": "138505"
+       "tmdb": "138505",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt34385400",
@@ -181,7 +214,10 @@
        "name": "Eyes of Wakanda",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/yuOfb1MgnaGPa4guzV0n1IFYVGN.jpg",
-       "tmdb": "241388"
+       "tmdb": "241388",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt36988358",
@@ -189,7 +225,10 @@
        "name": "Takopi's Original Sin",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/xPXDVhVKt0XM34ihoUVMHtLYTw8.jpg",
-       "tmdb": "284445"
+       "tmdb": "284445",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13623126",
@@ -229,7 +268,10 @@
        "name": "Star Wars: Tales of the Underworld",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/qv1hagzp08cDJF6C04LyJVhcI1x.jpg",
-       "tmdb": "288055"
+       "tmdb": "288055",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt37976405",
@@ -237,7 +279,10 @@
        "name": "Versa",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
-       "tmdb": "1500099"
+       "tmdb": "1500099",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13782222",
@@ -285,7 +330,10 @@
        "name": "Your Friendly Neighborhood Spider-Man",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/kjcsNeqF52YUQ2rUBGLMHwLkxvR.jpg",
-       "tmdb": "138503"
+       "tmdb": "138503",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt31390522",
@@ -301,7 +349,10 @@
        "name": "Mufasa: The Lion King",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/jbOSUAWMGzGL1L4EaUF8K6zYFo7.jpg",
-       "tmdb": "762509"
+       "tmdb": "762509",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt33088401",
@@ -309,7 +360,10 @@
        "name": "Dream Productions",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/j9jz5wZlQoq65YuYPNauB72uvFJ.jpg",
-       "tmdb": "255868"
+       "tmdb": "255868",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt31014115",
@@ -333,7 +387,10 @@
        "name": "Moana 2",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
-       "tmdb": "1241982"
+       "tmdb": "1241982",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt31867798",
@@ -373,7 +430,10 @@
        "name": "Primos",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/3jiIJgCUT2btYJLASV11t9vxPn6.jpg",
-       "tmdb": "204139"
+       "tmdb": "204139",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt31014116",
@@ -389,7 +449,10 @@
        "name": "Disney Junior Ariel",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/wJ1yJzicptseeCyCVYvk2Dz74b4.jpg",
-       "tmdb": "228669"
+       "tmdb": "228669",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13592980",
@@ -397,7 +460,10 @@
        "name": "Code Geass: Rozé of the Recapture",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/jQRG3lI42IaJNr23jFeO6FSXmoE.jpg",
-       "tmdb": "255107"
+       "tmdb": "255107",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt12262202",
@@ -421,7 +487,10 @@
        "name": "Star Wars: Tales of the Empire",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/qA28nLteurVboSSzltuyYt1lvlC.jpg",
-       "tmdb": "251091"
+       "tmdb": "251091",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt16026746",
@@ -429,7 +498,10 @@
        "name": "X-Men '97",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
-       "tmdb": "138502"
+       "tmdb": "138502",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt26450613",
@@ -461,7 +533,10 @@
        "name": "Diary of a Wimpy Kid Christmas: Cabin Fever",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/CgWUleumTXrFL6AsQKjpcuwWyN.jpg",
-       "tmdb": "1123093"
+       "tmdb": "1123093",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt20285780",
@@ -485,7 +560,10 @@
        "name": "Wish",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/nesuSdJakNkf0zs7OfoasB6Clxf.jpg",
-       "tmdb": "1022796"
+       "tmdb": "1022796",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt27458539",
@@ -517,7 +595,10 @@
        "name": "Once Upon a Studio",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/aiy3G1cYWV3LgKZHY6a3jL8bjYL.jpg",
-       "tmdb": "1139087"
+       "tmdb": "1139087",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13622776",
@@ -557,7 +638,10 @@
        "name": "Hailey's On It!",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/tvsCloZWT4o9erWNOi643I265R3.jpg",
-       "tmdb": "138992"
+       "tmdb": "138992",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt15552018",
@@ -589,7 +673,10 @@
        "name": "Star Wars: Young Jedi Adventures",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/bC2Mix1WPUiY6pldh77oiFl1MvI.jpg",
-       "tmdb": "202998"
+       "tmdb": "202998",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt5635026",
@@ -605,7 +692,10 @@
        "name": "Kiff",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/h7xhJ1uWu7FurJ3W5iKzrfiPF3K.jpg",
-       "tmdb": "127706"
+       "tmdb": "127706",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt8041658",
@@ -613,7 +703,10 @@
        "name": "Marvel's Moon Girl and Devil Dinosaur",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/1oFkjiF9fT2asKWjRiJtlbhu3hn.jpg",
-       "tmdb": "92788"
+       "tmdb": "92788",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt14531842",
@@ -653,7 +746,10 @@
        "name": "Night at the Museum: Kahmunrah Rises Again",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/zo5iCQFZRgpLldUnOHcCHT943Sq.jpg",
-       "tmdb": "751741"
+       "tmdb": "751741",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt15847828",
@@ -661,7 +757,10 @@
        "name": "Diary of a Wimpy Kid: Rodrick Rules",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/iW6ixzkrvdrcxk0umiLZMtlSl9L.jpg",
-       "tmdb": "897192"
+       "tmdb": "897192",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt10278918",
@@ -677,7 +776,10 @@
        "name": "Strange World",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/a9x70QUXs6uEwtin1SGNKoFXoia.jpg",
-       "tmdb": "877269"
+       "tmdb": "877269",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1596342",
@@ -709,7 +811,10 @@
        "name": "Zootopia+",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/inzPPPr2BsE92m4rHhQn3sf2yPk.jpg",
-       "tmdb": "114463"
+       "tmdb": "114463",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt20723374",
@@ -717,7 +822,10 @@
        "name": "Star Wars: Tales of the Jedi",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/k3nWQb0E8mLSR8acSkJP78VRVMv.jpg",
-       "tmdb": "203085"
+       "tmdb": "203085",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt23032868",
@@ -749,7 +857,10 @@
        "name": "Cars on the Road",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/6QXirTPUQecr1BAEfgVSXPD1np0.jpg",
-       "tmdb": "114502"
+       "tmdb": "114502",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt21875418",
@@ -781,7 +892,10 @@
        "name": "Hamster & Gretel",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/7Mm4oQbsCbHbop7YQ9t0arXi9Ov.jpg",
-       "tmdb": "156606"
+       "tmdb": "156606",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13623148",
@@ -789,7 +903,10 @@
        "name": "I Am Groot",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/lYwFSsP4KsoRhOLhJvBFp3GEGEm.jpg",
-       "tmdb": "232125"
+       "tmdb": "232125",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt21248600",
@@ -797,7 +914,10 @@
        "name": "Chibiverse",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/n7yxY2PuaoqGURpQEApaCfclE6s.jpg",
-       "tmdb": "205683"
+       "tmdb": "205683",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt19896784",
@@ -813,7 +933,10 @@
        "name": "Baymax!",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/muzgYvvFniQnwiTdAvfMCEkHsT4.jpg",
-       "tmdb": "114466"
+       "tmdb": "114466",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt10857164",
@@ -853,7 +976,10 @@
        "name": "Chip 'n Dale: Rescue Rangers",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/7UGmn8TyWPPzkjhLUW58cOUHjPS.jpg",
-       "tmdb": "420821"
+       "tmdb": "420821",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt10234724",
@@ -877,7 +1003,10 @@
        "name": "The Proud Family: Louder and Prouder",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/iCJm3sBf6QfRwJvSJSGvn5GdPZN.jpg",
-       "tmdb": "125438"
+       "tmdb": "125438",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13634480",
@@ -885,7 +1014,10 @@
        "name": "The Ice Age Adventures of Buck Wild",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/9ginbMWmt9y7PIHW1c9hnbIVWPm.jpg",
-       "tmdb": "774825"
+       "tmdb": "774825",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13668894",
@@ -901,7 +1033,10 @@
        "name": "Diary of a Wimpy Kid",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/obg6lWuNaZkoSlwrVG4VVk4SmT.jpg",
-       "tmdb": "774741"
+       "tmdb": "774741",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2953050",
@@ -909,7 +1044,10 @@
        "name": "Encanto",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
-       "tmdb": "568124"
+       "tmdb": "568124",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt10160804",
@@ -933,7 +1071,10 @@
        "name": "The Ghost and Molly McGee",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/u86g1KKPwsysQx6gA9LJt93xrtA.jpg",
-       "tmdb": "92649"
+       "tmdb": "92649",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13622982",
@@ -941,7 +1082,10 @@
        "name": "Star Wars: Visions",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/lG9ltUP4FwvsQBcwOJYceDbP48E.jpg",
-       "tmdb": "114478"
+       "tmdb": "114478",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt12225230",
@@ -957,7 +1101,10 @@
        "name": "What If...?",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg",
-       "tmdb": "91363"
+       "tmdb": "91363",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt10862280",
@@ -965,7 +1112,10 @@
        "name": "Spidey and His Amazing Friends",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/etO5jDS5WgR4Y1lTyXhQcilJ6u2.jpg",
-       "tmdb": "127635"
+       "tmdb": "127635",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0870154",
@@ -981,7 +1131,10 @@
        "name": "Chip 'n' Dale: Park Life",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/3JPFgEWoiV6RAzD5o5why4xISDw.jpg",
-       "tmdb": "96715"
+       "tmdb": "96715",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11547014",
@@ -997,7 +1150,10 @@
        "name": "Monsters at Work",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/2gxgwhcuSmI5xtexb0t9zGj43FS.jpg",
-       "tmdb": "90461"
+       "tmdb": "90461",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11875316",
@@ -1029,7 +1185,10 @@
        "name": "Star Wars: The Bad Batch",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/5mHus672nuinyaE0FtqvD0AddcY.jpg",
-       "tmdb": "105971"
+       "tmdb": "105971",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11238096",
@@ -1069,7 +1228,10 @@
        "name": "Raya and the Last Dragon",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/5nVhgCzxKbK47OLIKxCR1syulOn.jpg",
-       "tmdb": "527774"
+       "tmdb": "527774",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt9140560",
@@ -1109,7 +1271,10 @@
        "name": "The Wonderful World of Mickey Mouse",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/8F1V4ve64YPmyRZZ5u0jh7KCIID.jpg",
-       "tmdb": "109930"
+       "tmdb": "109930",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13061790",
@@ -1117,7 +1282,10 @@
        "name": "Once Upon a Snowman",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/hddzYJtfYYeMDOQVcH58n8m1W3A.jpg",
-       "tmdb": "741074"
+       "tmdb": "741074",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt7423322",
@@ -1173,7 +1341,10 @@
        "name": "Onward",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/f4aul3FyD3jv3v4bul1IrkWZvzq.jpg",
-       "tmdb": "508439"
+       "tmdb": "508439",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt9695266",
@@ -1189,7 +1360,10 @@
        "name": "Dorohedoro",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/zSMmRTopPIRr6913KX8pyiV6zsK.jpg",
-       "tmdb": "94404"
+       "tmdb": "94404",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt8050756",
@@ -1197,7 +1371,10 @@
        "name": "The Owl House",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/cZLxKTslrf9gzRomVy8BhaYjg7n.jpg",
-       "tmdb": "92685"
+       "tmdb": "92685",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt5116302",
@@ -1213,7 +1390,10 @@
        "name": "Frozen II",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/mINJaa34MtknCYl5AjtNJzWj8cD.jpg",
-       "tmdb": "330457"
+       "tmdb": "330457",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt5097410",
@@ -1253,7 +1433,10 @@
        "name": "The Rocketeer",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/jtXnWs7zOyde3VYEvz9eDWGPvZ7.jpg",
-       "tmdb": "95543"
+       "tmdb": "95543",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt4777008",
@@ -1285,7 +1468,10 @@
        "name": "The Lion King",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg",
-       "tmdb": "420818"
+       "tmdb": "420818",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt8050740",
@@ -1293,7 +1479,10 @@
        "name": "Amphibia",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/bFCgv9iWZECWSDxNQYc9soqvwjx.jpg",
-       "tmdb": "85349"
+       "tmdb": "85349",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt6139732",
@@ -1333,7 +1522,10 @@
        "name": "Ralph Breaks the Internet",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/iVCrhBcpDaHGvv7CLYbK6PuXZo1.jpg",
-       "tmdb": "404368"
+       "tmdb": "404368",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt5523010",
@@ -1357,7 +1549,10 @@
        "name": "Coop & Cami Ask the World",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/kjognbnGtCQLDVz8XRdp06RmSOn.jpg",
-       "tmdb": "79787"
+       "tmdb": "79787",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt8336340",
@@ -1365,7 +1560,10 @@
        "name": "Star Wars Resistance",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/xul6SG8rar3wkHPY8YusUtxcdlZ.jpg",
-       "tmdb": "79093"
+       "tmdb": "79093",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt4575576",
@@ -1381,7 +1579,10 @@
        "name": "Big City Greens",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/buRk2Vrz8UhF5nZUOADSRZLEU1f.jpg",
-       "tmdb": "80587"
+       "tmdb": "80587",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1620680",
@@ -1397,7 +1598,10 @@
        "name": "Big Hero 6 The Series",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/ldG4xXImCPyv5U5gbRmlB8On842.jpg",
-       "tmdb": "68665"
+       "tmdb": "68665",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt5452780",
@@ -1405,7 +1609,10 @@
        "name": "Olaf's Frozen Adventure",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/As8WTtxXs9e3cBit3ztTf7zoRmm.jpg",
-       "tmdb": "460793"
+       "tmdb": "460793",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt5531466",
@@ -1413,7 +1620,10 @@
        "name": "DuckTales",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/3klapeIKLp9IBy4uHo7szTeMTdQ.jpg",
-       "tmdb": "72350"
+       "tmdb": "72350",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt6311972",
@@ -1429,7 +1639,10 @@
        "name": "Star Wars: Forces of Destiny",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/7xe9Hx4sVxuRa3uPGXYvPclTcnq.jpg",
-       "tmdb": "71412"
+       "tmdb": "71412",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt4858114",
@@ -1437,7 +1650,10 @@
        "name": "Hotel Transylvania: The Series",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/mdPDFNqO7NWUtZIt66nMOmji7hg.jpg",
-       "tmdb": "72442"
+       "tmdb": "72442",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1790809",
@@ -1461,7 +1677,10 @@
        "name": "Rapunzel's Tangled Adventure",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/s12Z2uGrvjj5sA7LsBStTtfTYjC.jpg",
-       "tmdb": "70047"
+       "tmdb": "70047",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2771200",
@@ -1477,7 +1696,10 @@
        "name": "Mickey and the Roadster Racers",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/3D4275Ck9eXdMlXEQgNrOsikmMS.jpg",
-       "tmdb": "70823"
+       "tmdb": "70823",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt5568740",
@@ -1493,7 +1715,10 @@
        "name": "Moana",
        "year": "2016",
        "poster": "https://image.tmdb.org/t/p/w342/m5MDZOIFEFlxGiLuAzWzFSsWcye.jpg",
-       "tmdb": "277834"
+       "tmdb": "277834",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2788732",
@@ -1509,7 +1734,10 @@
        "name": "Elena of Avalor",
        "year": "2016",
        "poster": "https://image.tmdb.org/t/p/w342/rnMgIX5Uc9S4r8WvZZByczz2kF7.jpg",
-       "tmdb": "67175"
+       "tmdb": "67175",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt4800624",
@@ -1557,7 +1785,10 @@
        "name": "Zootopia",
        "year": "2016",
        "poster": "https://image.tmdb.org/t/p/w342/hlK0e0wAQ3VLuJcsfIYPvb4JVud.jpg",
-       "tmdb": "269149"
+       "tmdb": "269149",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2025690",
@@ -1573,7 +1804,10 @@
        "name": "The Lion Guard",
        "year": "2016",
        "poster": "https://image.tmdb.org/t/p/w342/AtDL8ZrOZxW1jakT2R3LcMdLvQD.jpg",
-       "tmdb": "64752"
+       "tmdb": "64752",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt4148744",
@@ -1581,7 +1815,10 @@
        "name": "PJ Masks",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/sl4flhzM3uJAxfgQ9ibfEGbmn5I.jpg",
-       "tmdb": "65417"
+       "tmdb": "65417",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt4951098",
@@ -1589,7 +1826,10 @@
        "name": "Descendants: Wicked World",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/vml7aVIX68nfK4PIn2BlUqNqgJ9.jpg",
-       "tmdb": "65016"
+       "tmdb": "65016",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt4591680",
@@ -1629,7 +1869,10 @@
        "name": "Frozen Fever",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/mPrDJ7puYzPLG5kPM96iNszF2sM.jpg",
-       "tmdb": "326359"
+       "tmdb": "326359",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1661199",
@@ -1653,7 +1896,10 @@
        "name": "Star vs. the Forces of Evil",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/dKFL1AOdKNoazqZDg1zq2z69Lx1.jpg",
-       "tmdb": "61923"
+       "tmdb": "61923",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt3598030",
@@ -1677,7 +1923,10 @@
        "name": "Big Hero 6",
        "year": "2014",
        "poster": "https://image.tmdb.org/t/p/w342/2mxS4wUimwlLmI1xp6QW6NSU361.jpg",
-       "tmdb": "177572"
+       "tmdb": "177572",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1698641",
@@ -1693,7 +1942,10 @@
        "name": "Planes: Fire & Rescue",
        "year": "2014",
        "poster": "https://image.tmdb.org/t/p/w342/pOmteFeBDI9FJOPTDvYJYFeAtdp.jpg",
-       "tmdb": "218836"
+       "tmdb": "218836",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2543796",
@@ -1741,7 +1993,10 @@
        "name": "Frozen",
        "year": "2013",
        "poster": "https://image.tmdb.org/t/p/w342/itAKcobTYGpYT8Phwjd8c9hleTo.jpg",
-       "tmdb": "109445"
+       "tmdb": "109445",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2794380",
@@ -1765,7 +2020,10 @@
        "name": "Mickey Mouse",
        "year": "2013",
        "poster": "https://image.tmdb.org/t/p/w342/aAJ5T2Ab28vbbP9s6wWqdtK3arQ.jpg",
-       "tmdb": "46879"
+       "tmdb": "46879",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1623205",
@@ -1781,7 +2039,10 @@
        "name": "Wreck-It Ralph",
        "year": "2012",
        "poster": "https://image.tmdb.org/t/p/w342/zWoIgZ7mgmPkaZjG0102BSKFIqQ.jpg",
-       "tmdb": "82690"
+       "tmdb": "82690",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2222135",
@@ -1797,7 +2058,10 @@
        "name": "Frankenweenie",
        "year": "2012",
        "poster": "https://image.tmdb.org/t/p/w342/yGjVbLVdZRBlZTTQVBsj2KUjL1s.jpg",
-       "tmdb": "62214"
+       "tmdb": "62214",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1462769",
@@ -1813,7 +2077,10 @@
        "name": "Gravity Falls",
        "year": "2012",
        "poster": "https://image.tmdb.org/t/p/w342/my3IKg5kSCn1Swf07hewcZKJS3K.jpg",
-       "tmdb": "40075"
+       "tmdb": "40075",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1812523",
@@ -1821,7 +2088,10 @@
        "name": "TRON: Uprising",
        "year": "2012",
        "poster": "https://image.tmdb.org/t/p/w342/dgajee1p38rJo6ndgvJRti4eqcp.jpg",
-       "tmdb": "34356"
+       "tmdb": "34356",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0401729",
@@ -1837,7 +2107,10 @@
        "name": "Tangled Ever After",
        "year": "2012",
        "poster": "https://image.tmdb.org/t/p/w342/5IeMW79OxftIUoR5duxyQ4LW5Iy.jpg",
-       "tmdb": "82881"
+       "tmdb": "82881",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1830491",
@@ -1861,7 +2134,10 @@
        "name": "Minnie's Bow-Toons",
        "year": "2011",
        "poster": "https://image.tmdb.org/t/p/w342/g8tL0nV3ZLPArpCC55l2GkMm6Hj.jpg",
-       "tmdb": "41997"
+       "tmdb": "41997",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2092452",
@@ -1893,7 +2169,10 @@
        "name": "Cars 2",
        "year": "2011",
        "poster": "https://image.tmdb.org/t/p/w342/okIz1HyxeVOMzYwwHUjH2pHi74I.jpg",
-       "tmdb": "49013"
+       "tmdb": "49013",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1934818",
@@ -1925,7 +2204,10 @@
        "name": "Winnie the Pooh",
        "year": "2011",
        "poster": "https://image.tmdb.org/t/p/w342/xlFs85nq62jeR4a9iHNGB113m6x.jpg",
-       "tmdb": "51162"
+       "tmdb": "51162",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1305591",
@@ -1933,7 +2215,10 @@
        "name": "Mars Needs Moms",
        "year": "2011",
        "poster": "https://image.tmdb.org/t/p/w342/yZBrpe4bxwDIDKBxPeJYrlyDK5R.jpg",
-       "tmdb": "50321"
+       "tmdb": "50321",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1104001",
@@ -1949,7 +2234,10 @@
        "name": "Take Two with Phineas and Ferb",
        "year": "2010",
        "poster": "https://image.tmdb.org/t/p/w342/gGYkSD9wyazXtMlIEXNhpf8slXz.jpg",
-       "tmdb": "34406"
+       "tmdb": "34406",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0398286",
@@ -1957,7 +2245,10 @@
        "name": "Tangled",
        "year": "2010",
        "poster": "https://image.tmdb.org/t/p/w342/ym7Kst6a4uodryxqbGOxmewF235.jpg",
-       "tmdb": "38757"
+       "tmdb": "38757",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1661326",
@@ -1973,7 +2264,10 @@
        "name": "Fish Hooks",
        "year": "2010",
        "poster": "https://image.tmdb.org/t/p/w342/sejbZwyIgotzTRH9BdYqMKgtgIp.jpg",
-       "tmdb": "31499"
+       "tmdb": "31499",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1028576",
@@ -2021,7 +2315,10 @@
        "name": "The Princess and the Frog",
        "year": "2009",
        "poster": "https://image.tmdb.org/t/p/w342/yprv5PbnEksoVj2v6XEnDBg9joR.jpg",
-       "tmdb": "10198"
+       "tmdb": "10198",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0976238",
@@ -2037,7 +2334,10 @@
        "name": "A Christmas Carol",
        "year": "2009",
        "poster": "https://image.tmdb.org/t/p/w342/xNwlAIdx1Ln28GRiQttUP9Gojy2.jpg",
-       "tmdb": "17979"
+       "tmdb": "17979",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0436339",
@@ -2069,7 +2369,10 @@
        "name": "Special Agent Oso",
        "year": "2009",
        "poster": "https://image.tmdb.org/t/p/w342/2oxmUFLw7T37G9nKRAV5BtJaHgK.jpg",
-       "tmdb": "18351"
+       "tmdb": "18351",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1075417",
@@ -2101,7 +2404,10 @@
        "name": "Bolt",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/v5aC4nrzXFGJDWY4JO1eengXzqk.jpg",
-       "tmdb": "13053"
+       "tmdb": "13053",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0962726",
@@ -2125,7 +2431,10 @@
        "name": "Star Wars: The Clone Wars",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/e1nWfnnCVqxS2LeTO3dwGyAsG2V.jpg",
-       "tmdb": "4194"
+       "tmdb": "4194",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1181917",
@@ -2189,7 +2498,10 @@
        "name": "Phineas and Ferb",
        "year": "2007",
        "poster": "https://image.tmdb.org/t/p/w342/g6TidT7be954rrzPPBTIXkSmfXj.jpg",
-       "tmdb": "1877"
+       "tmdb": "1877",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0467110",
@@ -2213,7 +2525,10 @@
        "name": "My Friends Tigger & Pooh",
        "year": "2007",
        "poster": "https://image.tmdb.org/t/p/w342/pjFdWwr36A5ZO8K5W5NuPRS7Bil.jpg",
-       "tmdb": "3527"
+       "tmdb": "3527",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1020116",
@@ -2229,7 +2544,10 @@
        "name": "Meet the Robinsons",
        "year": "2007",
        "poster": "https://image.tmdb.org/t/p/w342/naya0zF4kT401Sx15AtwB9vpcJr.jpg",
-       "tmdb": "1267"
+       "tmdb": "1267",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0805815",
@@ -2253,7 +2571,10 @@
        "name": "Handy Manny",
        "year": "2006",
        "poster": "https://image.tmdb.org/t/p/w342/7CCeh3UHSLedhi0wqz3dQmByaA6.jpg",
-       "tmdb": "10219"
+       "tmdb": "10219",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0445990",
@@ -2269,7 +2590,10 @@
        "name": "The Replacements",
        "year": "2006",
        "poster": "https://image.tmdb.org/t/p/w342/dEzojA3nQF5zhBGVRdx16EF8OZj.jpg",
-       "tmdb": "4627"
+       "tmdb": "4627",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0383574",
@@ -2285,7 +2609,10 @@
        "name": "Mickey Mouse Clubhouse",
        "year": "2006",
        "poster": "https://image.tmdb.org/t/p/w342/gHtEhlAZHxMawOiPq7JoKwkmETQ.jpg",
-       "tmdb": "3934"
+       "tmdb": "3934",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0405469",
@@ -2293,7 +2620,10 @@
        "name": "The Wild",
        "year": "2006",
        "poster": "https://image.tmdb.org/t/p/w342/sxqzaOto1qyUseSg6YpIP9Su5lp.jpg",
-       "tmdb": "9904"
+       "tmdb": "9904",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0493093",
@@ -2317,7 +2647,10 @@
        "name": "The Emperor's New School",
        "year": "2006",
        "poster": "https://image.tmdb.org/t/p/w342/g1TlTdWPcofNIklBdInaJFp7NkF.jpg",
-       "tmdb": "4623"
+       "tmdb": "4623",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0385726",
@@ -2341,7 +2674,10 @@
        "name": "Chicken Little",
        "year": "2005",
        "poster": "https://image.tmdb.org/t/p/w342/87FpA4b90eTaw3U6zmCNikoPLir.jpg",
-       "tmdb": "9982"
+       "tmdb": "9982",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0388980",
@@ -2405,7 +2741,10 @@
        "name": "Pooh's Heffalump Movie",
        "year": "2005",
        "poster": "https://image.tmdb.org/t/p/w342/5kd5JqccroxOnC9sVMP5NtLrbkr.jpg",
-       "tmdb": "13682"
+       "tmdb": "13682",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0429305",
@@ -2413,7 +2752,10 @@
        "name": "American Dragon: Jake Long",
        "year": "2005",
        "poster": "https://image.tmdb.org/t/p/w342/x2Wd9ZuCYxbx8G2hwOhW3fuKEku.jpg",
-       "tmdb": "346"
+       "tmdb": "346",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0368891",
@@ -2429,7 +2771,10 @@
        "name": "Higglytown Heroes",
        "year": "2004",
        "poster": "https://image.tmdb.org/t/p/w342/l33m47jc4oFmcHhHsNicTR6TBec.jpg",
-       "tmdb": "552"
+       "tmdb": "552",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0423621",
@@ -2437,7 +2782,10 @@
        "name": "Brandy & Mr. Whiskers",
        "year": "2004",
        "poster": "https://image.tmdb.org/t/p/w342/58Ao40FU4uA35WUTyMcd6XdN1ns.jpg",
-       "tmdb": "618"
+       "tmdb": "618",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0368933",
@@ -2469,7 +2817,10 @@
        "name": "Home on the Range",
        "year": "2004",
        "poster": "https://image.tmdb.org/t/p/w342/cgKnkbO3fNWwKc9qLyLYdeZQ9Vj.jpg",
-       "tmdb": "13700"
+       "tmdb": "13700",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0361467",
@@ -2493,7 +2844,10 @@
        "name": "Dave the Barbarian",
        "year": "2004",
        "poster": "https://image.tmdb.org/t/p/w342/ipzGJybXsUyqP78Wn6zC1XXbyRy.jpg",
-       "tmdb": "1960"
+       "tmdb": "1960",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0338094",
@@ -2509,7 +2863,10 @@
        "name": "Lilo & Stitch: The Series",
        "year": "2003",
        "poster": "https://image.tmdb.org/t/p/w342/hmNpwSKZzStqO4bfOFeYNTn2B7.jpg",
-       "tmdb": "2355"
+       "tmdb": "2355",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0322330",
@@ -2549,7 +2906,10 @@
        "name": "Piglet's Big Movie",
        "year": "2003",
        "poster": "https://image.tmdb.org/t/p/w342/cytspPjtacOInHroA6h2dIekDrp.jpg",
-       "tmdb": "13691"
+       "tmdb": "13691",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0300865",
@@ -2565,7 +2925,10 @@
        "name": "Treasure Planet",
        "year": "2002",
        "poster": "https://image.tmdb.org/t/p/w342/kNhZkR3UNbXfvESQo7mJpOi4tGd.jpg",
-       "tmdb": "9016"
+       "tmdb": "9016",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0304669",
@@ -2581,7 +2944,10 @@
        "name": "Lilo & Stitch",
        "year": "2002",
        "poster": "https://image.tmdb.org/t/p/w342/cFuLvQJPoZpuruAtN3rVnMmLIH8.jpg",
-       "tmdb": "11544"
+       "tmdb": "11544",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0278866",
@@ -2589,7 +2955,10 @@
        "name": "Kim Possible",
        "year": "2002",
        "poster": "https://image.tmdb.org/t/p/w342/qsDNX8DPwWydDn9oUIhe1WcTuUH.jpg",
-       "tmdb": "2345"
+       "tmdb": "2345",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0265662",
@@ -2605,7 +2974,10 @@
        "name": "Return to Never Land",
        "year": "2002",
        "poster": "https://image.tmdb.org/t/p/w342/wB3r2b8sxUZspqNyr8copMlt7se.jpg",
-       "tmdb": "16690"
+       "tmdb": "16690",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0257778",
@@ -2613,7 +2985,10 @@
        "name": "The Hunchback of Notre Dame II",
        "year": "2002",
        "poster": "https://image.tmdb.org/t/p/w342/14PSM6n9VSsiUwJhT0WZbgOuNvP.jpg",
-       "tmdb": "12448"
+       "tmdb": "12448",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0281373",
@@ -2629,7 +3004,10 @@
        "name": "The Proud Family",
        "year": "2001",
        "poster": "https://image.tmdb.org/t/p/w342/wcfbfActZ9VZ3anFqe3YYNWOHsG.jpg",
-       "tmdb": "543"
+       "tmdb": "543",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0247638",
@@ -2645,7 +3023,10 @@
        "name": "Atlantis: The Lost Empire",
        "year": "2001",
        "poster": "https://image.tmdb.org/t/p/w342/oK8yR6xSQreWf1ouP1VpXKwoop5.jpg",
-       "tmdb": "10865"
+       "tmdb": "10865",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0265632",
@@ -2653,7 +3034,10 @@
        "name": "Recess: School's Out",
        "year": "2001",
        "poster": "https://image.tmdb.org/t/p/w342/qsUCoeTwCNIrvDrUiWlTCgyRFZy.jpg",
-       "tmdb": "19405"
+       "tmdb": "19405",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0275848",
@@ -2661,7 +3045,10 @@
        "name": "Lloyd in Space",
        "year": "2001",
        "poster": "https://image.tmdb.org/t/p/w342/ysifCfQ5yrjsopi4d8kgycmYr3Y.jpg",
-       "tmdb": "3085"
+       "tmdb": "3085",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0274240",
@@ -2669,7 +3056,10 @@
        "name": "The Book of Pooh",
        "year": "2001",
        "poster": "https://image.tmdb.org/t/p/w342/vnXwJlVXCqyRE0qQn4Af102k183.jpg",
-       "tmdb": "973"
+       "tmdb": "973",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0273366",
@@ -2685,7 +3075,10 @@
        "name": "The Emperor's New Groove",
        "year": "2000",
        "poster": "https://image.tmdb.org/t/p/w342/wwbgkXQBEKtnyIJapk6gUgWkVw8.jpg",
-       "tmdb": "11688"
+       "tmdb": "11688",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0211181",
@@ -2725,7 +3118,10 @@
        "name": "Dinosaur",
        "year": "2000",
        "poster": "https://image.tmdb.org/t/p/w342/rSje3FS7ycJSglowlngjsvDt7vO.jpg",
-       "tmdb": "10567"
+       "tmdb": "10567",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0220099",
@@ -2733,7 +3129,10 @@
        "name": "The Tigger Movie",
        "year": "2000",
        "poster": "https://image.tmdb.org/t/p/w342/9OdZKUdGfaBAUwRLbtWpFWKbILO.jpg",
-       "tmdb": "15655"
+       "tmdb": "15655",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0120910",
@@ -2741,7 +3140,10 @@
        "name": "Fantasia 2000",
        "year": "2000",
        "poster": "https://image.tmdb.org/t/p/w342/5rwAtUaKEK48CPUijVfVU0IPKPZ.jpg",
-       "tmdb": "49948"
+       "tmdb": "49948",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0141369",
@@ -2757,7 +3159,10 @@
        "name": "Tarzan",
        "year": "1999",
        "poster": "https://image.tmdb.org/t/p/w342/bTvHlcqiOjGa3lFtbrTLTM3zasY.jpg",
-       "tmdb": "37135"
+       "tmdb": "37135",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0120764",
@@ -2813,7 +3218,10 @@
        "name": "Mulan",
        "year": "1998",
        "poster": "https://image.tmdb.org/t/p/w342/jAbexAtB0aSfP5Ay4TpWHARyVnG.jpg",
-       "tmdb": "10674"
+       "tmdb": "10674",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0191715",
@@ -2821,7 +3229,10 @@
        "name": "PB&J Otter",
        "year": "1998",
        "poster": "https://image.tmdb.org/t/p/w342/jTAQVBNVb9socC2IpjVqZuU4hKr.jpg",
-       "tmdb": "4230"
+       "tmdb": "4230",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0119137",
@@ -2869,7 +3280,10 @@
        "name": "The Hunchback of Notre Dame",
        "year": "1996",
        "poster": "https://image.tmdb.org/t/p/w342/dmMBtXuFzZzLYgeQXkOkg98w2Ak.jpg",
-       "tmdb": "10545"
+       "tmdb": "10545",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0116683",
@@ -2877,7 +3291,10 @@
        "name": "James and the Giant Peach",
        "year": "1996",
        "poster": "https://image.tmdb.org/t/p/w342/vNEGobe23vW43mSPYVaVaBLP6qV.jpg",
-       "tmdb": "10539"
+       "tmdb": "10539",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0116552",
@@ -2901,7 +3318,10 @@
        "name": "Pocahontas",
        "year": "1995",
        "poster": "https://image.tmdb.org/t/p/w342/kZ1ft0QZ4e3zDUPMBftEkwI9ftd.jpg",
-       "tmdb": "10530"
+       "tmdb": "10530",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0113198",
@@ -2909,7 +3329,10 @@
        "name": "A Goofy Movie",
        "year": "1995",
        "poster": "https://image.tmdb.org/t/p/w342/bycmMhO3iIoEDzP768sUjq2RV4T.jpg",
-       "tmdb": "15789"
+       "tmdb": "15789",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0110006",
@@ -2941,7 +3364,10 @@
        "name": "The Lion King",
        "year": "1994",
        "poster": "https://image.tmdb.org/t/p/w342/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
-       "tmdb": "8587"
+       "tmdb": "8587",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0111701",
@@ -2973,7 +3399,10 @@
        "name": "Aladdin",
        "year": "1994",
        "poster": "https://image.tmdb.org/t/p/w342/nlaiczW81kY46GBdfIcTrBIqr8I.jpg",
-       "tmdb": "2745"
+       "tmdb": "2745",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0108333",
@@ -2997,7 +3426,10 @@
        "name": "Bonkers",
        "year": "1993",
        "poster": "https://image.tmdb.org/t/p/w342/eZW4rWFY356fBAGNG9SrsyU6WMH.jpg",
-       "tmdb": "6616"
+       "tmdb": "6616",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0107120",
@@ -3053,7 +3485,10 @@
        "name": "Beauty and the Beast",
        "year": "1991",
        "poster": "https://image.tmdb.org/t/p/w342/hUJ0UvQ5tgE2Z9WpfuduVSdiCiU.jpg",
-       "tmdb": "10020"
+       "tmdb": "10020",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0101076",
@@ -3061,7 +3496,10 @@
        "name": "Darkwing Duck",
        "year": "1991",
        "poster": "https://image.tmdb.org/t/p/w342/1gJMSXS0gwM8gDJnzVSITcxbQc.jpg",
-       "tmdb": "3319"
+       "tmdb": "3319",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0102803",
@@ -3085,7 +3523,10 @@
        "name": "The Prince and the Pauper",
        "year": "1990",
        "poster": "https://image.tmdb.org/t/p/w342/7sWpajczOeWzubfw7VLAMU9OeHS.jpg",
-       "tmdb": "25831"
+       "tmdb": "25831",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0098924",
@@ -3093,7 +3534,10 @@
        "name": "TaleSpin",
        "year": "1990",
        "poster": "https://image.tmdb.org/t/p/w342/gObO6CMSRbQNehvJyF4CwOHC5VI.jpg",
-       "tmdb": "2720"
+       "tmdb": "2720",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0097523",
@@ -3109,7 +3553,10 @@
        "name": "Chip 'n' Dale Rescue Rangers",
        "year": "1989",
        "poster": "https://image.tmdb.org/t/p/w342/44VE1LaaZq4bZhMDo6Yi29NO4H.jpg",
-       "tmdb": "1615"
+       "tmdb": "1615",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0095776",
@@ -3117,7 +3564,10 @@
        "name": "Oliver & Company",
        "year": "1988",
        "poster": "https://image.tmdb.org/t/p/w342/dgaSqUHjm4CLOdiiJJJstVdreEe.jpg",
-       "tmdb": "12233"
+       "tmdb": "12233",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0115257",
@@ -3125,7 +3575,10 @@
        "name": "Madeline",
        "year": "1988",
        "poster": "https://image.tmdb.org/t/p/w342/kh1xdNqCYj4plWOyYjSIrPzzUvI.jpg",
-       "tmdb": "17194"
+       "tmdb": "17194",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0450931",
@@ -3133,7 +3586,10 @@
        "name": "The New Yogi Bear Show",
        "year": "1988",
        "poster": "https://image.tmdb.org/t/p/w342/lWR0x3N7pt7f5g0YAxQgQuUVhKd.jpg",
-       "tmdb": "12454"
+       "tmdb": "12454",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0091059",
@@ -3149,7 +3605,10 @@
        "name": "The Great Mouse Detective",
        "year": "1986",
        "poster": "https://image.tmdb.org/t/p/w342/9uDr7vfjCFr39KGCcqrk44Cg7fQ.jpg",
-       "tmdb": "9994"
+       "tmdb": "9994",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0089385",
@@ -3165,7 +3624,10 @@
        "name": "The Black Cauldron",
        "year": "1985",
        "poster": "https://image.tmdb.org/t/p/w342/act8vtlXVEizdsUf9FcKbzSERew.jpg",
-       "tmdb": "10957"
+       "tmdb": "10957",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0089908",
@@ -3181,7 +3643,10 @@
        "name": "Mickey's Christmas Carol",
        "year": "1983",
        "poster": "https://image.tmdb.org/t/p/w342/hOuEgnB9jfVneEsulMcqEJE4kSL.jpg",
-       "tmdb": "14813"
+       "tmdb": "14813",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0086744",
@@ -3204,7 +3669,10 @@
        "name": "Toy Story 5",
        "year": "2026",
        "poster": "https://image.tmdb.org/t/p/w342/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
-       "tmdb": "1084244"
+       "tmdb": "1084244",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt26443616",
@@ -3212,7 +3680,10 @@
        "name": "Hoppers",
        "year": "2026",
        "poster": "https://image.tmdb.org/t/p/w342/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-       "tmdb": "1327819"
+       "tmdb": "1327819",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt4900148",
@@ -3220,7 +3691,10 @@
        "name": "Elio",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/7z8jDiTZZco9moIKpTUImFtTy7o.jpg",
-       "tmdb": "1022787"
+       "tmdb": "1022787",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13624052",
@@ -3228,7 +3702,10 @@
        "name": "Win or Lose",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/rnVVkTU8noAZshs1sHdkxdGcVIP.jpg",
-       "tmdb": "114500"
+       "tmdb": "114500",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt33088401",
@@ -3236,7 +3713,10 @@
        "name": "Dream Productions",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/j9jz5wZlQoq65YuYPNauB72uvFJ.jpg",
-       "tmdb": "255868"
+       "tmdb": "255868",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt33241834",
@@ -3244,7 +3724,10 @@
        "name": "LEGO Pixar: BrickToons",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/yFswYZNprs9CgzkhaqPpBQuwGya.jpg",
-       "tmdb": "262153"
+       "tmdb": "262153",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt22022452",
@@ -3252,7 +3735,10 @@
        "name": "Inside Out 2",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
-       "tmdb": "1022789"
+       "tmdb": "1022789",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt26736061",
@@ -3260,7 +3746,10 @@
        "name": "Carl's Date",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/wakoF2UgsEE3fGs5KpuwMWsaNr2.jpg",
-       "tmdb": "1076364"
+       "tmdb": "1076364",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt15789038",
@@ -3268,7 +3757,10 @@
        "name": "Elemental",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/4Y1WNkd88JXmGfhtWR7dmDAo1T2.jpg",
-       "tmdb": "976573"
+       "tmdb": "976573",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11981568",
@@ -3276,7 +3768,10 @@
        "name": "Cars on the Road",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/6QXirTPUQecr1BAEfgVSXPD1np0.jpg",
-       "tmdb": "114502"
+       "tmdb": "114502",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt10298810",
@@ -3284,7 +3779,10 @@
        "name": "Lightyear",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/ox4goZd956BxqJH6iLwhWPL9ct4.jpg",
-       "tmdb": "718789"
+       "tmdb": "718789",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt16026684",
@@ -3308,7 +3806,10 @@
        "name": "Turning Red",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg",
-       "tmdb": "508947"
+       "tmdb": "508947",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt15476620",
@@ -3316,7 +3817,10 @@
        "name": "Ciao Alberto",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/9RKPB9IKDHaTxWQgjkS4IJao08a.jpg",
-       "tmdb": "876716"
+       "tmdb": "876716",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13624054",
@@ -3324,7 +3828,10 @@
        "name": "Dug Days",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/e5kT33XH2gX7xBFIK1uUJAvU5dj.jpg",
-       "tmdb": "114501"
+       "tmdb": "114501",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt15088994",
@@ -3332,7 +3839,10 @@
        "name": "Nona",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/jWlFOOpijBeNMws7KwtFBB79v2S.jpg",
-       "tmdb": "852721"
+       "tmdb": "852721",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt14023676",
@@ -3340,7 +3850,10 @@
        "name": "Twenty Something",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/zLaGPqNxhkxkzEqPd6hb58FB8t4.jpg",
-       "tmdb": "852719"
+       "tmdb": "852719",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt12801262",
@@ -3348,7 +3861,10 @@
        "name": "Luca",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/9x4i9uKGXt8IiiIF5Ey0DIoY738.jpg",
-       "tmdb": "508943"
+       "tmdb": "508943",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt14499632",
@@ -3356,7 +3872,10 @@
        "name": "22 vs. Earth",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/32vLDKSzcCMh55zqqaSqqUA8naz.jpg",
-       "tmdb": "811367"
+       "tmdb": "811367",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13634444",
@@ -3364,7 +3883,10 @@
        "name": "Pixar Popcorn",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/pRpwcEKPvsj0WKbhrowQbyy4bIg.jpg",
-       "tmdb": "114505"
+       "tmdb": "114505",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2948372",
@@ -3372,7 +3894,10 @@
        "name": "Soul",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg",
-       "tmdb": "508442"
+       "tmdb": "508442",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13167288",
@@ -3380,7 +3905,10 @@
        "name": "Burrow",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/zkQcHvMc7gVG6OWVotVLDeRkrRl.jpg",
-       "tmdb": "747059"
+       "tmdb": "747059",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13302848",
@@ -3396,7 +3924,10 @@
        "name": "Out",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/dCmtnJqu4Lk4yzEPoLZkHYrpwaP.jpg",
-       "tmdb": "706860"
+       "tmdb": "706860",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt7146812",
@@ -3404,7 +3935,10 @@
        "name": "Onward",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/f4aul3FyD3jv3v4bul1IrkWZvzq.jpg",
-       "tmdb": "508439"
+       "tmdb": "508439",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt10167262",
@@ -3412,7 +3946,10 @@
        "name": "Lamp Life",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/mJ95RnlammhYb6ZvBbQFLq8Jqnl.jpg",
-       "tmdb": "594530"
+       "tmdb": "594530",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11194652",
@@ -3420,7 +3957,10 @@
        "name": "Forky Asks a Question: What Is Reading?",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/wKfU8dOhcCCChaCPPpNmRX7bqII.jpg",
-       "tmdb": "662666"
+       "tmdb": "662666",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt9536836",
@@ -3428,7 +3968,10 @@
        "name": "Loop",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/5vK8QmJpKK8gRzJ7NFQ26K5nMpm.jpg",
-       "tmdb": "574089"
+       "tmdb": "574089",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11194650",
@@ -3436,7 +3979,10 @@
        "name": "Forky Asks a Question: What Is Cheese?",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/b4ox85sQvRDOTsCMrRf1aP9isfm.jpg",
-       "tmdb": "660867"
+       "tmdb": "660867",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11194648",
@@ -3444,7 +3990,10 @@
        "name": "Forky Asks a Question: What Is a Pet?",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/rwQ8Ima3U2cXH6OEzZLZ37JrsXv.jpg",
-       "tmdb": "660866"
+       "tmdb": "660866",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11194646",
@@ -3452,7 +4001,10 @@
        "name": "Forky Asks a Question: What Is a Leader?",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/iNQAy98W4LvdkDDJcNe1XFnghmU.jpg",
-       "tmdb": "660862"
+       "tmdb": "660862",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11194644",
@@ -3460,7 +4012,10 @@
        "name": "Forky Asks a Question: What Is a Computer?",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/qcOHwNLu0ugj32a3llVLTm9ZA8X.jpg",
-       "tmdb": "660861"
+       "tmdb": "660861",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt9536850",
@@ -3468,7 +4023,10 @@
        "name": "Wind",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/eCQOiAWjXmRPlktXFEu4vt22Kz2.jpg",
-       "tmdb": "574091"
+       "tmdb": "574091",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11194642",
@@ -3476,7 +4034,10 @@
        "name": "Forky Asks a Question: What Is Love?",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/96LdEzSi7yncjYkroo7gNCY5SKQ.jpg",
-       "tmdb": "660859"
+       "tmdb": "660859",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11194640",
@@ -3484,7 +4045,10 @@
        "name": "Forky Asks a Question: What Is Time?",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/o5DLN50oa9FGcSTUTL9qnkwKu7S.jpg",
-       "tmdb": "660858"
+       "tmdb": "660858",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11194636",
@@ -3492,7 +4056,10 @@
        "name": "Forky Asks a Question: What Is Art?",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/2vQ0UwdJoQ62jLrZ4SA2T9VCnvd.jpg",
-       "tmdb": "660856"
+       "tmdb": "660856",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11194638",
@@ -3500,7 +4067,10 @@
        "name": "Forky Asks a Question: What Is a Friend?",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/vRGXRtCqXdB7IzZmGdILCVJnUut.jpg",
-       "tmdb": "660855"
+       "tmdb": "660855",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11194634",
@@ -3508,7 +4078,10 @@
        "name": "Forky Asks a Question: What Is Money?",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/5HqBpRpwsMBTXVk950CVBH8h51W.jpg",
-       "tmdb": "660851"
+       "tmdb": "660851",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt33311980",
@@ -3516,7 +4089,10 @@
        "name": "Float",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/mgwObpU1NCXfPqF7ZaTpi80mxsF.jpg",
-       "tmdb": "574093"
+       "tmdb": "574093",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt11199558",
@@ -3532,7 +4108,10 @@
        "name": "Toy Story 4",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/w9kR8qbmQ01HwnvK4alvnQ2ca0L.jpg",
-       "tmdb": "301528"
+       "tmdb": "301528",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt9536832",
@@ -3540,7 +4119,10 @@
        "name": "Kitbull",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/apzBk34NVtDpSWcrVfTzD069B7w.jpg",
-       "tmdb": "574074"
+       "tmdb": "574074",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt8980868",
@@ -3548,7 +4130,10 @@
        "name": "Purl",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/A8to7TlVMBwMuDgi2DJ9rVJsobE.jpg",
-       "tmdb": "532953"
+       "tmdb": "532953",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt7103168",
@@ -3556,7 +4141,10 @@
        "name": "Smash and Grab",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/bsDQdjuGAhj6JrmCKVBFTUBeIrb.jpg",
-       "tmdb": "532952"
+       "tmdb": "532952",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt12578922",
@@ -3564,7 +4152,10 @@
        "name": "SparkShorts",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/6oVfLHD5YGof4uCC7jxq784jZTl.jpg",
-       "tmdb": "302929"
+       "tmdb": "302929",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt8952294",
@@ -3572,7 +4163,10 @@
        "name": "Auntie Edna",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/ypgqNZGKPh5vLDhDAUUArv1ZSRu.jpg",
-       "tmdb": "546728"
+       "tmdb": "546728",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt8075496",
@@ -3580,7 +4174,10 @@
        "name": "Bao",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/tKz7XRXvdy1i7pW4eotaWZSrAx2.jpg",
-       "tmdb": "514754"
+       "tmdb": "514754",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt3606756",
@@ -3588,7 +4185,10 @@
        "name": "Incredibles 2",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/9lFKBtaVIhP7E2Pk0IY1CwTKTMZ.jpg",
-       "tmdb": "260513"
+       "tmdb": "260513",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2380307",
@@ -3596,7 +4196,10 @@
        "name": "Coco",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/6Ryitt95xrO8KXuqRGm1fUuNwqF.jpg",
-       "tmdb": "354912"
+       "tmdb": "354912",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt7334642",
@@ -3604,7 +4207,10 @@
        "name": "Miss Fritter's Racing Skoool",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/mymWJ0RTnfV8yjUHCmBTADZWVlx.jpg",
-       "tmdb": "483396"
+       "tmdb": "483396",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt6267732",
@@ -3612,7 +4218,10 @@
        "name": "Lou",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/4l9wSwvabTefMJ3TkXnh9evzmVV.jpg",
-       "tmdb": "433471"
+       "tmdb": "433471",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt3606752",
@@ -3620,7 +4229,10 @@
        "name": "Cars 3",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/zg5RDxvIIAKsucjuU2EZJIHEIvz.jpg",
-       "tmdb": "260514"
+       "tmdb": "260514",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt6821222",
@@ -3628,7 +4240,10 @@
        "name": "Dante's Lunch",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/303lFHSSHSpJdINBeEesG9LPgpI.jpg",
-       "tmdb": "449621"
+       "tmdb": "449621",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt6233934",
@@ -3636,7 +4251,10 @@
        "name": "Marine Life Interviews",
        "year": "2016",
        "poster": "https://image.tmdb.org/t/p/w342/nKTFsng12wXI75c84WFKnDHQ2Qa.jpg",
-       "tmdb": "427004"
+       "tmdb": "427004",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2277860",
@@ -3644,7 +4262,10 @@
        "name": "Finding Dory",
        "year": "2016",
        "poster": "https://image.tmdb.org/t/p/w342/3UVe8NL1E2ZdUZ9EDlKGJY5UzE.jpg",
-       "tmdb": "127380"
+       "tmdb": "127380",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt4661600",
@@ -3652,7 +4273,10 @@
        "name": "Sanjay's Super Team",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/mShcGzOctlq6zs33UdrCdAwZMGq.jpg",
-       "tmdb": "345637"
+       "tmdb": "345637",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1979388",
@@ -3660,7 +4284,10 @@
        "name": "The Good Dinosaur",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/8RSkxOO80btfKjyiC5ZiTaCHIT8.jpg",
-       "tmdb": "105864"
+       "tmdb": "105864",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt4941804",
@@ -3668,7 +4295,10 @@
        "name": "Riley's First Date?",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/cGLwfmLqg39822RFQMUDat0UJev.jpg",
-       "tmdb": "355338"
+       "tmdb": "355338",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt3824386",
@@ -3676,7 +4306,10 @@
        "name": "Lava",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/d9ulP4njsyYh2RYXERBSwzBFztq.jpg",
-       "tmdb": "286192"
+       "tmdb": "286192",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2096673",
@@ -3684,7 +4317,10 @@
        "name": "Inside Out",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
-       "tmdb": "150540"
+       "tmdb": "150540",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt3473654",
@@ -3692,7 +4328,10 @@
        "name": "Toy Story That Time Forgot",
        "year": "2014",
        "poster": "https://image.tmdb.org/t/p/w342/kVOaFo8RaYQceHfTqbZGmV9R80q.jpg",
-       "tmdb": "256835"
+       "tmdb": "256835",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt3116154",
@@ -3700,7 +4339,10 @@
        "name": "Party Central",
        "year": "2014",
        "poster": "https://image.tmdb.org/t/p/w342/eKP7OFjafEevTOwC2wvHxWec5LW.jpg",
-       "tmdb": "258152"
+       "tmdb": "258152",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2446040",
@@ -3708,7 +4350,10 @@
        "name": "Toy Story of Terror!",
        "year": "2013",
        "poster": "https://image.tmdb.org/t/p/w342/oPBEnNP4Fg4gv9c0KBhchmtoG4H.jpg",
-       "tmdb": "213121"
+       "tmdb": "213121",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1453405",
@@ -3716,7 +4361,10 @@
        "name": "Monsters University",
        "year": "2013",
        "poster": "https://image.tmdb.org/t/p/w342/y7thwJ7z5Bplv6vwl6RI0yteaDD.jpg",
-       "tmdb": "62211"
+       "tmdb": "62211",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2616880",
@@ -3724,7 +4372,10 @@
        "name": "The Blue Umbrella",
        "year": "2013",
        "poster": "https://image.tmdb.org/t/p/w342/iSWV7ra8HJ3gYnZFMMrPe8CBbrv.jpg",
-       "tmdb": "200481"
+       "tmdb": "200481",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2565938",
@@ -3732,7 +4383,10 @@
        "name": "The Legend of Mor'du",
        "year": "2012",
        "poster": "https://image.tmdb.org/t/p/w342/1wdE3zpo903fHqSCrRnsxMYv2Il.jpg",
-       "tmdb": "141423"
+       "tmdb": "141423",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1217209",
@@ -3740,7 +4394,10 @@
        "name": "Brave",
        "year": "2012",
        "poster": "https://image.tmdb.org/t/p/w342/1XAuDtMWpL0sYSFK0R6EZate2Ux.jpg",
-       "tmdb": "62177"
+       "tmdb": "62177",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1957945",
@@ -3748,7 +4405,10 @@
        "name": "La luna",
        "year": "2012",
        "poster": "https://image.tmdb.org/t/p/w342/9euW64JUgFlA7fxN8lAmwK6gUaQ.jpg",
-       "tmdb": "83564"
+       "tmdb": "83564",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1850374",
@@ -3756,7 +4416,10 @@
        "name": "Hawaiian Vacation",
        "year": "2011",
        "poster": "https://image.tmdb.org/t/p/w342/iLFYR0HRLmPfXzQdvGvlJhfwtH1.jpg",
-       "tmdb": "77887"
+       "tmdb": "77887",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1216475",
@@ -3764,7 +4427,10 @@
        "name": "Cars 2",
        "year": "2011",
        "poster": "https://image.tmdb.org/t/p/w342/okIz1HyxeVOMzYwwHUjH2pHi74I.jpg",
-       "tmdb": "49013"
+       "tmdb": "49013",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1788785",
@@ -3772,7 +4438,10 @@
        "name": "Moon Mater",
        "year": "2010",
        "poster": "https://image.tmdb.org/t/p/w342/d4du70hEkq5nBznMcW89BxDY2Zb.jpg",
-       "tmdb": "148608"
+       "tmdb": "148608",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1788784",
@@ -3780,7 +4449,10 @@
        "name": "Mater Private Eye",
        "year": "2010",
        "poster": "https://image.tmdb.org/t/p/w342/w3wZaoY0M4glyE6H5xJgYDzS1gC.jpg",
-       "tmdb": "148606"
+       "tmdb": "148606",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1559826",
@@ -3788,7 +4460,10 @@
        "name": "Monster Truck Mater",
        "year": "2010",
        "poster": "https://image.tmdb.org/t/p/w342/ikdzBp4KIDazYgbJJLakZJmfnhn.jpg",
-       "tmdb": "148605"
+       "tmdb": "148605",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0435761",
@@ -3796,7 +4471,10 @@
        "name": "Toy Story 3",
        "year": "2010",
        "poster": "https://image.tmdb.org/t/p/w342/AbbXspMOwdvwWZgVN0nabZq03Ec.jpg",
-       "tmdb": "10193"
+       "tmdb": "10193",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1511164",
@@ -3804,7 +4482,10 @@
        "name": "Unidentified Flying Mater",
        "year": "2009",
        "poster": "https://image.tmdb.org/t/p/w342/i6To4oegSvLEW9CTsrCANgko1Gj.jpg",
-       "tmdb": "171536"
+       "tmdb": "171536",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1552624",
@@ -3812,7 +4493,10 @@
        "name": "George and A.J.",
        "year": "2009",
        "poster": "https://image.tmdb.org/t/p/w342/dNdkTs0FLF8CkFOrA5RkTyyDspx.jpg",
-       "tmdb": "72962"
+       "tmdb": "72962",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1049413",
@@ -3820,7 +4504,10 @@
        "name": "Up",
        "year": "2009",
        "poster": "https://image.tmdb.org/t/p/w342/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg",
-       "tmdb": "14160"
+       "tmdb": "14160",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1425244",
@@ -3828,7 +4515,10 @@
        "name": "Partly Cloudy",
        "year": "2009",
        "poster": "https://image.tmdb.org/t/p/w342/oqYX2AJV53ibLVPrUZ1Z5XlGv5U.jpg",
-       "tmdb": "24480"
+       "tmdb": "24480",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1330219",
@@ -3836,7 +4526,10 @@
        "name": "Tokyo Mater",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/sGwVl4R4RD2rV8NHWthpjemA1zU.jpg",
-       "tmdb": "24328"
+       "tmdb": "24328",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1334585",
@@ -3844,7 +4537,10 @@
        "name": "BURN·E",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/1wOReJq1vArLBSejND2Jbw0KeKh.jpg",
-       "tmdb": "13413"
+       "tmdb": "13413",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1378121",
@@ -3852,7 +4548,10 @@
        "name": "El Materdor",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/sW4IdZHsUOi6I4hAYtR92aeHUsC.jpg",
-       "tmdb": "39030"
+       "tmdb": "39030",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1378122",
@@ -3860,7 +4559,10 @@
        "name": "Mater the Greater",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/tVrU8hUW2xTjAlIiyAvYVOFFQwd.jpg",
-       "tmdb": "140967"
+       "tmdb": "140967",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1378123",
@@ -3868,7 +4570,10 @@
        "name": "Rescue Squad Mater",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/2mLBoPMSXshWjknql6dxc2DAfZ1.jpg",
-       "tmdb": "56553"
+       "tmdb": "56553",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1245104",
@@ -3876,7 +4581,10 @@
        "name": "Presto",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/aKDwLqR0JWoLX7dgwje42vCwhBd.jpg",
-       "tmdb": "13042"
+       "tmdb": "13042",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0910970",
@@ -3884,7 +4592,10 @@
        "name": "WALL·E",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
-       "tmdb": "10681"
+       "tmdb": "10681",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1134859",
@@ -3892,7 +4603,10 @@
        "name": "Your Friend the Rat",
        "year": "2007",
        "poster": "https://image.tmdb.org/t/p/w342/sgjkYw2LLdsMzCuhKDZBYbhe7QB.jpg",
-       "tmdb": "13061"
+       "tmdb": "13061",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1164983",
@@ -3900,7 +4614,10 @@
        "name": "The Pixar Shorts: A Short History",
        "year": "2007",
        "poster": "https://image.tmdb.org/t/p/w342/xxB5oLKslLUafmiYLRvmIfgfEJp.jpg",
-       "tmdb": "265447"
+       "tmdb": "265447",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0382932",
@@ -3908,7 +4625,10 @@
        "name": "Ratatouille",
        "year": "2007",
        "poster": "https://image.tmdb.org/t/p/w342/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg",
-       "tmdb": "2062"
+       "tmdb": "2062",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0945571",
@@ -3916,7 +4636,10 @@
        "name": "Lifted",
        "year": "2006",
        "poster": "https://image.tmdb.org/t/p/w342/iwI3R8ZR3MQ5dnTx9tHSiS81i4W.jpg",
-       "tmdb": "13060"
+       "tmdb": "13060",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0901686",
@@ -3924,7 +4647,10 @@
        "name": "Mater and the Ghostlight",
        "year": "2006",
        "poster": "https://image.tmdb.org/t/p/w342/thZHluscCvT3SCzVckmFszOVVtM.jpg",
-       "tmdb": "13934"
+       "tmdb": "13934",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0317219",
@@ -3932,7 +4658,10 @@
        "name": "Cars",
        "year": "2006",
        "poster": "https://image.tmdb.org/t/p/w342/2Touk3m5gzsqr1VsvxypdyHY5ci.jpg",
-       "tmdb": "920"
+       "tmdb": "920",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0479113",
@@ -3940,7 +4669,10 @@
        "name": "One Man Band",
        "year": "2005",
        "poster": "https://image.tmdb.org/t/p/w342/zF0YT9g3fmjLB6kQrjmpWNqpoe4.jpg",
-       "tmdb": "13933"
+       "tmdb": "13933",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0455565",
@@ -3948,7 +4680,10 @@
        "name": "Jack-Jack Attack",
        "year": "2005",
        "poster": "https://image.tmdb.org/t/p/w342/uKMYT8aAJS9LA8IM1juMqbXTtqU.jpg",
-       "tmdb": "13932"
+       "tmdb": "13932",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0486141",
@@ -3956,7 +4691,10 @@
        "name": "Mr. Incredible and Pals",
        "year": "2005",
        "poster": "https://image.tmdb.org/t/p/w342/qxy5xsBKGIN4iNy6dFIsQlvDtvI.jpg",
-       "tmdb": "55423"
+       "tmdb": "55423",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0317705",
@@ -3964,7 +4702,10 @@
        "name": "The Incredibles",
        "year": "2004",
        "poster": "https://image.tmdb.org/t/p/w342/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
-       "tmdb": "9806"
+       "tmdb": "9806",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0266543",
@@ -3972,7 +4713,10 @@
        "name": "Finding Nemo",
        "year": "2003",
        "poster": "https://image.tmdb.org/t/p/w342/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg",
-       "tmdb": "12"
+       "tmdb": "12",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0323250",
@@ -3980,7 +4724,10 @@
        "name": "Mike's New Car",
        "year": "2002",
        "poster": "https://image.tmdb.org/t/p/w342/mOnNx05XOPFeQhOqpbPI0lwEf4N.jpg",
-       "tmdb": "13931"
+       "tmdb": "13931",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0198781",
@@ -3988,7 +4735,10 @@
        "name": "Monsters, Inc.",
        "year": "2001",
        "poster": "https://image.tmdb.org/t/p/w342/wFSpyMsp7H0ttERbxY7Trlv8xry.jpg",
-       "tmdb": "585"
+       "tmdb": "585",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0248808",
@@ -3996,7 +4746,10 @@
        "name": "For the Birds",
        "year": "2000",
        "poster": "https://image.tmdb.org/t/p/w342/7GogfWZYkZh802fnaMoDBnu8cfV.jpg",
-       "tmdb": "13930"
+       "tmdb": "13930",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0260602",
@@ -4004,7 +4757,10 @@
        "name": "Buzz Lightyear of Star Command",
        "year": "2000",
        "poster": "https://image.tmdb.org/t/p/w342/1RYFmB5LkdTGdEAK5YMIoRbXGQ2.jpg",
-       "tmdb": "3744"
+       "tmdb": "3744",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0181196",
@@ -4012,7 +4768,10 @@
        "name": "Buzz Lightyear of Star Command: The Adventure Begins",
        "year": "2000",
        "poster": "https://image.tmdb.org/t/p/w342/sbZ2ETj55ZpumplROESuWCLV3q7.jpg",
-       "tmdb": "16187"
+       "tmdb": "16187",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0120363",
@@ -4020,7 +4779,10 @@
        "name": "Toy Story 2",
        "year": "1999",
        "poster": "https://image.tmdb.org/t/p/w342/4rbcp3ng8n1MKHjpeqW0L7Fnpzz.jpg",
-       "tmdb": "863"
+       "tmdb": "863",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0120623",
@@ -4028,7 +4790,10 @@
        "name": "A Bug's Life",
        "year": "1998",
        "poster": "https://image.tmdb.org/t/p/w342/Ah3J9OJVc2CNCuH2zMydXy9fmIC.jpg",
-       "tmdb": "9487"
+       "tmdb": "9487",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0131409",
@@ -4036,7 +4801,10 @@
        "name": "Geri's Game",
        "year": "1997",
        "poster": "https://image.tmdb.org/t/p/w342/8PdCk3T9EkcKniUviDogWFCXx28.jpg",
-       "tmdb": "13929"
+       "tmdb": "13929",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0114709",
@@ -4044,7 +4812,10 @@
        "name": "Toy Story",
        "year": "1995",
        "poster": "https://image.tmdb.org/t/p/w342/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
-       "tmdb": "862"
+       "tmdb": "862",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0102359",
@@ -4052,7 +4823,10 @@
        "name": "Light and Heavy",
        "year": "1991",
        "poster": "https://image.tmdb.org/t/p/w342/kC9tqPE3dqwBBp2sEL7xBgPP4yQ.jpg",
-       "tmdb": "287095"
+       "tmdb": "287095",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0097674",
@@ -4060,7 +4834,10 @@
        "name": "Knick Knack",
        "year": "1989",
        "poster": "https://image.tmdb.org/t/p/w342/uRsPF4LCdKLqwG0Gg2GASMgbZgY.jpg",
-       "tmdb": "13928"
+       "tmdb": "13928",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0096273",
@@ -4068,7 +4845,10 @@
        "name": "Tin Toy",
        "year": "1988",
        "poster": "https://image.tmdb.org/t/p/w342/yRjtvmRXgZoY8P9Ug28G9OITD9E.jpg",
-       "tmdb": "13927"
+       "tmdb": "13927",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0093832",
@@ -4076,7 +4856,10 @@
        "name": "Red's Dream",
        "year": "1987",
        "poster": "https://image.tmdb.org/t/p/w342/ebPNnYqoEYntnrGdwtmppvBRHpu.jpg",
-       "tmdb": "13926"
+       "tmdb": "13926",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0086855",
@@ -4084,7 +4867,10 @@
        "name": "The Adventures of André and Wally B.",
        "year": "1984",
        "poster": "https://image.tmdb.org/t/p/w342/vynPRSjD78EWQpWbvEimlU55Ke.jpg",
-       "tmdb": "13924"
+       "tmdb": "13924",
+       "tags": [
+        "animation"
+       ]
       }
      ]
     },
@@ -4092,6 +4878,16 @@
      "id": "marvel",
      "name": "Marvel",
      "color": "#E62429",
+     "groups": [
+      {
+       "id": "mcu",
+       "name": "MCU"
+      },
+      {
+       "id": "animation",
+       "name": "Animation"
+      }
+     ],
      "titles": [
       {
        "id": "tt23112594",
@@ -4099,7 +4895,10 @@
        "name": "VisionQuest",
        "year": "2026",
        "poster": "https://image.tmdb.org/t/p/w342/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
-       "tmdb": "213375"
+       "tmdb": "213375",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt22084616",
@@ -4107,7 +4906,10 @@
        "name": "Spider-Man: Brand New Day",
        "year": "2026",
        "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-       "tmdb": "969681"
+       "tmdb": "969681",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt36042156",
@@ -4115,7 +4917,10 @@
        "name": "The Punisher: One Last Kill",
        "year": "2026",
        "poster": "https://image.tmdb.org/t/p/w342/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
-       "tmdb": "1439930"
+       "tmdb": "1439930",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt21066182",
@@ -4123,7 +4928,10 @@
        "name": "Wonder Man",
        "year": "2026",
        "poster": "https://image.tmdb.org/t/p/w342/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg",
-       "tmdb": "198178"
+       "tmdb": "198178",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt38692893",
@@ -4131,7 +4939,10 @@
        "name": "LEGO Marvel Avengers: Strange Tails",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/AkjaZgQWiXlLbgMR2ofT0b57VFh.jpg",
-       "tmdb": "305165"
+       "tmdb": "305165",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt16027014",
@@ -4139,7 +4950,11 @@
        "name": "Marvel Zombies",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/mwKj9ERGFXsWot0nXgQ5yMQf9I7.jpg",
-       "tmdb": "138505"
+       "tmdb": "138505",
+       "tags": [
+        "mcu",
+        "animation"
+       ]
       },
       {
        "id": "tt33997565",
@@ -4147,7 +4962,10 @@
        "name": "Iron Man and His Awesome Friends",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/3NlFaIdOkBg2VC3Imi1kbeeGynw.jpg",
-       "tmdb": "274388"
+       "tmdb": "274388",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13968252",
@@ -4155,7 +4973,11 @@
        "name": "Eyes of Wakanda",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/yuOfb1MgnaGPa4guzV0n1IFYVGN.jpg",
-       "tmdb": "241388"
+       "tmdb": "241388",
+       "tags": [
+        "mcu",
+        "animation"
+       ]
       },
       {
        "id": "tt10676052",
@@ -4163,7 +4985,10 @@
        "name": "The Fantastic 4: First Steps",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/nf5qaSEvyYSNeFH0YhSs5EsBLX9.jpg",
-       "tmdb": "617126"
+       "tmdb": "617126",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt13623126",
@@ -4171,7 +4996,10 @@
        "name": "Ironheart",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/dOh6MJpdlQhYpLBhzhNQeYGKTZ5.jpg",
-       "tmdb": "114471"
+       "tmdb": "114471",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt20969586",
@@ -4179,7 +5007,10 @@
        "name": "Thunderbolts*",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
-       "tmdb": "986056"
+       "tmdb": "986056",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt18923754",
@@ -4187,7 +5018,10 @@
        "name": "Daredevil: Born Again",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-       "tmdb": "202555"
+       "tmdb": "202555",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt14513804",
@@ -4195,7 +5029,10 @@
        "name": "Captain America: Brave New World",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg",
-       "tmdb": "822119"
+       "tmdb": "822119",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt16027074",
@@ -4203,7 +5040,11 @@
        "name": "Your Friendly Neighborhood Spider-Man",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/kjcsNeqF52YUQ2rUBGLMHwLkxvR.jpg",
-       "tmdb": "138503"
+       "tmdb": "138503",
+       "tags": [
+        "mcu",
+        "animation"
+       ]
       },
       {
        "id": "tt33653255",
@@ -4211,7 +5052,10 @@
        "name": "LEGO Marvel Avengers: Mission Demolition",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/s3qM33JHOntz2D7o6FGRf5yuI1v.jpg",
-       "tmdb": "1359227"
+       "tmdb": "1359227",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt15571732",
@@ -4219,7 +5063,10 @@
        "name": "Agatha All Along",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/mGsxKwXUjojitRv2E9qMTbxbBRd.jpg",
-       "tmdb": "138501"
+       "tmdb": "138501",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt6263850",
@@ -4227,7 +5074,10 @@
        "name": "Deadpool & Wolverine",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
-       "tmdb": "533535"
+       "tmdb": "533535",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt16026746",
@@ -4235,7 +5085,11 @@
        "name": "X-Men '97",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
-       "tmdb": "138502"
+       "tmdb": "138502",
+       "tags": [
+        "mcu",
+        "animation"
+       ]
       },
       {
        "id": "tt13966962",
@@ -4243,7 +5097,10 @@
        "name": "Echo",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/vFyJH630cF68LohVYjQW49074Sy.jpg",
-       "tmdb": "122226"
+       "tmdb": "122226",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt10676048",
@@ -4251,7 +5108,10 @@
        "name": "The Marvels",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg",
-       "tmdb": "609681"
+       "tmdb": "609681",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt28477867",
@@ -4259,7 +5119,10 @@
        "name": "LEGO Marvel Avengers: Code Red",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/rDzig50dj7VpLwJ7SThbamETK1G.jpg",
-       "tmdb": "1154598"
+       "tmdb": "1154598",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt28663209",
@@ -4275,7 +5138,10 @@
        "name": "Secret Invasion",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/3rINdUPSy9AklJg74jWHOyUXuZd.jpg",
-       "tmdb": "114472"
+       "tmdb": "114472",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt25363184",
@@ -4291,7 +5157,10 @@
        "name": "Guardians of the Galaxy Vol. 3",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
-       "tmdb": "447365"
+       "tmdb": "447365",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt10954600",
@@ -4299,7 +5168,10 @@
        "name": "Ant-Man and the Wasp: Quantumania",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/qnqGbB22YJ7dSs4o6M7exTpNxPz.jpg",
-       "tmdb": "640146"
+       "tmdb": "640146",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt26315895",
@@ -4307,7 +5179,10 @@
        "name": "Marvel Studios Assembled: The Making of Black Panther: Wakanda Forever",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/mYTPKWO7a4mHKLyksJgB8CMq9Qx.jpg",
-       "tmdb": "1076032"
+       "tmdb": "1076032",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt13623136",
@@ -4315,7 +5190,10 @@
        "name": "The Guardians of the Galaxy Holiday Special",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/8dqXyslZ2hv49Oiob9UjlGSHSTR.jpg",
-       "tmdb": "774752"
+       "tmdb": "774752",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt9114286",
@@ -4323,7 +5201,10 @@
        "name": "Black Panther: Wakanda Forever",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
-       "tmdb": "505642"
+       "tmdb": "505642",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt22852968",
@@ -4331,7 +5212,10 @@
        "name": "Marvel Studios Assembled: The Making of She-Hulk: Attorney at Law",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/yhFN7yvskzm1Tsknkg46eQbQr9w.jpg",
-       "tmdb": "1026208"
+       "tmdb": "1026208",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt15318872",
@@ -4339,7 +5223,10 @@
        "name": "Werewolf by Night",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/mvIvNKRIJPPS7WSFarFhOAGIVnU.jpg",
-       "tmdb": "894205"
+       "tmdb": "894205",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt21862424",
@@ -4347,7 +5234,10 @@
        "name": "Marvel Studios Assembled: The Making of Thor: Love and Thunder",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/eb7GP3cttApzilOOM52L129Eaaj.jpg",
-       "tmdb": "1015595"
+       "tmdb": "1015595",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt10857160",
@@ -4355,7 +5245,10 @@
        "name": "She-Hulk: Attorney at Law",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/5xz2orV8f0usyrfGNshcoXHmiaV.jpg",
-       "tmdb": "92783"
+       "tmdb": "92783",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt21316848",
@@ -4363,7 +5256,11 @@
        "name": "Groot Takes a Bath",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/egBOw7NBMuM283SOltESKq0gJjJ.jpg",
-       "tmdb": "1010821"
+       "tmdb": "1010821",
+       "tags": [
+        "mcu",
+        "animation"
+       ]
       },
       {
        "id": "tt13820496",
@@ -4371,7 +5268,11 @@
        "name": "Groot's First Steps",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/1ifiV9ZJD4tC3tRYcnLIzH0meaB.jpg",
-       "tmdb": "1010818"
+       "tmdb": "1010818",
+       "tags": [
+        "mcu",
+        "animation"
+       ]
       },
       {
        "id": "tt14513152",
@@ -4379,7 +5280,11 @@
        "name": "The Little Guy",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/lPzcizL8PdS2U1q0rfhlVn00b9l.jpg",
-       "tmdb": "1010819"
+       "tmdb": "1010819",
+       "tags": [
+        "mcu",
+        "animation"
+       ]
       },
       {
        "id": "tt21316834",
@@ -4387,7 +5292,11 @@
        "name": "Groot's Pursuit",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/z5AQHYTTx7DzG9CRd01ny9DtqNE.jpg",
-       "tmdb": "1010820"
+       "tmdb": "1010820",
+       "tags": [
+        "mcu",
+        "animation"
+       ]
       },
       {
        "id": "tt13623148",
@@ -4395,7 +5304,11 @@
        "name": "I Am Groot",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/lYwFSsP4KsoRhOLhJvBFp3GEGEm.jpg",
-       "tmdb": "232125"
+       "tmdb": "232125",
+       "tags": [
+        "mcu",
+        "animation"
+       ]
       },
       {
        "id": "tt21351612",
@@ -4403,7 +5316,10 @@
        "name": "Marvel Studios Assembled: The Making of Ms. Marvel",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/6m0rG2bS90FOlUaxEq8ZPCTQMei.jpg",
-       "tmdb": "1001912"
+       "tmdb": "1001912",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt21316870",
@@ -4411,7 +5327,11 @@
        "name": "Magnum Opus",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/8p8JsKokKbuNCn9yBirAg1oEwGd.jpg",
-       "tmdb": "1010823"
+       "tmdb": "1010823",
+       "tags": [
+        "mcu",
+        "animation"
+       ]
       },
       {
        "id": "tt21098288",
@@ -4427,7 +5347,10 @@
        "name": "Thor: Love and Thunder",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
-       "tmdb": "616037"
+       "tmdb": "616037",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt10857164",
@@ -4435,7 +5358,10 @@
        "name": "Ms. Marvel",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/3HWWh92kZbD7odwJX7nKmXNZsYo.jpg",
-       "tmdb": "92782"
+       "tmdb": "92782",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt20782916",
@@ -4443,7 +5369,10 @@
        "name": "A Fan's Guide to Ms. Marvel",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/aolMYjs6QWonQFlnRGvU3o5zeQH.jpg",
-       "tmdb": "979160"
+       "tmdb": "979160",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt19766896",
@@ -4451,7 +5380,10 @@
        "name": "Marvel Studios Assembled: The Making of Moon Knight",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/dM6Y4uLzeF4rqbmKBzR0wAsTxby.jpg",
-       "tmdb": "964943"
+       "tmdb": "964943",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt9419884",
@@ -4459,7 +5391,10 @@
        "name": "Doctor Strange in the Multiverse of Madness",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/ddJcSKbcp4rKZTmuyWaMhuwcfMz.jpg",
-       "tmdb": "453395"
+       "tmdb": "453395",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt10234724",
@@ -4467,7 +5402,10 @@
        "name": "Moon Knight",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/9K3lbMf8TKvL9xGEbzi7TggWCNQ.jpg",
-       "tmdb": "92749"
+       "tmdb": "92749",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt15477324",
@@ -4491,7 +5429,10 @@
        "name": "Spider-Man: No Way Home",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
-       "tmdb": "634649"
+       "tmdb": "634649",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt10160804",
@@ -4499,7 +5440,10 @@
        "name": "Hawkeye",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/ct5pNE5dDHryHLDnxyZPYcqO1sz.jpg",
-       "tmdb": "88329"
+       "tmdb": "88329",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt9811316",
@@ -4507,7 +5451,10 @@
        "name": "Marvel's Hit-Monkey",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/y3ee57YPBhP8RHadX920UjURAWu.jpg",
-       "tmdb": "133903"
+       "tmdb": "133903",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt16045628",
@@ -4515,7 +5462,10 @@
        "name": "Marvel Studios' 2021 Disney+ Day Special",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/zh0B5DDP93e3zokktb5aHHfIh01.jpg",
-       "tmdb": "877188"
+       "tmdb": "877188",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt9032400",
@@ -4523,7 +5473,10 @@
        "name": "Eternals",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/lFByFSLV5WDJEv3KabbdAF959F2.jpg",
-       "tmdb": "524434"
+       "tmdb": "524434",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt9376612",
@@ -4531,7 +5484,10 @@
        "name": "Shang-Chi and the Legend of the Ten Rings",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/9f2Q0U3IOsLgrI2HkvldwSABZy5.jpg",
-       "tmdb": "566525"
+       "tmdb": "566525",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt10168312",
@@ -4539,7 +5495,11 @@
        "name": "What If...?",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg",
-       "tmdb": "91363"
+       "tmdb": "91363",
+       "tags": [
+        "mcu",
+        "animation"
+       ]
       },
       {
        "id": "tt10862280",
@@ -4547,7 +5507,10 @@
        "name": "Spidey and His Amazing Friends",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/etO5jDS5WgR4Y1lTyXhQcilJ6u2.jpg",
-       "tmdb": "127635"
+       "tmdb": "127635",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt3480822",
@@ -4555,7 +5518,10 @@
        "name": "Black Widow",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg",
-       "tmdb": "497698"
+       "tmdb": "497698",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt9140554",
@@ -4563,7 +5529,10 @@
        "name": "Loki",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg",
-       "tmdb": "84958"
+       "tmdb": "84958",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt9811118",
@@ -4571,7 +5540,10 @@
        "name": "Marvel's M.O.D.O.K.",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/2kXRzRjQZs9kAIm3K9MkQgsZR9C.jpg",
-       "tmdb": "111312"
+       "tmdb": "111312",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt9208876",
@@ -4579,7 +5551,10 @@
        "name": "The Falcon and the Winter Soldier",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/6kbAMLteGO8yyewYau6bJ683sw7.jpg",
-       "tmdb": "88396"
+       "tmdb": "88396",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt14094206",
@@ -4587,7 +5562,10 @@
        "name": "Marvel Studios Assembled",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/v2BHRwtQVkt5fssLdo5MpFgHJPY.jpg",
-       "tmdb": "118924"
+       "tmdb": "118924",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt9140560",
@@ -4595,7 +5573,10 @@
        "name": "WandaVision",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/ijWWwINc8h71NQ8j1LTJMFSj5wr.jpg",
-       "tmdb": "85271"
+       "tmdb": "85271",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt13650480",
@@ -4603,7 +5584,10 @@
        "name": "Marvel Studios Legends",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/EpDuYIK81YtCUT3gH2JDpyj8Qk.jpg",
-       "tmdb": "114695"
+       "tmdb": "114695",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt10266874",
@@ -4611,7 +5595,10 @@
        "name": "Helstrom",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/5QmcKsepYpO9XYsWNLwsiULoaAu.jpg",
-       "tmdb": "88987"
+       "tmdb": "88987",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt11295300",
@@ -4619,7 +5606,10 @@
        "name": "Marvel Studios: Expanding the Universe",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/dU7qXzttvOUvSlwwpEFQDsLnThK.jpg",
-       "tmdb": "647375"
+       "tmdb": "647375",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt11107678",
@@ -4627,7 +5617,10 @@
        "name": "Peter's To-Do List",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/9OOhqOVo37DQnQ6OUPz0Qlek5Uv.jpg",
-       "tmdb": "758025"
+       "tmdb": "758025",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt6320628",
@@ -4635,7 +5628,10 @@
        "name": "Spider-Man: Far From Home",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
-       "tmdb": "429617"
+       "tmdb": "429617",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt4154796",
@@ -4643,7 +5639,10 @@
        "name": "Avengers: Endgame",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/jtDv3lCnST0fZRvdYFwR5CVwK2x.jpg",
-       "tmdb": "299534"
+       "tmdb": "299534",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt4154664",
@@ -4651,7 +5650,10 @@
        "name": "Captain Marvel",
        "year": "2019",
        "poster": "https://image.tmdb.org/t/p/w342/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
-       "tmdb": "299537"
+       "tmdb": "299537",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt5095030",
@@ -4659,7 +5661,10 @@
        "name": "Ant-Man and the Wasp",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/cFQEO687n1K6umXbInzocxcnAQz.jpg",
-       "tmdb": "363088"
+       "tmdb": "363088",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt5614844",
@@ -4667,7 +5672,10 @@
        "name": "Marvel's Cloak & Dagger",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/pYnRJuBPEqZO1o4fcxBTgmKNHfy.jpg",
-       "tmdb": "66190"
+       "tmdb": "66190",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt4154756",
@@ -4675,7 +5683,10 @@
        "name": "Avengers: Infinity War",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
-       "tmdb": "299536"
+       "tmdb": "299536",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt8023090",
@@ -4683,7 +5694,10 @@
        "name": "Team Darryl",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/edroTAeTEM9ILyAnumA0ALxRSne.jpg",
-       "tmdb": "505945"
+       "tmdb": "505945",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt1825683",
@@ -4691,7 +5705,10 @@
        "name": "Black Panther",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
-       "tmdb": "284054"
+       "tmdb": "284054",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt1236246",
@@ -4699,7 +5716,10 @@
        "name": "Marvel's Runaways",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/hnHEhbzh0F7kN3Ah1lzRjtQuW16.jpg",
-       "tmdb": "67466"
+       "tmdb": "67466",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt5675620",
@@ -4707,7 +5727,10 @@
        "name": "Marvel's The Punisher",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/tM6xqRKXoloH9UchaJEyyRE9O1w.jpg",
-       "tmdb": "67178"
+       "tmdb": "67178",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt3501632",
@@ -4715,7 +5738,10 @@
        "name": "Thor: Ragnarok",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
-       "tmdb": "284053"
+       "tmdb": "284053",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt4396630",
@@ -4731,7 +5757,10 @@
        "name": "Marvel's Inhumans",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/zKfGip55oJ9tdzhyd9ayGyFFhuo.jpg",
-       "tmdb": "68716"
+       "tmdb": "68716",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt4230076",
@@ -4739,7 +5768,10 @@
        "name": "Marvel's The Defenders",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/49XzINhH4LFsgz7cx6TOPcHUJUL.jpg",
-       "tmdb": "62285"
+       "tmdb": "62285",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt2250912",
@@ -4747,7 +5779,10 @@
        "name": "Spider-Man: Homecoming",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
-       "tmdb": "315635"
+       "tmdb": "315635",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt3896198",
@@ -4755,7 +5790,10 @@
        "name": "Guardians of the Galaxy Vol. 2",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg",
-       "tmdb": "283995"
+       "tmdb": "283995",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt3322310",
@@ -4763,7 +5801,10 @@
        "name": "Marvel's Iron Fist",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/4l6KD9HhtD6nCDEfg10Lp6C6zah.jpg",
-       "tmdb": "62127"
+       "tmdb": "62127",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt6599818",
@@ -4771,7 +5812,10 @@
        "name": "Team Thor: Part 2",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/2jmP71A5Un0jDNqBesDPQSN8hjJ.jpg",
-       "tmdb": "441829"
+       "tmdb": "441829",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt5114356",
@@ -4787,7 +5831,10 @@
        "name": "Marvel's Agents of S.H.I.E.L.D.: Slingshot",
        "year": "2016",
        "poster": "https://image.tmdb.org/t/p/w342/bwJej7WdmGRMCMyuDlotwAqVX7S.jpg",
-       "tmdb": "69088"
+       "tmdb": "69088",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt1211837",
@@ -4795,7 +5842,10 @@
        "name": "Doctor Strange",
        "year": "2016",
        "poster": "https://image.tmdb.org/t/p/w342/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg",
-       "tmdb": "284052"
+       "tmdb": "284052",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt3322314",
@@ -4803,7 +5853,10 @@
        "name": "Marvel's Luke Cage",
        "year": "2016",
        "poster": "https://image.tmdb.org/t/p/w342/yzM1hMB3PUJqbISX0f421b3xOjB.jpg",
-       "tmdb": "62126"
+       "tmdb": "62126",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt6016776",
@@ -4811,7 +5864,10 @@
        "name": "Team Thor",
        "year": "2016",
        "poster": "https://image.tmdb.org/t/p/w342/hpHvGuMc46pppwpcW0Xk7eys3L4.jpg",
-       "tmdb": "413279"
+       "tmdb": "413279",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt3498820",
@@ -4819,7 +5875,10 @@
        "name": "Captain America: Civil War",
        "year": "2016",
        "poster": "https://image.tmdb.org/t/p/w342/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg",
-       "tmdb": "271110"
+       "tmdb": "271110",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt5281414",
@@ -4835,7 +5894,10 @@
        "name": "Marvel's Jessica Jones",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/oxnWofiE9fHOgUfs9NJa6nG6NTR.jpg",
-       "tmdb": "38472"
+       "tmdb": "38472",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt0478970",
@@ -4843,7 +5905,10 @@
        "name": "Ant-Man",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/rQRnQfUl3kfp78nCWq8Ks04vnq1.jpg",
-       "tmdb": "102899"
+       "tmdb": "102899",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt5296048",
@@ -4851,7 +5916,10 @@
        "name": "WHIH Newsfront",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/xfWnglt05W5jsr2GxVfDF65vcph.jpg",
-       "tmdb": "69069"
+       "tmdb": "69069",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt2395427",
@@ -4859,7 +5927,10 @@
        "name": "Avengers: Age of Ultron",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg",
-       "tmdb": "99861"
+       "tmdb": "99861",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt3322312",
@@ -4867,7 +5938,10 @@
        "name": "Marvel's Daredevil",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
-       "tmdb": "61889"
+       "tmdb": "61889",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt3475734",
@@ -4875,7 +5949,10 @@
        "name": "Marvel's Agent Carter",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/7kqIsjjDMZA5GRMH5VCdQYZJqc6.jpg",
-       "tmdb": "61550"
+       "tmdb": "61550",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt2015381",
@@ -4883,7 +5960,10 @@
        "name": "Guardians of the Galaxy",
        "year": "2014",
        "poster": "https://image.tmdb.org/t/p/w342/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
-       "tmdb": "118340"
+       "tmdb": "118340",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt1843866",
@@ -4891,7 +5971,10 @@
        "name": "Captain America: The Winter Soldier",
        "year": "2014",
        "poster": "https://image.tmdb.org/t/p/w342/tVFRpFw3xTedgPGqxW0AOI8Qhh0.jpg",
-       "tmdb": "100402"
+       "tmdb": "100402",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt3591568",
@@ -4899,7 +5982,10 @@
        "name": "Marvel Studios: Assembling a Universe",
        "year": "2014",
        "poster": "https://image.tmdb.org/t/p/w342/41Ke02UzYoPsiTc3YbomPGiQKMl.jpg",
-       "tmdb": "259910"
+       "tmdb": "259910",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt3438640",
@@ -4907,7 +5993,10 @@
        "name": "Marvel One-Shot: All Hail the King",
        "year": "2014",
        "poster": "https://image.tmdb.org/t/p/w342/y0QYZPWgeGKOvyrzi6Oz3aJPxJa.jpg",
-       "tmdb": "253980"
+       "tmdb": "253980",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt1981115",
@@ -4915,7 +6004,10 @@
        "name": "Thor: The Dark World",
        "year": "2013",
        "poster": "https://image.tmdb.org/t/p/w342/wp6OxE4poJ4G7c0U2ZIXasTSMR7.jpg",
-       "tmdb": "76338"
+       "tmdb": "76338",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt3067038",
@@ -4923,7 +6015,10 @@
        "name": "Marvel One-Shot: Agent Carter",
        "year": "2013",
        "poster": "https://image.tmdb.org/t/p/w342/4vFKKWPvCVDJTOWiwReBfpAMScP.jpg",
-       "tmdb": "211387"
+       "tmdb": "211387",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt2364582",
@@ -4931,7 +6026,10 @@
        "name": "Marvel's Agents of S.H.I.E.L.D.",
        "year": "2013",
        "poster": "https://image.tmdb.org/t/p/w342/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-       "tmdb": "1403"
+       "tmdb": "1403",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt1300854",
@@ -4939,7 +6037,10 @@
        "name": "Iron Man 3",
        "year": "2013",
        "poster": "https://image.tmdb.org/t/p/w342/qhPtAc1TKbMPqNvcdXSOn9Bn7hZ.jpg",
-       "tmdb": "68721"
+       "tmdb": "68721",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt2247732",
@@ -4947,7 +6048,10 @@
        "name": "Marvel One-Shot: Item 47",
        "year": "2012",
        "poster": "https://image.tmdb.org/t/p/w342/hnSxG8clwLuAXEkp9emc8HCUcHD.jpg",
-       "tmdb": "119569"
+       "tmdb": "119569",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt0848228",
@@ -4955,7 +6059,10 @@
        "name": "The Avengers",
        "year": "2012",
        "poster": "https://image.tmdb.org/t/p/w342/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
-       "tmdb": "24428"
+       "tmdb": "24428",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt2011109",
@@ -4963,7 +6070,10 @@
        "name": "Marvel One-Shot: A Funny Thing Happened on the Way to Thor's Hammer",
        "year": "2011",
        "poster": "https://image.tmdb.org/t/p/w342/njrOqsmFH4pxBrhcoslqLfw2OGk.jpg",
-       "tmdb": "76535"
+       "tmdb": "76535",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt2011118",
@@ -4971,7 +6081,10 @@
        "name": "Marvel One-Shot: The Consultant",
        "year": "2011",
        "poster": "https://image.tmdb.org/t/p/w342/xqNLXUUvBnfVk6m3QFGGU0Grgs7.jpg",
-       "tmdb": "76122"
+       "tmdb": "76122",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt0458339",
@@ -4979,7 +6092,10 @@
        "name": "Captain America: The First Avenger",
        "year": "2011",
        "poster": "https://image.tmdb.org/t/p/w342/vSNxAJTlD0r02V9sPYpOjqDZXUK.jpg",
-       "tmdb": "1771"
+       "tmdb": "1771",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt0800369",
@@ -4987,7 +6103,10 @@
        "name": "Thor",
        "year": "2011",
        "poster": "https://image.tmdb.org/t/p/w342/prSfAi1xGrhLQNxVSUFh61xQ4Qy.jpg",
-       "tmdb": "10195"
+       "tmdb": "10195",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt1228705",
@@ -4995,7 +6114,10 @@
        "name": "Iron Man 2",
        "year": "2010",
        "poster": "https://image.tmdb.org/t/p/w342/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg",
-       "tmdb": "10138"
+       "tmdb": "10138",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt0772145",
@@ -5003,7 +6125,10 @@
        "name": "Wolverine and the X-Men",
        "year": "2009",
        "poster": "https://image.tmdb.org/t/p/w342/oSeJ2nESB77iC6SLo4qcqoadjdt.jpg",
-       "tmdb": "6549"
+       "tmdb": "6549",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0450314",
@@ -5019,7 +6144,10 @@
        "name": "Next Avengers: Heroes of Tomorrow",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/1y4J9HZJoTIMdt77wCq80uXaQJ.jpg",
-       "tmdb": "14613"
+       "tmdb": "14613",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0800080",
@@ -5027,7 +6155,10 @@
        "name": "The Incredible Hulk",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/gKzYx79y0AQTL4UAk1cBQJ3nvrm.jpg",
-       "tmdb": "1724"
+       "tmdb": "1724",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt0371746",
@@ -5035,7 +6166,10 @@
        "name": "Iron Man",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
-       "tmdb": "1726"
+       "tmdb": "1726",
+       "tags": [
+        "mcu"
+       ]
       },
       {
        "id": "tt0910865",
@@ -5043,7 +6177,10 @@
        "name": "Doctor Strange",
        "year": "2007",
        "poster": "https://image.tmdb.org/t/p/w342/7ygcpWXsWmEc83j7zE8P0lvC0Q.jpg",
-       "tmdb": "14830"
+       "tmdb": "14830",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0486576",
@@ -5067,7 +6204,10 @@
        "name": "The Invincible Iron Man",
        "year": "2007",
        "poster": "https://image.tmdb.org/t/p/w342/eebNTSRa5Hh5skPKGdGJIJpo9Ls.jpg",
-       "tmdb": "13647"
+       "tmdb": "13647",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0259324",
@@ -5083,7 +6223,10 @@
        "name": "Ultimate Avengers 2",
        "year": "2006",
        "poster": "https://image.tmdb.org/t/p/w342/sMFyYZR9krqcQC99G6jnb10Zv4P.jpg",
-       "tmdb": "14611"
+       "tmdb": "14611",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0283203",
@@ -5099,7 +6242,10 @@
        "name": "X-Men: Evolution",
        "year": "2000",
        "poster": "https://image.tmdb.org/t/p/w342/At5aZIKkN8zHTAXOnQR9D3b7usW.jpg",
-       "tmdb": "668"
+       "tmdb": "668",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0207120",
@@ -5107,7 +6253,10 @@
        "name": "Spider-Man Unlimited",
        "year": "1999",
        "poster": "https://image.tmdb.org/t/p/w342/hNdf1WmFil9IV7rabBe6PnAmYnI.jpg",
-       "tmdb": "10079"
+       "tmdb": "10079",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0203268",
@@ -5115,7 +6264,10 @@
        "name": "Silver Surfer",
        "year": "1998",
        "poster": "https://image.tmdb.org/t/p/w342/18rhdRDXAAHUTsbWtIQn2ZkjRL9.jpg",
-       "tmdb": "1130"
+       "tmdb": "1130",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0115215",
@@ -5123,7 +6275,10 @@
        "name": "The Incredible Hulk",
        "year": "1996",
        "poster": "https://image.tmdb.org/t/p/w342/wa60s9NSvrH87NFCArmobnIyNnh.jpg",
-       "tmdb": "6332"
+       "tmdb": "6332",
+       "tags": [
+        "animation"
+       ]
       }
      ]
     },
@@ -5131,6 +6286,12 @@
      "id": "starwars",
      "name": "Star Wars",
      "color": "#FFE81F",
+     "groups": [
+      {
+       "id": "animation",
+       "name": "Animation"
+      }
+     ],
      "titles": [
       {
        "id": "tt43679852",
@@ -5138,7 +6299,10 @@
        "name": "LEGO Star Wars: The Mandalorian",
        "year": "2026",
        "poster": "https://image.tmdb.org/t/p/w342/x3HEvYXWOW6WHqsHmg2MUVy3SLm.jpg",
-       "tmdb": "1731694"
+       "tmdb": "1731694",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt43337681",
@@ -5146,7 +6310,10 @@
        "name": "Star Wars: Visions Presents - The Ninth Jedi",
        "year": "2026",
        "poster": "https://image.tmdb.org/t/p/w342/AthqHRKJFOIbLa459I3D5yHdrQL.jpg",
-       "tmdb": "289324"
+       "tmdb": "289324",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt30825738",
@@ -5170,7 +6337,10 @@
        "name": "Star Wars: Maul - Shadow Lord",
        "year": "2026",
        "poster": "https://image.tmdb.org/t/p/w342/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
-       "tmdb": "289219"
+       "tmdb": "289219",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt36414431",
@@ -5178,7 +6348,10 @@
        "name": "Star Wars: Tales of the Underworld",
        "year": "2025",
        "poster": "https://image.tmdb.org/t/p/w342/qv1hagzp08cDJF6C04LyJVhcI1x.jpg",
-       "tmdb": "288055"
+       "tmdb": "288055",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt20600980",
@@ -5194,7 +6367,10 @@
        "name": "LEGO Star Wars: Rebuild the Galaxy",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/2X2gEEAOFfGlRSmv5QvFU8h5xrV.jpg",
-       "tmdb": "253760"
+       "tmdb": "253760",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt12262202",
@@ -5210,7 +6386,10 @@
        "name": "Star Wars: Tales of the Empire",
        "year": "2024",
        "poster": "https://image.tmdb.org/t/p/w342/qA28nLteurVboSSzltuyYt1lvlC.jpg",
-       "tmdb": "251091"
+       "tmdb": "251091",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt13622776",
@@ -5226,7 +6405,10 @@
        "name": "Star Wars: Young Jedi Adventures",
        "year": "2023",
        "poster": "https://image.tmdb.org/t/p/w342/bC2Mix1WPUiY6pldh77oiFl1MvI.jpg",
-       "tmdb": "202998"
+       "tmdb": "202998",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt20723374",
@@ -5234,7 +6416,10 @@
        "name": "Star Wars: Tales of the Jedi",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/k3nWQb0E8mLSR8acSkJP78VRVMv.jpg",
-       "tmdb": "203085"
+       "tmdb": "203085",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt9253284",
@@ -5266,7 +6451,10 @@
        "name": "LEGO Star Wars Summer Vacation",
        "year": "2022",
        "poster": "https://image.tmdb.org/t/p/w342/vUL5UXsL5DaYgGVd2GSeqIvMKfK.jpg",
-       "tmdb": "980804"
+       "tmdb": "980804",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt8466564",
@@ -5306,7 +6494,10 @@
        "name": "LEGO Star Wars Terrifying Tales",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/fYiaBZDjyXjvlY6EDZMAxIhBO1I.jpg",
-       "tmdb": "857702"
+       "tmdb": "857702",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt15516280",
@@ -5322,7 +6513,10 @@
        "name": "Star Wars: Visions",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/lG9ltUP4FwvsQBcwOJYceDbP48E.jpg",
-       "tmdb": "114478"
+       "tmdb": "114478",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt12708542",
@@ -5330,7 +6524,10 @@
        "name": "Star Wars: The Bad Batch",
        "year": "2021",
        "poster": "https://image.tmdb.org/t/p/w342/5mHus672nuinyaE0FtqvD0AddcY.jpg",
-       "tmdb": "105971"
+       "tmdb": "105971",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt14578676",
@@ -5354,7 +6551,10 @@
        "name": "LEGO Star Wars Holiday Special",
        "year": "2020",
        "poster": "https://image.tmdb.org/t/p/w342/zyzJSI7UZZzz5Toj10rYGF5689z.jpg",
-       "tmdb": "732670"
+       "tmdb": "732670",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt12162902",
@@ -5386,7 +6586,10 @@
        "name": "LEGO Star Wars: All-Stars",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/97dmYYI7TACdGvXWQd2sIyMq16n.jpg",
-       "tmdb": "83558"
+       "tmdb": "83558",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt8336340",
@@ -5394,7 +6597,10 @@
        "name": "Star Wars Resistance",
        "year": "2018",
        "poster": "https://image.tmdb.org/t/p/w342/xul6SG8rar3wkHPY8YusUtxcdlZ.jpg",
-       "tmdb": "79093"
+       "tmdb": "79093",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt3778644",
@@ -5426,7 +6632,10 @@
        "name": "Star Wars Blips",
        "year": "2017",
        "poster": "https://image.tmdb.org/t/p/w342/p968BsTmdTbYGIuSJkPaeA8fved.jpg",
-       "tmdb": "105106"
+       "tmdb": "105106",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt3748528",
@@ -5442,7 +6651,10 @@
        "name": "LEGO Star Wars: The Freemaker Adventures",
        "year": "2016",
        "poster": "https://image.tmdb.org/t/p/w342/wmY6axhpMkZJhLY4agymOlZ2xHx.jpg",
-       "tmdb": "66837"
+       "tmdb": "66837",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt8352934",
@@ -5450,7 +6662,10 @@
        "name": "LEGO Star Wars: The Resistance Rises",
        "year": "2016",
        "poster": "https://image.tmdb.org/t/p/w342/xvYc0QGTC1rMuONe6PWBnWnpfuv.jpg",
-       "tmdb": "66487"
+       "tmdb": "66487",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2488496",
@@ -5466,7 +6681,10 @@
        "name": "LEGO Star Wars: Droid Tales",
        "year": "2015",
        "poster": "https://image.tmdb.org/t/p/w342/kwEtB6toMVkmoqEoG5Hl63KP9NL.jpg",
-       "tmdb": "63722"
+       "tmdb": "63722",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2930604",
@@ -5474,7 +6692,10 @@
        "name": "Star Wars Rebels",
        "year": "2014",
        "poster": "https://image.tmdb.org/t/p/w342/eLrScs6Bs26JMcS8hiZhf7YRROr.jpg",
-       "tmdb": "60554"
+       "tmdb": "60554",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2402600",
@@ -5482,7 +6703,10 @@
        "name": "LEGO Star Wars: The Empire Strikes Out",
        "year": "2012",
        "poster": "https://image.tmdb.org/t/p/w342/doeFDzZ0Ywp8YUoRaEhVE5UBqka.jpg",
-       "tmdb": "136406"
+       "tmdb": "136406",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt2005268",
@@ -5490,7 +6714,10 @@
        "name": "LEGO Star Wars: The Padawan Menace",
        "year": "2011",
        "poster": "https://image.tmdb.org/t/p/w342/bCDa9memHnETeRrJWXzImTZdMal.jpg",
-       "tmdb": "70608"
+       "tmdb": "70608",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1691338",
@@ -5498,7 +6725,10 @@
        "name": "Robot Chicken: Star Wars Episode III",
        "year": "2010",
        "poster": "https://image.tmdb.org/t/p/w342/5IpvNnjsJVCm6HZiYrk9bJxfGYD.jpg",
-       "tmdb": "51888"
+       "tmdb": "51888",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1808255",
@@ -5506,7 +6736,10 @@
        "name": "LEGO Star Wars: Bombad Bounty",
        "year": "2010",
        "poster": "https://image.tmdb.org/t/p/w342/r088BCbLiSxccTHXxIZBZ5olRvM.jpg",
-       "tmdb": "79158"
+       "tmdb": "79158",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1334272",
@@ -5514,7 +6747,10 @@
        "name": "Robot Chicken: Star Wars Episode II",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/dM5eCurdAXYd3Dvyr9Rz2YSj3rJ.jpg",
-       "tmdb": "42982"
+       "tmdb": "42982",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0458290",
@@ -5522,7 +6758,10 @@
        "name": "Star Wars: The Clone Wars",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/e1nWfnnCVqxS2LeTO3dwGyAsG2V.jpg",
-       "tmdb": "4194"
+       "tmdb": "4194",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1185834",
@@ -5530,7 +6769,10 @@
        "name": "Star Wars: The Clone Wars",
        "year": "2008",
        "poster": "https://image.tmdb.org/t/p/w342/iJQfixW818LUdSXlCDL3JZm0S0g.jpg",
-       "tmdb": "12180"
+       "tmdb": "12180",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1020990",
@@ -5538,7 +6780,10 @@
        "name": "Robot Chicken: Star Wars",
        "year": "2007",
        "poster": "https://image.tmdb.org/t/p/w342/xqMtRaf9n3ohdWhqHPEwmwklWW6.jpg",
-       "tmdb": "42979"
+       "tmdb": "42979",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt1039988",
@@ -5554,7 +6799,10 @@
        "name": "LEGO Star Wars: Revenge of The Brick",
        "year": "2005",
        "poster": "https://image.tmdb.org/t/p/w342/wi5IvbMRGD8fko6vv58NrogdJdd.jpg",
-       "tmdb": "81234"
+       "tmdb": "81234",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0121766",
@@ -5578,7 +6826,10 @@
        "name": "Star Wars: Clone Wars",
        "year": "2003",
        "poster": "https://image.tmdb.org/t/p/w342/jKfAVTGkf9qpGPZ4E1pNKdW6vra.jpg",
-       "tmdb": "3122"
+       "tmdb": "3122",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0121765",
@@ -5610,7 +6861,10 @@
        "name": "Ewoks",
        "year": "1985",
        "poster": "https://image.tmdb.org/t/p/w342/gu7FdhTki8lBiGceQlsL7H6o3ky.jpg",
-       "tmdb": "3478"
+       "tmdb": "3478",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0088510",
@@ -5618,7 +6872,10 @@
        "name": "Star Wars: Droids",
        "year": "1985",
        "poster": "https://image.tmdb.org/t/p/w342/AuGZbGeOQt30zsoTUSPlS8kMe1v.jpg",
-       "tmdb": "25"
+       "tmdb": "25",
+       "tags": [
+        "animation"
+       ]
       },
       {
        "id": "tt0087225",
