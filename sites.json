@@ -131,6 +131,41 @@
     "index": false
    },
    {
+    "name": "ArrowTV",
+    "url": "https://arrowtv.net/",
+    "mirrors": [
+     "https://neonflix.st/",
+     "https://www.cinezo.st/",
+     "https://www.flikhub.net/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "SweetFox",
+    "url": "https://sweetfox.app/",
+    "mirrors": [
+     "http://sweetfox.st",
+     "https://67movies.st/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Rive",
     "url": "https://www.rivestream.app/",
     "mirrors": [
@@ -181,22 +216,6 @@
     "index": false
    },
    {
-    "name": "SweetFox",
-    "url": "https://sweetfox.app/",
-    "mirrors": [
-     "https://67movies.st/"
-    ],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "CineLite",
     "url": "https://cinelite.xyz/",
     "mirrors": [],
@@ -213,23 +232,6 @@
     "name": "dulo",
     "url": "https://dulo.mov/",
     "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "ArrowTV",
-    "url": "https://arrowtv.net/",
-    "mirrors": [
-     "https://neonflix.st/",
-     "https://www.cinezo.st/",
-     "https://www.flikhub.net/"
-    ],
     "tags": [
      "4K",
      "External Subs",
@@ -261,7 +263,7 @@
     "url": "https://spacedom.live/",
     "mirrors": [],
     "tags": [
-     "1080p",
+     "4K",
      "Dual Audio",
      "Popup + Redirect Free"
     ],
@@ -310,18 +312,6 @@
      "4K",
      "Dual Audio",
      "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "Movie Night",
-    "url": "https://movienig.ht/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -378,7 +368,7 @@
     "url": "https://basementx.lol/",
     "mirrors": [],
     "tags": [
-     "1080p",
+     "4K",
      "Dual Audio",
      "External Subs"
     ],
@@ -759,19 +749,8 @@
     ],
     "tags": [
      "4K",
+     "Dual Audio",
      "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "MovieBite",
-    "url": "https://moviebite.org/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -795,6 +774,18 @@
     "index": false
    },
    {
+    "name": "Movie Night",
+    "url": "https://movienig.ht/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Koddo",
     "url": "https://koddo.to/",
     "mirrors": [],
@@ -802,6 +793,18 @@
      "4K",
      "Dual Audio",
      "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "MovieBite",
+    "url": "https://moviebite.org/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -3122,6 +3125,41 @@
     "index": false
    },
    {
+    "name": "ArrowTV",
+    "url": "https://arrowtv.net/",
+    "mirrors": [
+     "https://neonflix.st/",
+     "https://www.cinezo.st/",
+     "https://www.flikhub.net/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "SweetFox",
+    "url": "https://sweetfox.app/",
+    "mirrors": [
+     "http://sweetfox.st",
+     "https://67movies.st/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Rive",
     "url": "https://www.rivestream.app/",
     "mirrors": [
@@ -3172,22 +3210,6 @@
     "index": false
    },
    {
-    "name": "SweetFox",
-    "url": "https://sweetfox.app/",
-    "mirrors": [
-     "https://67movies.st/"
-    ],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "CineLite",
     "url": "https://cinelite.xyz/",
     "mirrors": [],
@@ -3204,23 +3226,6 @@
     "name": "dulo",
     "url": "https://dulo.mov/",
     "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "ArrowTV",
-    "url": "https://arrowtv.net/",
-    "mirrors": [
-     "https://neonflix.st/",
-     "https://www.cinezo.st/",
-     "https://www.flikhub.net/"
-    ],
     "tags": [
      "4K",
      "External Subs",
@@ -3252,7 +3257,7 @@
     "url": "https://spacedom.live/",
     "mirrors": [],
     "tags": [
-     "1080p",
+     "4K",
      "Dual Audio",
      "Popup + Redirect Free"
     ],
@@ -3301,18 +3306,6 @@
      "4K",
      "Dual Audio",
      "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "Movie Night",
-    "url": "https://movienig.ht/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -3369,7 +3362,7 @@
     "url": "https://basementx.lol/",
     "mirrors": [],
     "tags": [
-     "1080p",
+     "4K",
      "Dual Audio",
      "External Subs"
     ],
@@ -3653,19 +3646,8 @@
     ],
     "tags": [
      "4K",
+     "Dual Audio",
      "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "MovieBite",
-    "url": "https://moviebite.org/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -3689,6 +3671,18 @@
     "index": false
    },
    {
+    "name": "Movie Night",
+    "url": "https://movienig.ht/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Koddo",
     "url": "https://koddo.to/",
     "mirrors": [],
@@ -3696,6 +3690,18 @@
      "4K",
      "Dual Audio",
      "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "MovieBite",
+    "url": "https://moviebite.org/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -5632,7 +5638,7 @@
    },
    {
     "name": "DaddyLive TV",
-    "url": "https://dlive.sx/24-7-channels.php",
+    "url": "https://thedaddy.li/",
     "mirrors": [
      "https://daddylive.pk/"
     ],
@@ -5698,7 +5704,7 @@
    },
    {
     "name": "StreamCorner",
-    "url": "https://streamcorner.st/",
+    "url": "https://strmcrnr.st/",
     "mirrors": [
      "https://streamcorner.foo/",
      "https://streamcorner.cloud/",
@@ -6460,6 +6466,17 @@
     "index": false
    },
    {
+    "name": "FreeF1",
+    "url": "https://freef1-live.vercel.app/",
+    "mirrors": [],
+    "tags": [
+     "Motorsports"
+    ],
+    "group": "Live Sports",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "F1 Live",
     "url": "https://flive.dpdns.org/",
     "mirrors": [],
@@ -6524,6 +6541,19 @@
      "Sports Replays",
      "Download",
      "Torrent"
+    ],
+    "group": "Sports Replays",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Adhaf",
+    "url": "https://ahdaf-kooora.net/",
+    "mirrors": [],
+    "tags": [
+     "Sports Replays",
+     "Download",
+     "Use"
     ],
     "group": "Sports Replays",
     "pick": false,
@@ -6964,22 +6994,6 @@
     "index": false
    },
    {
-    "name": "Miruro",
-    "url": "https://miruro.cx",
-    "mirrors": [
-     "https://anivault.tv/"
-    ],
-    "tags": [
-     "Hard Subs",
-     "Soft Subs",
-     "Dub",
-     "Auto-Next"
-    ],
-    "group": "Anime Streaming",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Re:ANIME",
     "url": "https://reanime.cz/",
     "mirrors": [
@@ -6988,6 +7002,22 @@
     ],
     "tags": [
      "Sub",
+     "Dub",
+     "Auto-Next"
+    ],
+    "group": "Anime Streaming",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Miruro",
+    "url": "https://miruro.cx",
+    "mirrors": [
+     "https://anivault.tv/"
+    ],
+    "tags": [
+     "Hard Subs",
+     "Soft Subs",
      "Dub",
      "Auto-Next"
     ],
@@ -7150,18 +7180,6 @@
     "index": false
    },
    {
-    "name": "Lunar",
-    "url": "https://lunarx.to/",
-    "mirrors": [],
-    "tags": [
-     "Sub",
-     "Dub"
-    ],
-    "group": "Anime Streaming",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "JustAnime",
     "url": "https://justanime.to/",
     "mirrors": [],
@@ -7289,6 +7307,18 @@
     "mirrors": [],
     "tags": [
      "Sub"
+    ],
+    "group": "Anime Streaming",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Lunar",
+    "url": "https://lunarx.to/",
+    "mirrors": [],
+    "tags": [
+     "Sub",
+     "Dub"
     ],
     "group": "Anime Streaming",
     "pick": false,
@@ -7884,7 +7914,7 @@
    },
    {
     "name": "DaddyLive TV",
-    "url": "https://dlive.sx/24-7-channels.php",
+    "url": "https://thedaddy.li/",
     "mirrors": [
      "https://daddylive.pk/"
     ],
@@ -8321,6 +8351,7 @@
     "mirrors": [
      "https://www.viddsee.com/",
      "https://www.shortverse.com/explore",
+     "https://vflix.pages.dev/",
      "https://www.shortoftheweek.com/",
      "https://web.watchargo.com/"
     ],
@@ -8930,16 +8961,12 @@
     "index": false
    },
    {
-    "name": "PlayTorrio",
-    "url": "https://playtorrio.xyz/",
-    "mirrors": [
-     "https://playtorrio.pages.dev/"
-    ],
+    "name": "VyseTV",
+    "url": "https://vysetv.cc/",
+    "mirrors": [],
     "tags": [
      "All Platforms",
-     "Anime",
-     "Live TV",
-     "Use PlayTorrioHTTP Plugin"
+     "Use HTTP Plugin"
     ],
     "group": "Arabic",
     "pick": false,
@@ -11148,14 +11175,12 @@
     "index": false
    },
    {
-    "name": "PlayTorrio",
-    "url": "https://playtorrio.xyz/",
-    "mirrors": [
-     "https://playtorrio.pages.dev/"
-    ],
+    "name": "VyseTV",
+    "url": "https://vysetv.cc/",
+    "mirrors": [],
     "tags": [
      "All Platforms",
-     "Use PlayTorrioHTTP Plugin"
+     "Use HTTP Plugin"
     ],
     "group": "Indian Languages",
     "pick": false,
@@ -14054,14 +14079,12 @@
     "index": false
    },
    {
-    "name": "PlayTorrio",
-    "url": "https://playtorrio.xyz/",
-    "mirrors": [
-     "https://playtorrio.pages.dev/"
-    ],
+    "name": "VyseTV",
+    "url": "https://vysetv.cc/",
+    "mirrors": [],
     "tags": [
      "All Platforms",
-     "Use PlayTorrioHTTP Plugin"
+     "Use HTTP Plugin"
     ],
     "group": "Spanish",
     "pick": false,
