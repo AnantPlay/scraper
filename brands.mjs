@@ -79,7 +79,7 @@ export function finish(brand, titles) {
 
 /** A discover query's results, most popular first, PAGES pages at most. */
 export async function* discover(kind, query, pages = PAGES) {
-  const params = { sort_by: 'popularity.desc', ...query, include_adult: 'false', 'vote_count.gte': kind === 'tv' ? '10' : '30' };
+  const params = { sort_by: 'popularity.desc', include_adult: 'false', 'vote_count.gte': kind === 'tv' ? '10' : '30', ...query };
   for (let page = 1; page <= pages; page++) {
     const d = await tmdb(`/discover/${kind}`, { ...params, page: String(page) });
     yield* d.results;

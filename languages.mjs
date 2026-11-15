@@ -1,4 +1,4 @@
-// Builds languages/<Name>.json: for each language AnantPlay lists on its Movies and TV tabs, TMDB's trending titles (popularity now)
+// Builds languages/<Name>.json: for each language AnantPlay lists on its Movies and TV tabs, TMDB's trending titles (popularity now),
 // and its popular ones (most votes), movies and series. The app shows them as rows above the language's full list.
 // Usage: TMDB_KEY=<v3 key or v4 token> node languages.mjs [Name ...]   (every language without names; one file each, the old one stays on a failure)
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
@@ -43,7 +43,7 @@ async function build(code, old, today) {
       if (titles.length >= TOP) break;
       let imdb = known.get(type + item.id);
       if (!imdb) imdb = (await tmdb(`/${kind}/${item.id}/external_ids`)).imdb_id || '';
-      const t = toTitle(kind, item, imdb, today);
+      const t = item.poster_path ? toTitle(kind, item, imdb, today) : null;   // a row of posters: no title without one
       if (t) titles.push(t);
     }
     return titles;
@@ -52,6 +52,10 @@ async function build(code, old, today) {
   for (const [kind, type] of [['movie', 'movie'], ['tv', 'series']]) {
     const from = kind === 'movie' ? 'primary_release_date.gte' : 'first_air_date.gte';
     out[type] = { trending: [], popular: row(await collect(kind, type, { sort_by: 'vote_count.desc' })) };
+    // New: by release date, whatever its popularity (few have votes yet: the vote floor is low)
+    const date = kind === 'movie' ? 'primary_release_date' : 'first_air_date';
+    const fresh = await collect(kind, type, { sort_by: date + '.desc', [date + '.lte']: today, 'vote_count.gte': kind === 'movie' ? '5' : '2' });
+    out[type].new = row(fresh.sort((a, b) => b.date.localeCompare(a.date)));
     for (const months of RECENT[type]) {
       out[type].trending = row(await collect(kind, type, { sort_by: 'popularity.desc', [from]: since(today, months) }));
       if (out[type].trending.length) break;
