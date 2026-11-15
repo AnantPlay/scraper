@@ -26,7 +26,7 @@ TMDB_KEY=... node brands.mjs           # writes collections.json
 
 ## Languages
 
-`languages.mjs` builds `languages/<Name>.json`, one file per language on AnantPlay's Movies and TV tabs (Hindi, Tamil, ...): TMDB's new titles (every release of the last year, newest first, whatever its votes) and popular ones (the 100 most voted for), movies and series. Nothing is hidden: the only titles left out are films under an hour and titles TMDB has no IMDb id for. The app shows them as the New and Popular rows above a language's full list (15 in a row, More opens all of it). A language that fails keeps its old file. A GitHub Action runs it weekly with the same `TMDB_KEY` secret; the first run takes about half an hour.
+`languages.mjs` builds `languages/<Name>.json`, one file per language on AnantPlay's Movies and TV tabs (Hindi, Tamil, ...): TMDB's new titles (every release of the last year, newest first, whatever its votes) and popular ones (the 100 most voted for), movies and series. Nothing is hidden: the only titles left out are films under an hour and titles TMDB has no IMDb id for. The app shows them as the New and Popular rows above a language's full list (15 in a row, More opens all of it). A language that fails keeps its old file. A GitHub Action runs it daily (about 20 minutes) with the same `TMDB_KEY` secret.
 
 ```sh
 TMDB_KEY=... node languages.mjs          # every language
