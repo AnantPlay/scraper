@@ -1,5 +1,5 @@
-// Builds languages/<Name>.json: for each language AnantPlay lists on its Movies and TV tabs, TMDB's trending titles (popularity now),
-// and its popular ones (most votes), movies and series. The app shows them as rows above the language's full list.
+// Builds languages/<Name>.json: for each language AnantPlay lists on its Movies and TV tabs, TMDB's new titles (newest release first, whatever
+// their popularity) and its popular ones (most votes), movies and series. The app shows them as rows above the language's full list.
 // Usage: TMDB_KEY=<v3 key or v4 token> node languages.mjs [Name ...]   (every language without names; one file each, the old one stays on a failure)
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { discover, tmdb, toTitle } from './brands.mjs';
@@ -22,17 +22,6 @@ export function row(titles) {
   return titles.length < MIN_ROW ? [] : titles.map(({ date, ...t }) => t);
 }
 
-/** The date `months` before `today` ("2026-11-15"), for TMDB's date filters. */
-export function since(today, months) {
-  const d = new Date(today + 'T00:00:00Z');
-  d.setUTCMonth(d.getUTCMonth() - months);
-  return d.toISOString().slice(0, 10);
-}
-
-// Trending is what TMDB's popularity ranks first among recent releases (it ranks old classics high too): the movies of the last 18 months,
-// the series that began in the last 3 years. A language with too few of them there looks further back, once.
-const RECENT = { movie: [18, 60], series: [36, 120] };
-
 async function build(code, old, today) {
   // IMDb ids found before are kept: one TMDB call per new title only
   const known = new Map();
@@ -50,16 +39,11 @@ async function build(code, old, today) {
   }
   const out = {};
   for (const [kind, type] of [['movie', 'movie'], ['tv', 'series']]) {
-    const from = kind === 'movie' ? 'primary_release_date.gte' : 'first_air_date.gte';
-    out[type] = { trending: [], popular: row(await collect(kind, type, { sort_by: 'vote_count.desc' })) };
+    out[type] = { popular: row(await collect(kind, type, { sort_by: 'vote_count.desc' })) };
     // New: by release date, whatever its popularity (few have votes yet: the vote floor is low)
     const date = kind === 'movie' ? 'primary_release_date' : 'first_air_date';
     const fresh = await collect(kind, type, { sort_by: date + '.desc', [date + '.lte']: today, 'vote_count.gte': kind === 'movie' ? '5' : '2' });
     out[type].new = row(fresh.sort((a, b) => b.date.localeCompare(a.date)));
-    for (const months of RECENT[type]) {
-      out[type].trending = row(await collect(kind, type, { sort_by: 'popularity.desc', [from]: since(today, months) }));
-      if (out[type].trending.length) break;
-    }
   }
   return out;
 }

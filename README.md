@@ -17,7 +17,7 @@ Node 20 or newer, no dependencies. The site lists belong to their maintainers; t
 
 ## Brands
 
-`brands.mjs` builds [`collections.json`](collections.json): the brand lists AnantPlay shows, from [TMDB](https://www.themoviedb.org). `brands.json` holds them by list: a streaming service's brands (`dnp`: Disney+ > Disney, Pixar, Marvel, Star Wars, National Geographic), the film studios (`studios`: DreamWorks, Paramount, Universal...) and the children's channels (`kids`). Each brand names the TMDB companies or networks that make it up, and may have `groups`: its own queries narrowed by more TMDB parameters, a `match` on the title's name, a `kind` or `from` / `to` years (Marvel: MCU, The Infinity Saga, Avengers, X-Men...). The app shows a brand's page as rows: trending, popular and top rated (from TMDB's popularity, vote count and rating, kept per title), one row per group, animation and documentaries, then all movies and series. A GitHub Action runs it weekly with the `TMDB_KEY` repository secret; a brand that comes back with fewer than 10 titles fails the run and the old file stays.
+`brands.mjs` builds [`collections.json`](collections.json): the brand lists AnantPlay shows, from [TMDB](https://www.themoviedb.org). `brands.json` holds them by list: a streaming service's brands (`dnp`: Disney+ > Disney, Pixar, Marvel, Star Wars, National Geographic), the film studios (`studios`: DreamWorks, Paramount, Universal...) and the children's channels (`kids`). Each brand names the TMDB companies or networks that make it up, and may have `groups`: its own queries narrowed by more TMDB parameters, a `match` on the title's name, a `kind` or `from` / `to` years (Marvel: MCU, The Infinity Saga, Avengers, X-Men...). The app shows a brand's page as rows: new, popular and top rated (from the release date, vote count and rating, kept per title), one row per group, animation and documentaries, then all movies and series. A GitHub Action runs it weekly with the `TMDB_KEY` repository secret; a brand that comes back with fewer than 10 titles fails the run and the old file stays.
 
 ```sh
 TMDB_KEY=... node brands.mjs --check   # the names behind the ids in brands.json
@@ -26,7 +26,7 @@ TMDB_KEY=... node brands.mjs           # writes collections.json
 
 ## Languages
 
-`languages.mjs` builds `languages/<Name>.json`, one file per language on AnantPlay's Movies and TV tabs (Hindi, Tamil, ...): TMDB's trending titles (recent releases, by popularity now), popular ones (most votes) and new ones (newest release date first, whatever their popularity), 20 of each, movies and series. The app shows them as the Trending, Popular and New rows above a language's full list. A language that has fewer than 5 titles for a row gets no row, and one that fails keeps its old file. A GitHub Action runs it weekly with the same `TMDB_KEY` secret; the first run takes about half an hour.
+`languages.mjs` builds `languages/<Name>.json`, one file per language on AnantPlay's Movies and TV tabs (Hindi, Tamil, ...): TMDB's new titles (newest release date first, whatever their popularity) and popular ones (most votes), 20 of each, movies and series. The app shows them as the New and Popular rows above a language's full list. A language that has fewer than 5 titles for a row gets no row, and one that fails keeps its old file. A GitHub Action runs it weekly with the same `TMDB_KEY` secret; the first run takes about half an hour.
 
 ```sh
 TMDB_KEY=... node languages.mjs          # every language
