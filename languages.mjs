@@ -22,23 +22,39 @@ export function row(titles) {
   return titles.length < MIN_ROW ? [] : titles.map(({ date, ...t }) => t);
 }
 
+/** The date `months` before `today` ("2026-11-15"), for TMDB's date filters. */
+export function since(today, months) {
+  const d = new Date(today + 'T00:00:00Z');
+  d.setUTCMonth(d.getUTCMonth() - months);
+  return d.toISOString().slice(0, 10);
+}
+
+// Trending is what TMDB's popularity ranks first among recent releases (it ranks old classics high too): the movies of the last 18 months,
+// the series that began in the last 3 years. A language with too few of them there looks further back, once.
+const RECENT = { movie: [18, 60], series: [36, 120] };
+
 async function build(code, old, today) {
   // IMDb ids found before are kept: one TMDB call per new title only
   const known = new Map();
   for (const rows of Object.values(old || {})) for (const list of Object.values(rows)) for (const t of list) known.set(t.type + t.tmdb, t.id);
+  async function collect(kind, type, query) {
+    const titles = [];
+    for await (const item of discover(kind, { with_original_language: code, ...query }, 4)) {
+      if (titles.length >= TOP) break;
+      let imdb = known.get(type + item.id);
+      if (!imdb) imdb = (await tmdb(`/${kind}/${item.id}/external_ids`)).imdb_id || '';
+      const t = toTitle(kind, item, imdb, today);
+      if (t) titles.push(t);
+    }
+    return titles;
+  }
   const out = {};
   for (const [kind, type] of [['movie', 'movie'], ['tv', 'series']]) {
-    out[type] = {};
-    for (const [name, sort_by] of [['trending', 'popularity.desc'], ['popular', 'vote_count.desc']]) {
-      const titles = [];
-      for await (const item of discover(kind, { with_original_language: code, sort_by }, 4)) {
-        if (titles.length >= TOP) break;
-        let imdb = known.get(type + item.id);
-        if (!imdb) imdb = (await tmdb(`/${kind}/${item.id}/external_ids`)).imdb_id || '';
-        const t = toTitle(kind, item, imdb, today);
-        if (t) titles.push(t);
-      }
-      out[type][name] = row(titles);
+    const from = kind === 'movie' ? 'primary_release_date.gte' : 'first_air_date.gte';
+    out[type] = { trending: [], popular: row(await collect(kind, type, { sort_by: 'vote_count.desc' })) };
+    for (const months of RECENT[type]) {
+      out[type].trending = row(await collect(kind, type, { sort_by: 'popularity.desc', [from]: since(today, months) }));
+      if (out[type].trending.length) break;
     }
   }
   return out;
