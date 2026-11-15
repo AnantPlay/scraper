@@ -10,6 +10,15 @@ const MIN_GROUP = 5;
 
 const key = process.env.TMDB_KEY || '';
 const wait = ms => new Promise(r => setTimeout(r, ms));
+// TMDB allows about 40 requests a second: every request (from any number of parallel ones) takes the next slot of 35 a second
+const GAP = 1000 / 35;
+let nextSlot = 0;
+async function slot() {
+  const now = Date.now(), at = Math.max(now, nextSlot);
+  nextSlot = at + GAP;
+  if (at > now) await wait(at - now);
+}
+
 export async function tmdb(path, params = {}) {
   const u = new URL(API + path);
   for (const [k, v] of Object.entries(params)) u.searchParams.set(k, v);
@@ -17,6 +26,7 @@ export async function tmdb(path, params = {}) {
   if (!bearer) u.searchParams.set('api_key', key);
   for (let i = 0; ; i++) {
     let r;
+    await slot();
     try {
       r = await fetch(u, bearer ? { headers: { Authorization: `Bearer ${key}` } } : {});
     } catch (e) {   // a dropped connection: a few more tries before giving up

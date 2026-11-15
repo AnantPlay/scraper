@@ -34,19 +34,26 @@ async function build(code, old, today) {
   const known = new Map();
   for (const rows of Object.values(old || {})) for (const list of Object.values(rows)) for (const t of list) known.set(t.type + t.tmdb, t.id);
   async function collect(kind, type, query, top = Infinity) {
-    const titles = [];
+    const titles = [], batch = [];
+    const flush = async () => {   // a page's IMDb ids asked for at once (the request pace is kept in tmdb)
+      const ids = await Promise.all(batch.map(async item => known.get(type + item.id) || (await tmdb(`/${kind}/${item.id}/external_ids`)).imdb_id || ''));
+      batch.forEach((item, i) => {
+        const t = titles.length < top ? toTitle(kind, item, ids[i], today) : null;   // one with no poster gets the app's letter tile
+        if (t) titles.push(t);
+      });
+      batch.length = 0;
+    };
     for await (const item of discover(kind, { with_original_language: code, ...query }, top === Infinity ? 100 : Math.ceil(top / 20) * 2)) {
       if (titles.length >= top) break;
-      let imdb = known.get(type + item.id);
-      if (!imdb) imdb = (await tmdb(`/${kind}/${item.id}/external_ids`)).imdb_id || '';
-      const t = toTitle(kind, item, imdb, today);   // one with no poster gets the app's letter tile
-      if (t) titles.push(t);
+      batch.push(item);
+      if (batch.length === 20) await flush();
     }
+    if (batch.length) await flush();
     return titles;
   }
   const out = {};
   for (const [kind, type] of [['movie', 'movie'], ['tv', 'series']]) {
-    out[type] = { popular: row(await collect(kind, type, { sort_by: 'vote_count.desc' }, POPULAR_TOP)) };
+    out[type] = { popular: row(await collect(kind, type, { sort_by: 'vote_count.desc', 'vote_count.gte': '0' }, POPULAR_TOP)) };   // most voted first, no floor
     // New: every release of the last year, newest first, whatever its votes (a film just out has none yet); films of an hour or more
     const date = kind === 'movie' ? 'primary_release_date' : 'first_air_date';
     const fresh = await collect(kind, type, { sort_by: date + '.desc', [date + '.lte']: today, [date + '.gte']: before(today, NEW_DAYS), 'vote_count.gte': '0',
@@ -62,13 +69,12 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const today = new Date().toISOString().slice(0, 10);
   mkdirSync('languages', { recursive: true });
   let written = 0;
-  for (const name of names) {
-    if (!LANGUAGES[name]) { console.error(`${name}: not a language of the table`); process.exit(1); }
+  async function one(name) {
     const file = `languages/${name}.json`;
     try {
       const data = await build(LANGUAGES[name], existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : null, today);
       const sizes = Object.entries(data).map(([type, rows]) => Object.entries(rows).map(([r, l]) => `${type} ${r} ${l.length}`)).flat();
-      if (!sizes.some(s => !s.endsWith(' 0'))) { console.log(`${name}: nothing to show`); continue; }
+      if (!sizes.some(s => !s.endsWith(' 0'))) { console.log(`${name}: nothing to show`); return; }
       writeFileSync(file, JSON.stringify(data) + '\n');
       written++;
       console.log(`${name}: ${sizes.join(', ')}`);
@@ -76,5 +82,8 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       console.error(`${name}: ${e.message}`);
     }
   }
+  for (const name of names) if (!LANGUAGES[name]) { console.error(`${name}: not a language of the table`); process.exit(1); }
+  const queue = [...names];   // six languages at a time: their requests share tmdb's pace, so none waits on another's slow pages
+  await Promise.all(Array.from({ length: 6 }, async () => { while (queue.length) await one(queue.shift()); }));
   if (!written) process.exit(1);
 }
