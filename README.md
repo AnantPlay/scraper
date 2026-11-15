@@ -24,4 +24,13 @@ TMDB_KEY=... node brands.mjs --check   # the names behind the ids in brands.json
 TMDB_KEY=... node brands.mjs           # writes collections.json
 ```
 
+## Languages
+
+`languages.mjs` builds `languages/<Name>.json`, one file per language on AnantPlay's Movies and TV tabs (Hindi, Tamil, ...): TMDB's trending titles (popularity now) and popular ones (most votes), 20 of each, movies and series. The app shows them as the Trending and Popular rows above a language's full list. A language that has fewer than 5 titles for a row gets no row, and one that fails keeps its old file. A GitHub Action runs it weekly with the same `TMDB_KEY` secret; the first run takes about half an hour.
+
+```sh
+TMDB_KEY=... node languages.mjs          # every language
+TMDB_KEY=... node languages.mjs Hindi    # one
+```
+
 This product uses the TMDB API but is not endorsed or certified by TMDB.

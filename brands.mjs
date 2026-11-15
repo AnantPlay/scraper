@@ -10,7 +10,7 @@ const MIN_GROUP = 5;
 
 const key = process.env.TMDB_KEY || '';
 const wait = ms => new Promise(r => setTimeout(r, ms));
-async function tmdb(path, params = {}) {
+export async function tmdb(path, params = {}) {
   const u = new URL(API + path);
   for (const [k, v] of Object.entries(params)) u.searchParams.set(k, v);
   const bearer = key.length > 40;   // a v4 token goes in a header, a v3 key in the address
@@ -78,8 +78,8 @@ export function finish(brand, titles) {
 }
 
 /** A discover query's results, most popular first, PAGES pages at most. */
-async function* discover(kind, query, pages = PAGES) {
-  const params = { ...query, sort_by: 'popularity.desc', include_adult: 'false', 'vote_count.gte': kind === 'tv' ? '10' : '30' };
+export async function* discover(kind, query, pages = PAGES) {
+  const params = { sort_by: 'popularity.desc', ...query, include_adult: 'false', 'vote_count.gte': kind === 'tv' ? '10' : '30' };
   for (let page = 1; page <= pages; page++) {
     const d = await tmdb(`/discover/${kind}`, { ...params, page: String(page) });
     yield* d.results;
