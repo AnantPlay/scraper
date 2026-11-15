@@ -14,35 +14,43 @@ export const LANGUAGES = {
   Spanish: 'es', Catalan: 'ca', Portuguese: 'pt', Swedish: 'sv', Norwegian: 'no', Danish: 'da', Finnish: 'fi', Estonian: 'et', Latvian: 'lv',
   Lithuanian: 'lt', Afrikaans: 'af', Zulu: 'zu', Swahili: 'sw', Somali: 'so', English: 'en', Irish: 'ga',
 };
-const TOP = 20;      // titles in a row
-const MIN_ROW = 5;   // a row of fewer says nothing (a small language): left out, the app has no row there
+// Nothing is hidden: New is every release of the last year, Popular the 100 most voted for; the app shows 15 of a row and More opens all of it.
+// What is left out: films under an hour (shorts) and titles TMDB has no IMDb id for (the app's title pages are built on it).
+const POPULAR_TOP = 100;
+const NEW_DAYS = 365;
 
-/** A row as the app reads it: the titles without the working `date`; none when there are too few. */
+/** A row as the app reads it: the titles without the working `date`. */
 export function row(titles) {
-  return titles.length < MIN_ROW ? [] : titles.map(({ date, ...t }) => t);
+  return titles.map(({ date, ...t }) => t);
+}
+
+/** The date `days` before `today` ("2026-11-15"). */
+export function before(today, days) {
+  return new Date(Date.parse(today + 'T00:00:00Z') - days * 86400000).toISOString().slice(0, 10);
 }
 
 async function build(code, old, today) {
   // IMDb ids found before are kept: one TMDB call per new title only
   const known = new Map();
   for (const rows of Object.values(old || {})) for (const list of Object.values(rows)) for (const t of list) known.set(t.type + t.tmdb, t.id);
-  async function collect(kind, type, query) {
+  async function collect(kind, type, query, top = Infinity) {
     const titles = [];
-    for await (const item of discover(kind, { with_original_language: code, ...query }, 4)) {
-      if (titles.length >= TOP) break;
+    for await (const item of discover(kind, { with_original_language: code, ...query }, top === Infinity ? 100 : Math.ceil(top / 20) * 2)) {
+      if (titles.length >= top) break;
       let imdb = known.get(type + item.id);
       if (!imdb) imdb = (await tmdb(`/${kind}/${item.id}/external_ids`)).imdb_id || '';
-      const t = item.poster_path ? toTitle(kind, item, imdb, today) : null;   // a row of posters: no title without one
+      const t = toTitle(kind, item, imdb, today);   // one with no poster gets the app's letter tile
       if (t) titles.push(t);
     }
     return titles;
   }
   const out = {};
   for (const [kind, type] of [['movie', 'movie'], ['tv', 'series']]) {
-    out[type] = { popular: row(await collect(kind, type, { sort_by: 'vote_count.desc' })) };
-    // New: by release date, whatever its popularity (few have votes yet: the vote floor is low)
+    out[type] = { popular: row(await collect(kind, type, { sort_by: 'vote_count.desc' }, POPULAR_TOP)) };
+    // New: every release of the last year, newest first, whatever its votes (a film just out has none yet); films of an hour or more
     const date = kind === 'movie' ? 'primary_release_date' : 'first_air_date';
-    const fresh = await collect(kind, type, { sort_by: date + '.desc', [date + '.lte']: today, 'vote_count.gte': kind === 'movie' ? '5' : '2' });
+    const fresh = await collect(kind, type, { sort_by: date + '.desc', [date + '.lte']: today, [date + '.gte']: before(today, NEW_DAYS), 'vote_count.gte': '0',
+      ...(kind === 'movie' ? { 'with_runtime.gte': '60' } : {}) });
     out[type].new = row(fresh.sort((a, b) => b.date.localeCompare(a.date)));
   }
   return out;
