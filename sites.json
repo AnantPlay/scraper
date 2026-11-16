@@ -71,6 +71,19 @@
     "index": false
    },
    {
+    "name": "Cinecat",
+    "url": "https://cinecat.eu/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Atlantic",
     "url": "https://atlantic.bz/",
     "mirrors": [
@@ -95,7 +108,7 @@
     "tags": [
      "4K",
      "Dual Audio",
-     "External  Subs",
+     "External Subs",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -184,22 +197,6 @@
     "index": false
    },
    {
-    "name": "Flixer",
-    "url": "https://flixer.gd",
-    "mirrors": [
-     "https://flixer.su/",
-     "https://flixer.cx/",
-     "https://hexa.su/"
-    ],
-    "tags": [
-     "1080p",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "MeowTV",
     "url": "https://meowtv.ru/",
     "mirrors": [
@@ -209,6 +206,22 @@
      "1080p",
      "Dual Audio",
      "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Flixer",
+    "url": "https://flixer.gd",
+    "mirrors": [
+     "https://flixer.su/",
+     "https://flixer.cx/",
+     "https://hexa.su/"
+    ],
+    "tags": [
+     "1080p",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -330,19 +343,6 @@
      "Popup + Redirect Free"
     ],
     "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "Cinecat",
-    "url": "https://cinecat.eu/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "P-Stream Forks",
     "pick": true,
     "index": false
    },
@@ -3065,6 +3065,19 @@
     "index": false
    },
    {
+    "name": "Cinecat",
+    "url": "https://cinecat.eu/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Atlantic",
     "url": "https://atlantic.bz/",
     "mirrors": [
@@ -3089,7 +3102,7 @@
     "tags": [
      "4K",
      "Dual Audio",
-     "External  Subs",
+     "External Subs",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -3178,22 +3191,6 @@
     "index": false
    },
    {
-    "name": "Flixer",
-    "url": "https://flixer.gd",
-    "mirrors": [
-     "https://flixer.su/",
-     "https://flixer.cx/",
-     "https://hexa.su/"
-    ],
-    "tags": [
-     "1080p",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "MeowTV",
     "url": "https://meowtv.ru/",
     "mirrors": [
@@ -3203,6 +3200,22 @@
      "1080p",
      "Dual Audio",
      "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Flixer",
+    "url": "https://flixer.gd",
+    "mirrors": [
+     "https://flixer.su/",
+     "https://flixer.cx/",
+     "https://hexa.su/"
+    ],
+    "tags": [
+     "1080p",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -3324,19 +3337,6 @@
      "Popup + Redirect Free"
     ],
     "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "Cinecat",
-    "url": "https://cinecat.eu/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "P-Stream Forks",
     "pick": true,
     "index": false
    },
@@ -8965,8 +8965,7 @@
     "url": "https://vysetv.cc/",
     "mirrors": [],
     "tags": [
-     "All Platforms",
-     "Use HTTP Plugin"
+     "All Platforms"
     ],
     "group": "Arabic",
     "pick": false,
@@ -11179,8 +11178,7 @@
     "url": "https://vysetv.cc/",
     "mirrors": [],
     "tags": [
-     "All Platforms",
-     "Use HTTP Plugin"
+     "All Platforms"
     ],
     "group": "Indian Languages",
     "pick": false,
@@ -14083,8 +14081,7 @@
     "url": "https://vysetv.cc/",
     "mirrors": [],
     "tags": [
-     "All Platforms",
-     "Use HTTP Plugin"
+     "All Platforms"
     ],
     "group": "Spanish",
     "pick": false,
