@@ -11,41 +11,12 @@
     "index": false
    },
    {
-    "name": "Movy",
-    "url": "https://www.movy.sx/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Cinejoy",
     "url": "https://cinejoy.pk/",
     "mirrors": [],
     "tags": [
      "4K",
      "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "PopcornMovies",
-    "url": "https://popcornmovies.st/",
-    "mirrors": [
-     "https://bingebox.ac/"
-    ],
-    "tags": [
-     "4K",
      "External Subs",
      "Ad-Toggle"
     ],
@@ -73,7 +44,24 @@
    {
     "name": "Cinecat",
     "url": "https://cinecat.eu/",
-    "mirrors": [],
+    "mirrors": [
+     "https://beta.cinecat.eu/"
+    ],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "PopcornMovies",
+    "url": "https://popcornmovies.st/",
+    "mirrors": [
+     "https://bingebox.ac/"
+    ],
     "tags": [
      "4K",
      "External Subs",
@@ -162,12 +150,9 @@
     "index": false
    },
    {
-    "name": "SweetFox",
-    "url": "https://sweetfox.app/",
-    "mirrors": [
-     "http://sweetfox.st",
-     "https://67movies.st/"
-    ],
+    "name": "Movy",
+    "url": "https://www.movy.sx/",
+    "mirrors": [],
     "tags": [
      "4K",
      "Dual Audio",
@@ -242,19 +227,6 @@
     "index": false
    },
    {
-    "name": "dulo",
-    "url": "https://dulo.mov/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Ghostflix",
     "url": "https://ghostflix.st/",
     "mirrors": [
@@ -264,6 +236,19 @@
     "tags": [
      "1080p",
      "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "dulo",
+    "url": "https://dulo.mov/",
+    "mirrors": [],
+    "tags": [
+     "4K",
      "External Subs",
      "Ad-Toggle"
     ],
@@ -308,7 +293,7 @@
      "https://way2movies.live/"
     ],
     "tags": [
-     "1080p",
+     "4K",
      "Dual Audio",
      "External Subs",
      "Ad-Toggle"
@@ -347,6 +332,23 @@
     "index": false
    },
    {
+    "name": "SweetFox",
+    "url": "https://sweetfox.app/",
+    "mirrors": [
+     "http://sweetfox.st",
+     "https://67movies.st/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Aether",
     "url": "https://aether.st/",
     "mirrors": [
@@ -368,7 +370,7 @@
     "url": "https://basementx.lol/",
     "mirrors": [],
     "tags": [
-     "4K",
+     "1080p",
      "Dual Audio",
      "External Subs"
     ],
@@ -774,6 +776,19 @@
     "index": false
    },
    {
+    "name": "Sleepy",
+    "url": "https://sleepy.lat/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Pop up + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Movie Night",
     "url": "https://movienig.ht/",
     "mirrors": [],
@@ -891,12 +906,13 @@
     "index": false
    },
    {
-    "name": "watched",
-    "url": "https://watched.cx/",
-    "mirrors": [],
+    "name": "Freekz",
+    "url": "https://freekz.to/",
+    "mirrors": [
+     "https://zxcstream.com/"
+    ],
     "tags": [
-     "1080p",
-     "Dual Audio",
+     "4K",
      "External Subs",
      "Popup + Redirect Free"
     ],
@@ -905,13 +921,12 @@
     "index": false
    },
    {
-    "name": "Freekz",
-    "url": "https://freekz.to/",
-    "mirrors": [
-     "https://zxcstream.com/"
-    ],
+    "name": "watched",
+    "url": "https://watched.cx/",
+    "mirrors": [],
     "tags": [
      "1080p",
+     "Dual Audio",
      "External Subs",
      "Popup + Redirect Free"
     ],
@@ -1038,19 +1053,6 @@
      "Dual Audio",
      "External Subs",
      "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "Sleepy",
-    "url": "https://sleepy.lat/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Pop up + Redirect Free"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -3005,41 +3007,12 @@
     "index": false
    },
    {
-    "name": "Movy",
-    "url": "https://www.movy.sx/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Cinejoy",
     "url": "https://cinejoy.pk/",
     "mirrors": [],
     "tags": [
      "4K",
      "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "PopcornMovies",
-    "url": "https://popcornmovies.st/",
-    "mirrors": [
-     "https://bingebox.ac/"
-    ],
-    "tags": [
-     "4K",
      "External Subs",
      "Ad-Toggle"
     ],
@@ -3067,7 +3040,24 @@
    {
     "name": "Cinecat",
     "url": "https://cinecat.eu/",
-    "mirrors": [],
+    "mirrors": [
+     "https://beta.cinecat.eu/"
+    ],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "PopcornMovies",
+    "url": "https://popcornmovies.st/",
+    "mirrors": [
+     "https://bingebox.ac/"
+    ],
     "tags": [
      "4K",
      "External Subs",
@@ -3156,12 +3146,9 @@
     "index": false
    },
    {
-    "name": "SweetFox",
-    "url": "https://sweetfox.app/",
-    "mirrors": [
-     "http://sweetfox.st",
-     "https://67movies.st/"
-    ],
+    "name": "Movy",
+    "url": "https://www.movy.sx/",
+    "mirrors": [],
     "tags": [
      "4K",
      "Dual Audio",
@@ -3236,19 +3223,6 @@
     "index": false
    },
    {
-    "name": "dulo",
-    "url": "https://dulo.mov/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Ghostflix",
     "url": "https://ghostflix.st/",
     "mirrors": [
@@ -3258,6 +3232,19 @@
     "tags": [
      "1080p",
      "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "dulo",
+    "url": "https://dulo.mov/",
+    "mirrors": [],
+    "tags": [
+     "4K",
      "External Subs",
      "Ad-Toggle"
     ],
@@ -3302,7 +3289,7 @@
      "https://way2movies.live/"
     ],
     "tags": [
-     "1080p",
+     "4K",
      "Dual Audio",
      "External Subs",
      "Ad-Toggle"
@@ -3341,6 +3328,23 @@
     "index": false
    },
    {
+    "name": "SweetFox",
+    "url": "https://sweetfox.app/",
+    "mirrors": [
+     "http://sweetfox.st",
+     "https://67movies.st/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Aether",
     "url": "https://aether.st/",
     "mirrors": [
@@ -3362,7 +3366,7 @@
     "url": "https://basementx.lol/",
     "mirrors": [],
     "tags": [
-     "4K",
+     "1080p",
      "Dual Audio",
      "External Subs"
     ],
@@ -3671,6 +3675,19 @@
     "index": false
    },
    {
+    "name": "Sleepy",
+    "url": "https://sleepy.lat/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Pop up + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Movie Night",
     "url": "https://movienig.ht/",
     "mirrors": [],
@@ -3788,12 +3805,13 @@
     "index": false
    },
    {
-    "name": "watched",
-    "url": "https://watched.cx/",
-    "mirrors": [],
+    "name": "Freekz",
+    "url": "https://freekz.to/",
+    "mirrors": [
+     "https://zxcstream.com/"
+    ],
     "tags": [
-     "1080p",
-     "Dual Audio",
+     "4K",
      "External Subs",
      "Popup + Redirect Free"
     ],
@@ -3802,13 +3820,12 @@
     "index": false
    },
    {
-    "name": "Freekz",
-    "url": "https://freekz.to/",
-    "mirrors": [
-     "https://zxcstream.com/"
-    ],
+    "name": "watched",
+    "url": "https://watched.cx/",
+    "mirrors": [],
     "tags": [
      "1080p",
+     "Dual Audio",
      "External Subs",
      "Popup + Redirect Free"
     ],
@@ -3935,19 +3952,6 @@
      "Dual Audio",
      "External Subs",
      "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "Sleepy",
-    "url": "https://sleepy.lat/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Pop up + Redirect Free"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -6547,7 +6551,7 @@
     "index": false
    },
    {
-    "name": "Adhaf",
+    "name": "Ahdaf-Kooora",
     "url": "https://ahdaf-kooora.net/",
     "mirrors": [],
     "tags": [
@@ -6979,8 +6983,8 @@
     "index": false
    },
    {
-    "name": "Anikoto",
-    "url": "https://anikototv.to/",
+    "name": "KotoPlay",
+    "url": "https://kotoplay.to/",
     "mirrors": [
      "https://animesuge.cz/"
     ],
@@ -7081,19 +7085,6 @@
     "index": false
    },
    {
-    "name": "NekoWatch",
-    "url": "https://nekowatch.xyz/",
-    "mirrors": [],
-    "tags": [
-     "Sub",
-     "Dub",
-     "Auto-Next"
-    ],
-    "group": "Anime Streaming",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "AniLight",
     "url": "https://anilight.live/",
     "mirrors": [],
@@ -7107,8 +7098,8 @@
     "index": false
    },
    {
-    "name": "Anidap",
-    "url": "https://anidap.lol/",
+    "name": "NekoWatch",
+    "url": "https://nekowatch.xyz/",
     "mirrors": [],
     "tags": [
      "Sub",
@@ -7120,8 +7111,8 @@
     "index": false
    },
    {
-    "name": "AniXo",
-    "url": "https://anixo.online/",
+    "name": "Anidap",
+    "url": "https://anidap.lol/",
     "mirrors": [],
     "tags": [
      "Sub",
@@ -8796,7 +8787,7 @@
     "index": false
    },
    {
-    "name": "My Cima",
+    "name": "MyCima",
     "url": "https://mycima.gdn/",
     "mirrors": [],
     "tags": [
@@ -12543,18 +12534,6 @@
     "tags": [
      "Streaming App",
      "Android"
-    ],
-    "group": "Polish",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "FlowFlix",
-    "url": "https://flowflix.vercel.app/",
-    "mirrors": [],
-    "tags": [
-     "Streaming App",
-     "Windows, Android"
     ],
     "group": "Polish",
     "pick": false,
