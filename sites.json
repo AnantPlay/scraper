@@ -135,7 +135,7 @@
     "name": "ArrowTV",
     "url": "https://arrowtv.net/",
     "mirrors": [
-     "https://neonflix.st/",
+     "https://arrowtv.st/",
      "https://www.cinezo.st/",
      "https://www.flikhub.net/"
     ],
@@ -760,6 +760,20 @@
     "index": false
    },
    {
+    "name": "Bingr",
+    "url": "https://bingr.st/home",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "M-Zone",
     "url": "https://m-zone.cc/",
     "mirrors": [
@@ -881,24 +895,12 @@
    {
     "name": "ThugTV",
     "url": "https://thugtv.online/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "Ad-Toggle"
+    "mirrors": [
+     "https://thugtv.st"
     ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "Bingr",
-    "url": "https://bingr.st/home",
-    "mirrors": [],
     "tags": [
      "1080p",
      "Dual Audio",
-     "External Subs",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -961,6 +963,19 @@
     "index": false
    },
    {
+    "name": "Bowd",
+    "url": "https://bowdtv.com/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Pop up + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "CinemaOS",
     "url": "https://cinemaos.live/",
     "mirrors": [
@@ -973,6 +988,19 @@
      "Dual Audio",
      "External Subs",
      "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Vumeto",
+    "url": "https://vumeto.live/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Pop up + Redirect Free"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -1428,6 +1456,19 @@
     "index": false
    },
    {
+    "name": "Play4u",
+    "url": "https://play4u.org/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Popup + Redirect Free"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "OnionPlay",
     "url": "https://onionplay.ae/",
     "mirrors": [],
@@ -1680,6 +1721,18 @@
     "mirrors": [],
     "tags": [
      "7 Sources"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Comvie",
+    "url": "https://comvie.lol/",
+    "mirrors": [],
+    "tags": [
+     "39 Sources",
+     "Popup + Redirect Free"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -3131,7 +3184,7 @@
     "name": "ArrowTV",
     "url": "https://arrowtv.net/",
     "mirrors": [
-     "https://neonflix.st/",
+     "https://arrowtv.st/",
      "https://www.cinezo.st/",
      "https://www.flikhub.net/"
     ],
@@ -3659,6 +3712,20 @@
     "index": false
    },
    {
+    "name": "Bingr",
+    "url": "https://bingr.st/home",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "M-Zone",
     "url": "https://m-zone.cc/",
     "mirrors": [
@@ -3780,24 +3847,12 @@
    {
     "name": "ThugTV",
     "url": "https://thugtv.online/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "Ad-Toggle"
+    "mirrors": [
+     "https://thugtv.st"
     ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "Bingr",
-    "url": "https://bingr.st/home",
-    "mirrors": [],
     "tags": [
      "1080p",
      "Dual Audio",
-     "External Subs",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -3860,6 +3915,19 @@
     "index": false
    },
    {
+    "name": "Bowd",
+    "url": "https://bowdtv.com/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Pop up + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "CinemaOS",
     "url": "https://cinemaos.live/",
     "mirrors": [
@@ -3872,6 +3940,19 @@
      "Dual Audio",
      "External Subs",
      "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Vumeto",
+    "url": "https://vumeto.live/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Pop up + Redirect Free"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -4327,6 +4408,19 @@
     "index": false
    },
    {
+    "name": "Play4u",
+    "url": "https://play4u.org/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Popup + Redirect Free"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "OnionPlay",
     "url": "https://onionplay.ae/",
     "mirrors": [],
@@ -4579,6 +4673,18 @@
     "mirrors": [],
     "tags": [
      "7 Sources"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Comvie",
+    "url": "https://comvie.lol/",
+    "mirrors": [],
+    "tags": [
+     "39 Sources",
+     "Popup + Redirect Free"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -7112,7 +7218,20 @@
    },
    {
     "name": "Anidap",
-    "url": "https://anidap.lol/",
+    "url": "https://anidap.lol",
+    "mirrors": [],
+    "tags": [
+     "Sub",
+     "Dub",
+     "Auto-Next"
+    ],
+    "group": "Anime Streaming",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "AniXo",
+    "url": "https://anixo.online/home",
     "mirrors": [],
     "tags": [
      "Sub",
@@ -15253,7 +15372,7 @@
    },
    {
     "name": "AnimeTVN",
-    "url": "https://animetvn.com/",
+    "url": "https://animetvn.gay/",
     "mirrors": [],
     "tags": [
      "Anime",
@@ -15267,7 +15386,7 @@
    },
    {
     "name": "AnimeVietsub",
-    "url": "https://animevietsub.link/",
+    "url": "https://animevietsub.bid/",
     "mirrors": [],
     "tags": [
      "Anime",
