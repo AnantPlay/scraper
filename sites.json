@@ -11,20 +11,6 @@
     "index": false
    },
    {
-    "name": "Cinejoy",
-    "url": "https://cinejoy.pk/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "7Movies",
     "url": "https://7movies.ac/",
     "mirrors": [
@@ -164,16 +150,12 @@
     "index": false
    },
    {
-    "name": "Rive",
-    "url": "https://www.rivestream.app/",
-    "mirrors": [
-     "https://rivestream.ru/",
-     "https://rivestream.win/",
-     "https://watch.corsflix.net",
-     "https://watch.corsflix.dpdns.org"
-    ],
+    "name": "Cinejoy",
+    "url": "https://cinejoy.pk/",
+    "mirrors": [],
     "tags": [
-     "1080p",
+     "4K",
+     "Dual Audio",
      "External Subs",
      "Ad-Toggle"
     ],
@@ -341,6 +323,24 @@
     "tags": [
      "4K",
      "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Rive",
+    "url": "https://www.rivestream.app/",
+    "mirrors": [
+     "https://rivestream.ru/",
+     "https://rivestream.win/",
+     "https://watch.corsflix.net",
+     "https://watch.corsflix.dpdns.org"
+    ],
+    "tags": [
+     "1080p",
      "External Subs",
      "Ad-Toggle"
     ],
@@ -3060,20 +3060,6 @@
     "index": false
    },
    {
-    "name": "Cinejoy",
-    "url": "https://cinejoy.pk/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "7Movies",
     "url": "https://7movies.ac/",
     "mirrors": [
@@ -3213,16 +3199,12 @@
     "index": false
    },
    {
-    "name": "Rive",
-    "url": "https://www.rivestream.app/",
-    "mirrors": [
-     "https://rivestream.ru/",
-     "https://rivestream.win/",
-     "https://watch.corsflix.net",
-     "https://watch.corsflix.dpdns.org"
-    ],
+    "name": "Cinejoy",
+    "url": "https://cinejoy.pk/",
+    "mirrors": [],
     "tags": [
-     "1080p",
+     "4K",
+     "Dual Audio",
      "External Subs",
      "Ad-Toggle"
     ],
@@ -3390,6 +3372,24 @@
     "tags": [
      "4K",
      "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Rive",
+    "url": "https://www.rivestream.app/",
+    "mirrors": [
+     "https://rivestream.ru/",
+     "https://rivestream.win/",
+     "https://watch.corsflix.net",
+     "https://watch.corsflix.dpdns.org"
+    ],
+    "tags": [
+     "1080p",
      "External Subs",
      "Ad-Toggle"
     ],
