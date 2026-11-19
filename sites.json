@@ -202,7 +202,7 @@
     "tags": [
      "4K",
      "Dual Audio",
-     "Popup + Redirect Free"
+     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -212,8 +212,8 @@
     "name": "Ghostflix",
     "url": "https://ghostflix.st/",
     "mirrors": [
-     "https://redflix.one/",
-     "https://redflix.club/"
+     "https://redflix.st/",
+     "https://redflix.ac/"
     ],
     "tags": [
      "1080p",
@@ -510,15 +510,11 @@
     "index": false
    },
    {
-    "name": "Anixtv",
-    "url": "https://anixx.fun/",
-    "mirrors": [
-     "https://anixtv.us.cc/",
-     "https://anixtv.in/"
-    ],
+    "name": "Fireflix",
+    "url": "https://fireflix4.pages.dev/",
+    "mirrors": [],
     "tags": [
-     "11 Sources",
-     "Popup + Redirect Free"
+     "7 Sources"
     ],
     "group": "Multi-Server",
     "pick": true,
@@ -951,7 +947,7 @@
    },
    {
     "name": "GreyBox",
-    "url": "https://greyboxtv.pages.dev/",
+    "url": "https://greyboxtv.duckdns.org",
     "mirrors": [],
     "tags": [
      "1080p",
@@ -1027,6 +1023,18 @@
      "1080p",
      "Dual Audio",
      "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "driftly",
+    "url": "https://driftly.live/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Pop up + Redirect Free"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -1432,7 +1440,7 @@
    },
    {
     "name": "RidoMovies",
-    "url": "https://ridomovies.is/",
+    "url": "https://ridomovie.to/",
     "mirrors": [],
     "tags": [
      "1080p",
@@ -1475,17 +1483,6 @@
     "tags": [
      "1080p",
      "Switch to Dedicated First Player"
-    ],
-    "group": "Dedicated-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "SoapGo",
-    "url": "https://soapgo.to/",
-    "mirrors": [],
-    "tags": [
-     "1080p"
     ],
     "group": "Dedicated-Server",
     "pick": false,
@@ -1641,6 +1638,17 @@
     "index": false
    },
    {
+    "name": "Fusion Movies",
+    "url": "https://www4.fusionmovies.to/",
+    "mirrors": [],
+    "tags": [
+     "480p"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "CineWave",
     "url": "https://watch.cinewave.qzz.io/",
     "mirrors": [],
@@ -1716,23 +1724,24 @@
     "index": false
    },
    {
-    "name": "Fireflix",
-    "url": "https://fireflix4.pages.dev/",
-    "mirrors": [],
-    "tags": [
-     "7 Sources"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Comvie",
     "url": "https://comvie.lol/",
     "mirrors": [],
     "tags": [
      "39 Sources",
      "Popup + Redirect Free"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "HDToday",
+    "url": "https://hdtoday.com.tr/",
+    "mirrors": [],
+    "tags": [
+     "38 Sources",
+     "Pop up + Redirect Free"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -1775,9 +1784,9 @@
    },
    {
     "name": "WatchSeries",
-    "url": "https://watchseries.cool/",
+    "url": "https://watchseries.bar/",
     "mirrors": [
-     "https://watchseries.bar/"
+     "https://watchseries.show/"
     ],
     "tags": [
      "8 Sources",
@@ -3251,7 +3260,7 @@
     "tags": [
      "4K",
      "Dual Audio",
-     "Popup + Redirect Free"
+     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -3261,8 +3270,8 @@
     "name": "Ghostflix",
     "url": "https://ghostflix.st/",
     "mirrors": [
-     "https://redflix.one/",
-     "https://redflix.club/"
+     "https://redflix.st/",
+     "https://redflix.ac/"
     ],
     "tags": [
      "1080p",
@@ -3559,15 +3568,11 @@
     "index": false
    },
    {
-    "name": "Anixtv",
-    "url": "https://anixx.fun/",
-    "mirrors": [
-     "https://anixtv.us.cc/",
-     "https://anixtv.in/"
-    ],
+    "name": "Fireflix",
+    "url": "https://fireflix4.pages.dev/",
+    "mirrors": [],
     "tags": [
-     "11 Sources",
-     "Popup + Redirect Free"
+     "7 Sources"
     ],
     "group": "Multi-Server",
     "pick": true,
@@ -3903,7 +3908,7 @@
    },
    {
     "name": "GreyBox",
-    "url": "https://greyboxtv.pages.dev/",
+    "url": "https://greyboxtv.duckdns.org",
     "mirrors": [],
     "tags": [
      "1080p",
@@ -3979,6 +3984,18 @@
      "1080p",
      "Dual Audio",
      "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "driftly",
+    "url": "https://driftly.live/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Pop up + Redirect Free"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -4384,7 +4401,7 @@
    },
    {
     "name": "RidoMovies",
-    "url": "https://ridomovies.is/",
+    "url": "https://ridomovie.to/",
     "mirrors": [],
     "tags": [
      "1080p",
@@ -4427,17 +4444,6 @@
     "tags": [
      "1080p",
      "Switch to Dedicated First Player"
-    ],
-    "group": "Dedicated-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "SoapGo",
-    "url": "https://soapgo.to/",
-    "mirrors": [],
-    "tags": [
-     "1080p"
     ],
     "group": "Dedicated-Server",
     "pick": false,
@@ -4593,6 +4599,17 @@
     "index": false
    },
    {
+    "name": "Fusion Movies",
+    "url": "https://www4.fusionmovies.to/",
+    "mirrors": [],
+    "tags": [
+     "480p"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "CineWave",
     "url": "https://watch.cinewave.qzz.io/",
     "mirrors": [],
@@ -4668,23 +4685,24 @@
     "index": false
    },
    {
-    "name": "Fireflix",
-    "url": "https://fireflix4.pages.dev/",
-    "mirrors": [],
-    "tags": [
-     "7 Sources"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Comvie",
     "url": "https://comvie.lol/",
     "mirrors": [],
     "tags": [
      "39 Sources",
      "Popup + Redirect Free"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "HDToday",
+    "url": "https://hdtoday.com.tr/",
+    "mirrors": [],
+    "tags": [
+     "38 Sources",
+     "Pop up + Redirect Free"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -4727,9 +4745,9 @@
    },
    {
     "name": "WatchSeries",
-    "url": "https://watchseries.cool/",
+    "url": "https://watchseries.bar/",
     "mirrors": [
-     "https://watchseries.bar/"
+     "https://watchseries.show/"
     ],
     "tags": [
      "8 Sources",
@@ -6135,6 +6153,18 @@
     "index": false
    },
    {
+    "name": "PFlix Live",
+    "url": "https://pflix.net/live",
+    "mirrors": [],
+    "tags": [
+     "TV",
+     "Sports"
+    ],
+    "group": "Live TV",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "CXtv",
     "url": "https://www.cxtvlive.com/",
     "mirrors": [],
@@ -7231,8 +7261,11 @@
    },
    {
     "name": "AniXo",
-    "url": "https://anixo.online/home",
-    "mirrors": [],
+    "url": "https://anixo.live/",
+    "mirrors": [
+     "https://anixo.cfd/",
+     "https://anixo.online/home"
+    ],
     "tags": [
      "Sub",
      "Dub",
@@ -7462,19 +7495,6 @@
    {
     "name": "MeguAnimes",
     "url": "https://meguanime.com/",
-    "mirrors": [],
-    "tags": [
-     "Sub",
-     "Dub",
-     "Auto-Next"
-    ],
-    "group": "Anime Streaming",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "Kazora",
-    "url": "https://kazora.cc/",
     "mirrors": [],
     "tags": [
      "Sub",
@@ -7718,6 +7738,17 @@
     "tags": [
      "Sub",
      "Dub"
+    ],
+    "group": "Anime Streaming",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Pahenime",
+    "url": "https://pahenime.com/",
+    "mirrors": [],
+    "tags": [
+     "Sub"
     ],
     "group": "Anime Streaming",
     "pick": false,
@@ -8250,6 +8281,18 @@
    {
     "name": "TV247US",
     "url": "https://tvnow247.top/",
+    "mirrors": [],
+    "tags": [
+     "TV",
+     "Sports"
+    ],
+    "group": "Live TV",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "PFlix Live",
+    "url": "https://pflix.net/live",
     "mirrors": [],
     "tags": [
      "TV",
@@ -8824,11 +8867,12 @@
    {
     "name": "JustWatch",
     "url": "https://www.justwatch.com/us?monetization_types=free",
-    "mirrors": [],
+    "mirrors": [
+     "https://www.galaxymovies.app/"
+    ],
     "tags": [
      "Free w",
-     "Ads Directory",
-     "Country Changed via URL"
+     "Ads Directories"
     ],
     "group": "Free w/ Ads",
     "pick": false,
@@ -13402,7 +13446,9 @@
    {
     "name": "YummyAnime",
     "url": "https://ru.yummyani.me/",
-    "mirrors": [],
+    "mirrors": [
+     "https://old.yummyani.me/"
+    ],
     "tags": [
      "Anime",
      "Sub",
@@ -14938,7 +14984,7 @@
   "Turkish": [
    {
     "name": "Dizipal",
-    "url": "https://dizipal1453.com/",
+    "url": "https://dizipal1803.com/",
     "mirrors": [],
     "tags": [
      "Movies",
@@ -14996,7 +15042,7 @@
    },
    {
     "name": "AnimeciX",
-    "url": "https://anm.cx/",
+    "url": "https://animecix.tv/",
     "mirrors": [],
     "tags": [
      "Anime",
@@ -15008,7 +15054,7 @@
    },
    {
     "name": "Dizilla",
-    "url": "https://dizilla.to/",
+    "url": "https://dizilla.la/",
     "mirrors": [
      "https://selcukflix.com/",
      "https://asyawatch.com/"
