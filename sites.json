@@ -11,23 +11,6 @@
     "index": false
    },
    {
-    "name": "7Movies",
-    "url": "https://7movies.ac/",
-    "mirrors": [
-     "https://7movies.ws/",
-     "https://7shows.st/"
-    ],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Cinecat",
     "url": "https://cinecat.eu/",
     "mirrors": [
@@ -153,6 +136,23 @@
     "name": "Cinejoy",
     "url": "https://cinejoy.pk/",
     "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "7Movies",
+    "url": "https://7movies.ac/",
+    "mirrors": [
+     "https://7movies.ws/",
+     "https://7shows.st/"
+    ],
     "tags": [
      "4K",
      "Dual Audio",
@@ -3060,23 +3060,6 @@
     "index": false
    },
    {
-    "name": "7Movies",
-    "url": "https://7movies.ac/",
-    "mirrors": [
-     "https://7movies.ws/",
-     "https://7shows.st/"
-    ],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Cinecat",
     "url": "https://cinecat.eu/",
     "mirrors": [
@@ -3202,6 +3185,23 @@
     "name": "Cinejoy",
     "url": "https://cinejoy.pk/",
     "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "7Movies",
+    "url": "https://7movies.ac/",
+    "mirrors": [
+     "https://7movies.ws/",
+     "https://7shows.st/"
+    ],
     "tags": [
      "4K",
      "Dual Audio",
