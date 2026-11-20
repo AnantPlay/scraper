@@ -73,7 +73,7 @@
    },
    {
     "name": "Vivarium",
-    "url": "https://vivarium.su/",
+    "url": "https://vivarium.st/",
     "mirrors": [],
     "tags": [
      "4K",
@@ -379,6 +379,19 @@
     "index": false
    },
    {
+    "name": "Q62",
+    "url": "https://q62flix.ws/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Popup + Redirect Free"
+    ],
+    "group": "Dedicated-Server",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "NEPU",
     "url": "https://nepu.io/",
     "mirrors": [
@@ -401,19 +414,6 @@
     "tags": [
      "4K",
      "External Subs"
-    ],
-    "group": "Dedicated-Server",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "Q62",
-    "url": "https://q62flix.ws/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "Popup + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": true,
@@ -976,7 +976,7 @@
     "url": "https://cinemaos.live/",
     "mirrors": [
      "https://cinemaos.tech/",
-     "https://cinemoas.me",
+     "https://cinemaos.me",
      "https://cinemaos.in"
     ],
     "tags": [
@@ -1394,6 +1394,19 @@
      "External Subs",
      "Popup + Redirect Free",
      "Use"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "LE MOVIE",
+    "url": "https://lemovie.site/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Pop up + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": false,
@@ -3131,7 +3144,7 @@
    },
    {
     "name": "Vivarium",
-    "url": "https://vivarium.su/",
+    "url": "https://vivarium.st/",
     "mirrors": [],
     "tags": [
      "4K",
@@ -3437,6 +3450,19 @@
     "index": false
    },
    {
+    "name": "Q62",
+    "url": "https://q62flix.ws/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Popup + Redirect Free"
+    ],
+    "group": "Dedicated-Server",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "NEPU",
     "url": "https://nepu.io/",
     "mirrors": [
@@ -3459,19 +3485,6 @@
     "tags": [
      "4K",
      "External Subs"
-    ],
-    "group": "Dedicated-Server",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "Q62",
-    "url": "https://q62flix.ws/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "Popup + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": true,
@@ -3937,7 +3950,7 @@
     "url": "https://cinemaos.live/",
     "mirrors": [
      "https://cinemaos.tech/",
-     "https://cinemoas.me",
+     "https://cinemaos.me",
      "https://cinemaos.in"
     ],
     "tags": [
@@ -4355,6 +4368,19 @@
      "External Subs",
      "Popup + Redirect Free",
      "Use"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "LE MOVIE",
+    "url": "https://lemovie.site/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Pop up + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": false,
@@ -6131,18 +6157,6 @@
    {
     "name": "TV Explorer",
     "url": "https://tvexplorer.live/",
-    "mirrors": [],
-    "tags": [
-     "TV",
-     "Sports"
-    ],
-    "group": "Live TV",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "TV247US",
-    "url": "https://tvnow247.top/",
     "mirrors": [],
     "tags": [
      "TV",
@@ -8279,18 +8293,6 @@
     "index": false
    },
    {
-    "name": "TV247US",
-    "url": "https://tvnow247.top/",
-    "mirrors": [],
-    "tags": [
-     "TV",
-     "Sports"
-    ],
-    "group": "Live TV",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "PFlix Live",
     "url": "https://pflix.net/live",
     "mirrors": [],
@@ -8891,6 +8893,20 @@
      "TV",
      "Anime",
      "Sub",
+     "1080p"
+    ],
+    "group": "Arabic",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "FaselHD",
+    "url": "https://web11206x.faselhdx.one/",
+    "mirrors": [],
+    "tags": [
+     "Movies",
+     "TV",
+     "Anime",
      "1080p"
     ],
     "group": "Arabic",
@@ -11727,6 +11743,18 @@
     "mirrors": [],
     "tags": [
      "Live Cricket"
+    ],
+    "group": "Indian Languages",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "GPTRTV",
+    "url": "https://gptrtv.site/",
+    "mirrors": [],
+    "tags": [
+     "Live TV",
+     "Android"
     ],
     "group": "Indian Languages",
     "pick": false,
@@ -14983,22 +15011,6 @@
   ],
   "Turkish": [
    {
-    "name": "Dizipal",
-    "url": "https://dizipal1803.com/",
-    "mirrors": [],
-    "tags": [
-     "Movies",
-     "TV",
-     "Sub",
-     "Dub",
-     "1080p",
-     "Requires VPN"
-    ],
-    "group": "Turkish",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Hdfilmcehennemi",
     "url": "https://www.hdfilmcehennemi.nl/",
     "mirrors": [],
@@ -15056,7 +15068,7 @@
     "name": "Dizilla",
     "url": "https://dizilla.la/",
     "mirrors": [
-     "https://selcukflix.com/",
+     "https://selcukflix.app/",
      "https://asyawatch.com/"
     ],
     "tags": [
@@ -15073,7 +15085,7 @@
    },
    {
     "name": "Yabancıdizi",
-    "url": "https://yabancidizi.so/",
+    "url": "https://yabancidizi.news/",
     "mirrors": [],
     "tags": [
      "Movies",
@@ -15128,7 +15140,7 @@
    },
    {
     "name": "Jet Film izle",
-    "url": "https://jetfilmizle.net/",
+    "url": "https://jetfilmizle.app/",
     "mirrors": [],
     "tags": [
      "Movies",
