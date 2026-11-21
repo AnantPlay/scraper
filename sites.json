@@ -11,21 +11,6 @@
     "index": false
    },
    {
-    "name": "PopcornMovies",
-    "url": "https://popcornmovies.st/",
-    "mirrors": [
-     "https://bingebox.ac/"
-    ],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Atlantic",
     "url": "https://atlantic.bz/",
     "mirrors": [
@@ -164,15 +149,14 @@
     "index": false
    },
    {
-    "name": "Flixer",
-    "url": "https://flixer.gd",
+    "name": "PopcornMovies",
+    "url": "https://popcornmovies.st/",
     "mirrors": [
-     "https://flixer.su/",
-     "https://flixer.cx/",
-     "https://hexa.su/"
+     "https://bingebox.ac/"
     ],
     "tags": [
-     "1080p",
+     "4K",
+     "External Subs",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -342,6 +326,22 @@
      "1080p",
      "Dual Audio",
      "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Flixer",
+    "url": "https://flixer.gd",
+    "mirrors": [
+     "https://flixer.su/",
+     "https://flixer.cx/",
+     "https://hexa.su/"
+    ],
+    "tags": [
+     "1080p",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -3082,21 +3082,6 @@
     "index": false
    },
    {
-    "name": "PopcornMovies",
-    "url": "https://popcornmovies.st/",
-    "mirrors": [
-     "https://bingebox.ac/"
-    ],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Atlantic",
     "url": "https://atlantic.bz/",
     "mirrors": [
@@ -3235,15 +3220,14 @@
     "index": false
    },
    {
-    "name": "Flixer",
-    "url": "https://flixer.gd",
+    "name": "PopcornMovies",
+    "url": "https://popcornmovies.st/",
     "mirrors": [
-     "https://flixer.su/",
-     "https://flixer.cx/",
-     "https://hexa.su/"
+     "https://bingebox.ac/"
     ],
     "tags": [
-     "1080p",
+     "4K",
+     "External Subs",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -3413,6 +3397,22 @@
      "1080p",
      "Dual Audio",
      "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Flixer",
+    "url": "https://flixer.gd",
+    "mirrors": [
+     "https://flixer.su/",
+     "https://flixer.cx/",
+     "https://hexa.su/"
+    ],
+    "tags": [
+     "1080p",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
