@@ -11,22 +11,6 @@
     "index": false
    },
    {
-    "name": "Atlantic",
-    "url": "https://atlantic.bz/",
-    "mirrors": [
-     "https://fprime.at/"
-    ],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "ShuttleTV",
     "url": "https://shuttletv.pk/",
     "mirrors": [
@@ -164,12 +148,15 @@
     "index": false
    },
    {
-    "name": "CineLite",
-    "url": "https://cinelite.xyz/",
-    "mirrors": [],
+    "name": "Atlantic",
+    "url": "https://atlantic.bz/",
+    "mirrors": [
+     "https://fprime.at/"
+    ],
     "tags": [
      "4K",
      "Dual Audio",
+     "External Subs",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -349,6 +336,19 @@
     "index": false
    },
    {
+    "name": "CineLite",
+    "url": "https://cinelite.xyz/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Aether",
     "url": "https://aether.st/",
     "mirrors": [
@@ -370,7 +370,7 @@
     "url": "https://basementx.lol/",
     "mirrors": [],
     "tags": [
-     "1080p",
+     "4K",
      "Dual Audio",
      "External Subs"
     ],
@@ -409,7 +409,8 @@
     "name": "Cno",
     "url": "https://cno.to/",
     "mirrors": [
-     "https://beta.cno.to/"
+     "https://beta.cno.to/",
+     "https://fli.cx/"
     ],
     "tags": [
      "4K",
@@ -426,6 +427,19 @@
     "tags": [
      "1080p",
      "External Subs"
+    ],
+    "group": "Dedicated-Server",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "LE MOVIE",
+    "url": "https://lemovie.site/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Pop up + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": true,
@@ -890,12 +904,10 @@
    },
    {
     "name": "ThugTV",
-    "url": "https://thugtv.online/",
-    "mirrors": [
-     "https://thugtv.st"
-    ],
+    "url": "https://thugtv.st",
+    "mirrors": [],
     "tags": [
-     "1080p",
+     "720p",
      "Dual Audio",
      "Ad-Toggle"
     ],
@@ -1394,19 +1406,6 @@
      "External Subs",
      "Popup + Redirect Free",
      "Use"
-    ],
-    "group": "Dedicated-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "LE MOVIE",
-    "url": "https://lemovie.site/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "Pop up + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": false,
@@ -3082,22 +3081,6 @@
     "index": false
    },
    {
-    "name": "Atlantic",
-    "url": "https://atlantic.bz/",
-    "mirrors": [
-     "https://fprime.at/"
-    ],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "ShuttleTV",
     "url": "https://shuttletv.pk/",
     "mirrors": [
@@ -3235,12 +3218,15 @@
     "index": false
    },
    {
-    "name": "CineLite",
-    "url": "https://cinelite.xyz/",
-    "mirrors": [],
+    "name": "Atlantic",
+    "url": "https://atlantic.bz/",
+    "mirrors": [
+     "https://fprime.at/"
+    ],
     "tags": [
      "4K",
      "Dual Audio",
+     "External Subs",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -3420,6 +3406,19 @@
     "index": false
    },
    {
+    "name": "CineLite",
+    "url": "https://cinelite.xyz/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Aether",
     "url": "https://aether.st/",
     "mirrors": [
@@ -3441,7 +3440,7 @@
     "url": "https://basementx.lol/",
     "mirrors": [],
     "tags": [
-     "1080p",
+     "4K",
      "Dual Audio",
      "External Subs"
     ],
@@ -3480,7 +3479,8 @@
     "name": "Cno",
     "url": "https://cno.to/",
     "mirrors": [
-     "https://beta.cno.to/"
+     "https://beta.cno.to/",
+     "https://fli.cx/"
     ],
     "tags": [
      "4K",
@@ -3497,6 +3497,19 @@
     "tags": [
      "1080p",
      "External Subs"
+    ],
+    "group": "Dedicated-Server",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "LE MOVIE",
+    "url": "https://lemovie.site/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Pop up + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": true,
@@ -3864,12 +3877,10 @@
    },
    {
     "name": "ThugTV",
-    "url": "https://thugtv.online/",
-    "mirrors": [
-     "https://thugtv.st"
-    ],
+    "url": "https://thugtv.st",
+    "mirrors": [],
     "tags": [
-     "1080p",
+     "720p",
      "Dual Audio",
      "Ad-Toggle"
     ],
@@ -4368,19 +4379,6 @@
      "External Subs",
      "Popup + Redirect Free",
      "Use"
-    ],
-    "group": "Dedicated-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "LE MOVIE",
-    "url": "https://lemovie.site/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "Pop up + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": false,
@@ -6086,6 +6084,18 @@
     "index": false
    },
    {
+    "name": "Matchora",
+    "url": "https://matchora.to/channels",
+    "mirrors": [],
+    "tags": [
+     "TV",
+     "Sports"
+    ],
+    "group": "Live TV",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "DamiTV",
     "url": "https://damitv.st/livetv",
     "mirrors": [
@@ -6222,6 +6232,15 @@
     "mirrors": [
      "https://aurasports.xyz/"
     ],
+    "tags": [],
+    "group": "Live Sports",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Matchora",
+    "url": "https://matchora.to/",
+    "mirrors": [],
     "tags": [],
     "group": "Live Sports",
     "pick": false,
@@ -6370,15 +6389,6 @@
     "index": false
    },
    {
-    "name": "Matchora",
-    "url": "https://matchora.to/",
-    "mirrors": [],
-    "tags": [],
-    "group": "Live Sports",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "TotalSportek",
     "url": "https://totalsport-ek.st/",
     "mirrors": [
@@ -6445,7 +6455,7 @@
    },
    {
     "name": "SportOnTV",
-    "url": "https://sportontv.click/",
+    "url": "https://sportontv.stream/",
     "mirrors": [
      "https://sotproxy.ext.io"
     ],
@@ -6907,6 +6917,17 @@
     "index": false
    },
    {
+    "name": "MMA Replay All",
+    "url": "https://mmareplayall.com/",
+    "mirrors": [],
+    "tags": [
+     "MMA Replays"
+    ],
+    "group": "Sports Replays",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "WatchProWrestling",
     "url": "https://watchprowrestling.store/",
     "mirrors": [],
@@ -7181,8 +7202,11 @@
    },
    {
     "name": "Gotaku",
-    "url": "https://gotaku.to/",
-    "mirrors": [],
+    "url": "https://gotaku.to//",
+    "mirrors": [
+     "https://gotaku.ch",
+     "https://gotaku.li"
+    ],
     "tags": [
      "Sub",
      "Dub",
@@ -7277,8 +7301,7 @@
     "name": "AniXo",
     "url": "https://anixo.live/",
     "mirrors": [
-     "https://anixo.cfd/",
-     "https://anixo.online/home"
+     "https://anixo.cfd/"
     ],
     "tags": [
      "Sub",
@@ -8190,6 +8213,18 @@
    {
     "name": "TVNow",
     "url": "https://tvnow.st/",
+    "mirrors": [],
+    "tags": [
+     "TV",
+     "Sports"
+    ],
+    "group": "Live TV",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Matchora",
+    "url": "https://matchora.to/channels",
     "mirrors": [],
     "tags": [
      "TV",
@@ -15190,6 +15225,17 @@
    {
     "name": "AsyaAnimeleri",
     "url": "https://asyaanimeleri.top/",
+    "mirrors": [],
+    "tags": [
+     "Anime"
+    ],
+    "group": "Turkish",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Animpow",
+    "url": "https://animpow.com/",
     "mirrors": [],
     "tags": [
      "Anime"
