@@ -11,22 +11,6 @@
     "index": false
    },
    {
-    "name": "ShuttleTV",
-    "url": "https://shuttletv.pk/",
-    "mirrors": [
-     "https://shuttletv.me/"
-    ],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "FlyStream",
     "url": "https://flystream.net/",
     "mirrors": [],
@@ -164,14 +148,13 @@
     "index": false
    },
    {
-    "name": "Ghostflix",
-    "url": "https://ghostflix.st/",
+    "name": "ShuttleTV",
+    "url": "https://shuttletv.pk/",
     "mirrors": [
-     "https://redflix.st/",
-     "https://redflix.ac/"
+     "https://shuttletv.me/"
     ],
     "tags": [
-     "1080p",
+     "4K",
      "Dual Audio",
      "External Subs",
      "Ad-Toggle"
@@ -342,6 +325,23 @@
     "tags": [
      "4K",
      "Dual Audio",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Ghostflix",
+    "url": "https://ghostflix.st/",
+    "mirrors": [
+     "https://redflix.st/",
+     "https://redflix.ac/"
+    ],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "External Subs",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -3081,22 +3081,6 @@
     "index": false
    },
    {
-    "name": "ShuttleTV",
-    "url": "https://shuttletv.pk/",
-    "mirrors": [
-     "https://shuttletv.me/"
-    ],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "FlyStream",
     "url": "https://flystream.net/",
     "mirrors": [],
@@ -3234,14 +3218,13 @@
     "index": false
    },
    {
-    "name": "Ghostflix",
-    "url": "https://ghostflix.st/",
+    "name": "ShuttleTV",
+    "url": "https://shuttletv.pk/",
     "mirrors": [
-     "https://redflix.st/",
-     "https://redflix.ac/"
+     "https://shuttletv.me/"
     ],
     "tags": [
-     "1080p",
+     "4K",
      "Dual Audio",
      "External Subs",
      "Ad-Toggle"
@@ -3412,6 +3395,23 @@
     "tags": [
      "4K",
      "Dual Audio",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Ghostflix",
+    "url": "https://ghostflix.st/",
+    "mirrors": [
+     "https://redflix.st/",
+     "https://redflix.ac/"
+    ],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "External Subs",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
