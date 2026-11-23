@@ -86,9 +86,9 @@
    },
    {
     "name": "7Movies",
-    "url": "https://7movies.ac/",
+    "url": "https://7movies.ws/",
     "mirrors": [
-     "https://7movies.ws/",
+     "https://7movies.ac/",
      "https://7shows.st/"
     ],
     "tags": [
@@ -164,6 +164,23 @@
     "index": false
    },
    {
+    "name": "SweetFox",
+    "url": "https://sweetfox.st/",
+    "mirrors": [
+     "http://sweetfox.app/",
+     "https://67movies.st/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "dulo",
     "url": "https://dulo.mov/",
     "mirrors": [],
@@ -208,8 +225,10 @@
    },
    {
     "name": "Way2Movies",
-    "url": "https://beta.way2movies.live/",
+    "url": "https://way2movies.vip/",
     "mirrors": [
+     "https://old.way2movies.vip",
+     "https://beta.way2movies.live/",
      "https://way2movies.live/"
     ],
     "tags": [
@@ -246,23 +265,6 @@
      "4K",
      "External Subs",
      "Popup + Redirect Free"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "SweetFox",
-    "url": "https://sweetfox.app/",
-    "mirrors": [
-     "http://sweetfox.st",
-     "https://67movies.st/"
-    ],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -379,13 +381,13 @@
     "index": false
    },
    {
-    "name": "Q62",
-    "url": "https://q62flix.ws/",
+    "name": "LE MOVIE",
+    "url": "https://lemovie.site/",
     "mirrors": [],
     "tags": [
      "1080p",
      "Dual Audio",
-     "Popup + Redirect Free"
+     "Pop up + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": true,
@@ -427,19 +429,6 @@
     "tags": [
      "1080p",
      "External Subs"
-    ],
-    "group": "Dedicated-Server",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "LE MOVIE",
-    "url": "https://lemovie.site/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "Pop up + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": true,
@@ -504,19 +493,7 @@
     "url": "https://zetmoon.live/",
     "mirrors": [],
     "tags": [
-     "38 Sources",
-     "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "TonkaCine",
-    "url": "https://tonkacine.watch/",
-    "mirrors": [],
-    "tags": [
-     "8 Sources",
+     "39 Sources",
      "Popup + Redirect Free"
     ],
     "group": "Multi-Server",
@@ -925,6 +902,20 @@
      "4K",
      "External Subs",
      "Popup + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Reeflix",
+    "url": "https://reeflix.st/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Pop up + Redirect Free"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -1412,19 +1403,6 @@
     "index": false
    },
    {
-    "name": "CinemaCity",
-    "url": "https://cinemacity.cc/",
-    "mirrors": [],
-    "tags": [
-     "480p",
-     "Dual Audio",
-     "Popup + Redirect Free"
-    ],
-    "group": "Dedicated-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Flixtrz",
     "url": "https://flixtrz.com/",
     "mirrors": [],
@@ -1614,6 +1592,19 @@
     "index": false
    },
    {
+    "name": "Q62",
+    "url": "https://q62flix.ws/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Popup + Redirect Free"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "MovieBox",
     "url": "https://movieboxonline.net",
     "mirrors": [
@@ -1650,6 +1641,20 @@
     "index": false
    },
    {
+    "name": "CinemaCity",
+    "url": "https://cinemacity.cc/",
+    "mirrors": [],
+    "tags": [
+     "480p",
+     "Dual Audio",
+     "Popup + Redirect Free",
+     "Signup Required"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Fusion Movies",
     "url": "https://www4.fusionmovies.to/",
     "mirrors": [],
@@ -1657,6 +1662,18 @@
      "480p"
     ],
     "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "TonkaCine",
+    "url": "https://tonkacine.watch/",
+    "mirrors": [],
+    "tags": [
+     "9 Sources",
+     "Popup + Redirect Free"
+    ],
+    "group": "Multi-Server",
     "pick": false,
     "index": false
    },
@@ -1712,18 +1729,6 @@
     "index": false
    },
    {
-    "name": "Youflex",
-    "url": "https://youflex.top/",
-    "mirrors": [],
-    "tags": [
-     "30 Sources",
-     "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "CandleStream",
     "url": "https://candlestream.xyz/#home",
     "mirrors": [],
@@ -1754,6 +1759,30 @@
     "tags": [
      "38 Sources",
      "Pop up + Redirect Free"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Cineshine",
+    "url": "https://cineshine.org/",
+    "mirrors": [],
+    "tags": [
+     "38 Sources",
+     "Pop up + Redirect Free"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Youflex",
+    "url": "https://youflex.top/",
+    "mirrors": [],
+    "tags": [
+     "30 Sources",
+     "Popup + Redirect Free"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -2738,18 +2767,6 @@
     "index": false
    },
    {
-    "name": "Silent Hall of Fame",
-    "url": "https://silent-hall-of-fame.org/index.php/free-films",
-    "mirrors": [],
-    "tags": [
-     "Silent Films",
-     "Rare Films"
-    ],
-    "group": "Classics / Public Domain",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "HuntleyArchives",
     "url": "https://www.huntleyarchives.com/",
     "mirrors": [],
@@ -3156,9 +3173,9 @@
    },
    {
     "name": "7Movies",
-    "url": "https://7movies.ac/",
+    "url": "https://7movies.ws/",
     "mirrors": [
-     "https://7movies.ws/",
+     "https://7movies.ac/",
      "https://7shows.st/"
     ],
     "tags": [
@@ -3234,6 +3251,23 @@
     "index": false
    },
    {
+    "name": "SweetFox",
+    "url": "https://sweetfox.st/",
+    "mirrors": [
+     "http://sweetfox.app/",
+     "https://67movies.st/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "dulo",
     "url": "https://dulo.mov/",
     "mirrors": [],
@@ -3278,8 +3312,10 @@
    },
    {
     "name": "Way2Movies",
-    "url": "https://beta.way2movies.live/",
+    "url": "https://way2movies.vip/",
     "mirrors": [
+     "https://old.way2movies.vip",
+     "https://beta.way2movies.live/",
      "https://way2movies.live/"
     ],
     "tags": [
@@ -3316,23 +3352,6 @@
      "4K",
      "External Subs",
      "Popup + Redirect Free"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "SweetFox",
-    "url": "https://sweetfox.app/",
-    "mirrors": [
-     "http://sweetfox.st",
-     "https://67movies.st/"
-    ],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -3449,13 +3468,13 @@
     "index": false
    },
    {
-    "name": "Q62",
-    "url": "https://q62flix.ws/",
+    "name": "LE MOVIE",
+    "url": "https://lemovie.site/",
     "mirrors": [],
     "tags": [
      "1080p",
      "Dual Audio",
-     "Popup + Redirect Free"
+     "Pop up + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": true,
@@ -3497,19 +3516,6 @@
     "tags": [
      "1080p",
      "External Subs"
-    ],
-    "group": "Dedicated-Server",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "LE MOVIE",
-    "url": "https://lemovie.site/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "Pop up + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": true,
@@ -3574,19 +3580,7 @@
     "url": "https://zetmoon.live/",
     "mirrors": [],
     "tags": [
-     "38 Sources",
-     "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "TonkaCine",
-    "url": "https://tonkacine.watch/",
-    "mirrors": [],
-    "tags": [
-     "8 Sources",
+     "39 Sources",
      "Popup + Redirect Free"
     ],
     "group": "Multi-Server",
@@ -3898,6 +3892,20 @@
      "4K",
      "External Subs",
      "Popup + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Reeflix",
+    "url": "https://reeflix.st/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Pop up + Redirect Free"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -4385,19 +4393,6 @@
     "index": false
    },
    {
-    "name": "CinemaCity",
-    "url": "https://cinemacity.cc/",
-    "mirrors": [],
-    "tags": [
-     "480p",
-     "Dual Audio",
-     "Popup + Redirect Free"
-    ],
-    "group": "Dedicated-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Flixtrz",
     "url": "https://flixtrz.com/",
     "mirrors": [],
@@ -4587,6 +4582,19 @@
     "index": false
    },
    {
+    "name": "Q62",
+    "url": "https://q62flix.ws/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Popup + Redirect Free"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "MovieBox",
     "url": "https://movieboxonline.net",
     "mirrors": [
@@ -4623,6 +4631,20 @@
     "index": false
    },
    {
+    "name": "CinemaCity",
+    "url": "https://cinemacity.cc/",
+    "mirrors": [],
+    "tags": [
+     "480p",
+     "Dual Audio",
+     "Popup + Redirect Free",
+     "Signup Required"
+    ],
+    "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Fusion Movies",
     "url": "https://www4.fusionmovies.to/",
     "mirrors": [],
@@ -4630,6 +4652,18 @@
      "480p"
     ],
     "group": "Dedicated-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "TonkaCine",
+    "url": "https://tonkacine.watch/",
+    "mirrors": [],
+    "tags": [
+     "9 Sources",
+     "Popup + Redirect Free"
+    ],
+    "group": "Multi-Server",
     "pick": false,
     "index": false
    },
@@ -4685,18 +4719,6 @@
     "index": false
    },
    {
-    "name": "Youflex",
-    "url": "https://youflex.top/",
-    "mirrors": [],
-    "tags": [
-     "30 Sources",
-     "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "CandleStream",
     "url": "https://candlestream.xyz/#home",
     "mirrors": [],
@@ -4727,6 +4749,30 @@
     "tags": [
      "38 Sources",
      "Pop up + Redirect Free"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Cineshine",
+    "url": "https://cineshine.org/",
+    "mirrors": [],
+    "tags": [
+     "38 Sources",
+     "Pop up + Redirect Free"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Youflex",
+    "url": "https://youflex.top/",
+    "mirrors": [],
+    "tags": [
+     "30 Sources",
+     "Popup + Redirect Free"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -5778,7 +5824,7 @@
    },
    {
     "name": "StreamSports99",
-    "url": "https://streamsports99.ru/live-tv",
+    "url": "https://sstreamsports99.is/live-tv",
     "mirrors": [],
     "tags": [
      "TV",
@@ -5910,10 +5956,10 @@
    },
    {
     "name": "StreamSports99",
-    "url": "https://streamsports99.ru",
+    "url": "https://streamsports99.is",
     "mirrors": [
      "https://streamsports99.website/",
-     "https://streamsports99.su/vpns"
+     "https://streamsports99.is/vpns"
     ],
     "tags": [],
     "group": "Live Sports",
@@ -5922,8 +5968,9 @@
    },
    {
     "name": "DaddyLive",
-    "url": "https://dlive.sx/",
+    "url": "https://dlhd.st/",
     "mirrors": [
+     "https://thedaddy.li/",
      "https://daddylive.pk/"
     ],
     "tags": [],
@@ -6415,10 +6462,8 @@
    },
    {
     "name": "CMVTV",
-    "url": "https://cmvxd.lovable.app/",
-    "mirrors": [
-     "https://cmvwd.lovable.app/"
-    ],
+    "url": "https://cmvwd.lovable.app/",
+    "mirrors": [],
     "tags": [],
     "group": "Live Sports",
     "pick": false,
@@ -7757,18 +7802,6 @@
     "index": false
    },
    {
-    "name": "AnimeLover",
-    "url": "https://animelover.site/",
-    "mirrors": [],
-    "tags": [
-     "Sub",
-     "Dub"
-    ],
-    "group": "Anime Streaming",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Anikage",
     "url": "https://anikage.cc/",
     "mirrors": [],
@@ -8080,7 +8113,7 @@
    },
    {
     "name": "StreamSports99",
-    "url": "https://streamsports99.ru/live-tv",
+    "url": "https://sstreamsports99.is/live-tv",
     "mirrors": [],
     "tags": [
      "TV",
@@ -8990,6 +9023,19 @@
    {
     "name": "EgyBest",
     "url": "https://egybest.la/",
+    "mirrors": [],
+    "tags": [
+     "Movies",
+     "TV",
+     "Anime"
+    ],
+    "group": "Arabic",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "MySeed",
+    "url": "https://m.myseed.tv/",
     "mirrors": [],
     "tags": [
      "Movies",
@@ -14879,18 +14925,6 @@
     "index": false
    },
    {
-    "name": "Animejara",
-    "url": "https://animejara.com/",
-    "mirrors": [],
-    "tags": [
-     "Anime",
-     "Sub"
-    ],
-    "group": "Spanish",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "TioAnime",
     "url": "https://tioanime.com/",
     "mirrors": [],
@@ -15155,6 +15189,17 @@
      "Sub",
      "Dub",
      "1080p"
+    ],
+    "group": "Turkish",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Diziizle",
+    "url": "https://www.diziizle.you/",
+    "mirrors": [],
+    "tags": [
+     "TV"
     ],
     "group": "Turkish",
     "pick": false,
