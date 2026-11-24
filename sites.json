@@ -11,20 +11,6 @@
     "index": false
    },
    {
-    "name": "FlyStream",
-    "url": "https://flystream.net/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Vivarium",
     "url": "https://vivarium.st/",
     "mirrors": [],
@@ -181,12 +167,26 @@
     "index": false
    },
    {
-    "name": "dulo",
-    "url": "https://dulo.mov/",
+    "name": "FlyStream",
+    "url": "https://flystream.net/",
     "mirrors": [],
     "tags": [
      "4K",
+     "Dual Audio",
      "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "CineLite",
+    "url": "https://cinelite.xyz/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -321,19 +321,6 @@
     "index": false
    },
    {
-    "name": "CineLite",
-    "url": "https://cinelite.xyz/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Ghostflix",
     "url": "https://ghostflix.st/",
     "mirrors": [
@@ -345,6 +332,32 @@
      "Dual Audio",
      "External Subs",
      "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "dulo",
+    "url": "https://dulo.mov/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Vumeto",
+    "url": "https://vumeto.live/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Pop up + Redirect Free"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -381,6 +394,22 @@
     "index": false
    },
    {
+    "name": "Cno",
+    "url": "https://cno.to/",
+    "mirrors": [
+     "https://beta.cno.to/",
+     "https://fli.cx/"
+    ],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Pop up + Redirect Free"
+    ],
+    "group": "Dedicated-Server",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "LE MOVIE",
     "url": "https://lemovie.site/",
     "mirrors": [],
@@ -402,21 +431,6 @@
     ],
     "tags": [
      "4K"
-    ],
-    "group": "Dedicated-Server",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "Cno",
-    "url": "https://cno.to/",
-    "mirrors": [
-     "https://beta.cno.to/",
-     "https://fli.cx/"
-    ],
-    "tags": [
-     "4K",
-     "External Subs"
     ],
     "group": "Dedicated-Server",
     "pick": true,
@@ -993,19 +1007,6 @@
     "index": false
    },
    {
-    "name": "Vumeto",
-    "url": "https://vumeto.live/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "Pop up + Redirect Free"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Stellar",
     "url": "https://stellar.rip/",
     "mirrors": [],
@@ -1363,8 +1364,7 @@
     "name": "StreamWatch",
     "url": "https://streamwatch.online/",
     "mirrors": [
-     "https://pstream.site/",
-     "https://streamwatch.pages.dev/"
+     "https://pstream.site/"
     ],
     "tags": [
      "1080p",
@@ -1741,6 +1741,17 @@
     "index": false
    },
    {
+    "name": "PiePrime",
+    "url": "https://pieprime.cc/",
+    "mirrors": [],
+    "tags": [
+     "3 Sources"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Comvie",
     "url": "https://comvie.lol/",
     "mirrors": [],
@@ -1818,6 +1829,18 @@
     "mirrors": [],
     "tags": [
      "11 Sources"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Aloso",
+    "url": "https://aloso.vercel.app/",
+    "mirrors": [],
+    "tags": [
+     "38 Sources",
+     "Pop up + Redirect Free"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -2599,18 +2622,6 @@
     "index": false
    },
    {
-    "name": "KissAsian.video",
-    "url": "https://kissasian.video/",
-    "mirrors": [],
-    "tags": [
-     "TV",
-     "Movies"
-    ],
-    "group": "Drama Streaming",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "KissKH.dk",
     "url": "https://kisskh.dk/",
     "mirrors": [
@@ -3098,20 +3109,6 @@
     "index": false
    },
    {
-    "name": "FlyStream",
-    "url": "https://flystream.net/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Vivarium",
     "url": "https://vivarium.st/",
     "mirrors": [],
@@ -3268,12 +3265,26 @@
     "index": false
    },
    {
-    "name": "dulo",
-    "url": "https://dulo.mov/",
+    "name": "FlyStream",
+    "url": "https://flystream.net/",
     "mirrors": [],
     "tags": [
      "4K",
+     "Dual Audio",
      "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "CineLite",
+    "url": "https://cinelite.xyz/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -3408,19 +3419,6 @@
     "index": false
    },
    {
-    "name": "CineLite",
-    "url": "https://cinelite.xyz/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Ghostflix",
     "url": "https://ghostflix.st/",
     "mirrors": [
@@ -3432,6 +3430,32 @@
      "Dual Audio",
      "External Subs",
      "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "dulo",
+    "url": "https://dulo.mov/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Vumeto",
+    "url": "https://vumeto.live/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Pop up + Redirect Free"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -3468,6 +3492,22 @@
     "index": false
    },
    {
+    "name": "Cno",
+    "url": "https://cno.to/",
+    "mirrors": [
+     "https://beta.cno.to/",
+     "https://fli.cx/"
+    ],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Pop up + Redirect Free"
+    ],
+    "group": "Dedicated-Server",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "LE MOVIE",
     "url": "https://lemovie.site/",
     "mirrors": [],
@@ -3489,21 +3529,6 @@
     ],
     "tags": [
      "4K"
-    ],
-    "group": "Dedicated-Server",
-    "pick": true,
-    "index": false
-   },
-   {
-    "name": "Cno",
-    "url": "https://cno.to/",
-    "mirrors": [
-     "https://beta.cno.to/",
-     "https://fli.cx/"
-    ],
-    "tags": [
-     "4K",
-     "External Subs"
     ],
     "group": "Dedicated-Server",
     "pick": true,
@@ -3983,19 +4008,6 @@
     "index": false
    },
    {
-    "name": "Vumeto",
-    "url": "https://vumeto.live/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "Pop up + Redirect Free"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Stellar",
     "url": "https://stellar.rip/",
     "mirrors": [],
@@ -4353,8 +4365,7 @@
     "name": "StreamWatch",
     "url": "https://streamwatch.online/",
     "mirrors": [
-     "https://pstream.site/",
-     "https://streamwatch.pages.dev/"
+     "https://pstream.site/"
     ],
     "tags": [
      "1080p",
@@ -4731,6 +4742,17 @@
     "index": false
    },
    {
+    "name": "PiePrime",
+    "url": "https://pieprime.cc/",
+    "mirrors": [],
+    "tags": [
+     "3 Sources"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Comvie",
     "url": "https://comvie.lol/",
     "mirrors": [],
@@ -4808,6 +4830,18 @@
     "mirrors": [],
     "tags": [
      "11 Sources"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Aloso",
+    "url": "https://aloso.vercel.app/",
+    "mirrors": [],
+    "tags": [
+     "38 Sources",
+     "Pop up + Redirect Free"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -5708,18 +5742,6 @@
     "index": false
    },
    {
-    "name": "KissAsian.video",
-    "url": "https://kissasian.video/",
-    "mirrors": [],
-    "tags": [
-     "TV",
-     "Movies"
-    ],
-    "group": "Drama Streaming",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "KissKH.dk",
     "url": "https://kisskh.dk/",
     "mirrors": [
@@ -5824,7 +5846,7 @@
    },
    {
     "name": "StreamSports99",
-    "url": "https://sstreamsports99.is/live-tv",
+    "url": "https://streamsports99.is/live-tv",
     "mirrors": [],
     "tags": [
      "TV",
@@ -6342,7 +6364,6 @@
     "name": "BINTV",
     "url": "https://www.bintv.cc/",
     "mirrors": [
-     "https://www.bintv.link/",
      "https://discord.com/invite/fp3EQjFAJQ"
     ],
     "tags": [],
@@ -6451,7 +6472,6 @@
     "name": "Tap4Sport",
     "url": "https://tap4sport.st/",
     "mirrors": [
-     "https://tap4sport.ci/",
      "https://tap4sport.pw/",
      "http://tap4sport.link/"
     ],
@@ -6870,17 +6890,6 @@
     "index": false
    },
    {
-    "name": "FullMatchShows",
-    "url": "https://fullmatchshows.com",
-    "mirrors": [],
-    "tags": [
-     "Football Replays"
-    ],
-    "group": "Sports Replays",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "r/footballhighlights",
     "url": "https://www.reddit.com/r/footballhighlights/",
     "mirrors": [],
@@ -6916,6 +6925,17 @@
    {
     "name": "SoccerFull",
     "url": "https://soccerfull.net/",
+    "mirrors": [],
+    "tags": [
+     "Football Replays"
+    ],
+    "group": "Sports Replays",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "FullMatchShows",
+    "url": "https://fullmatchshows.com",
     "mirrors": [],
     "tags": [
      "Football Replays"
@@ -7588,6 +7608,19 @@
     "index": false
    },
    {
+    "name": "bAnime",
+    "url": "https://banime.top/",
+    "mirrors": [],
+    "tags": [
+     "Sub",
+     "Dub",
+     "Auto-Next"
+    ],
+    "group": "Anime Streaming",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "YumeZone",
     "url": "https://yumezone.live/",
     "mirrors": [],
@@ -7819,19 +7852,6 @@
     "mirrors": [],
     "tags": [
      "Sub"
-    ],
-    "group": "Anime Streaming",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "bAnime",
-    "url": "https://banime.top/",
-    "mirrors": [],
-    "tags": [
-     "Sub",
-     "Dub",
-     "Auto-Next"
     ],
     "group": "Anime Streaming",
     "pick": false,
@@ -8113,7 +8133,7 @@
    },
    {
     "name": "StreamSports99",
-    "url": "https://sstreamsports99.is/live-tv",
+    "url": "https://streamsports99.is/live-tv",
     "mirrors": [],
     "tags": [
      "TV",
@@ -15456,7 +15476,7 @@
   "Vietnamese": [
    {
     "name": "Sofaflix",
-    "url": "https://sofaflix.rest/",
+    "url": "https://vuonphim.com/",
     "mirrors": [],
     "tags": [
      "Movies",
@@ -15504,7 +15524,7 @@
    },
    {
     "name": "Tram Phim",
-    "url": "https://tramphim.app/",
+    "url": "https://tramphim.wtf/",
     "mirrors": [],
     "tags": [
      "Movies",
