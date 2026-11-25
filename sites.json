@@ -155,7 +155,9 @@
    {
     "name": "FlyStream",
     "url": "https://flystream.net/",
-    "mirrors": [],
+    "mirrors": [
+     "https://flystream.pk/"
+    ],
     "tags": [
      "4K",
      "Dual Audio",
@@ -182,7 +184,9 @@
    {
     "name": "Vivarium",
     "url": "https://vivarium.st/",
-    "mirrors": [],
+    "mirrors": [
+     "https://vivarium.cx/"
+    ],
     "tags": [
      "4K",
      "Dual Audio",
@@ -251,7 +255,7 @@
     "tags": [
      "4K",
      "External Subs",
-     "Popup + Redirect Free"
+     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -295,7 +299,6 @@
     "name": "Flixer",
     "url": "https://flixer.gd",
     "mirrors": [
-     "https://flixer.su/",
      "https://flixer.cx/",
      "https://hexa.su/"
     ],
@@ -344,7 +347,7 @@
     "tags": [
      "4K",
      "Dual Audio",
-     "Pop up + Redirect Free"
+     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -364,12 +367,22 @@
     "index": false
    },
    {
-    "name": "Aether",
-    "url": "https://aether.st/",
-    "mirrors": [
-     "https://aether.cx/",
-     "https://aether.ist/"
+    "name": "BingeBang",
+    "url": "https://bingebang.sx/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Popup + Redirect Free"
     ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Basement",
+    "url": "https://basementx.lol/",
+    "mirrors": [],
     "tags": [
      "4K",
      "Dual Audio",
@@ -381,13 +394,17 @@
     "index": false
    },
    {
-    "name": "Basement",
-    "url": "https://basementx.lol/",
-    "mirrors": [],
+    "name": "Aether",
+    "url": "https://aether.st/",
+    "mirrors": [
+     "https://aether.cx/",
+     "https://aether.ist/"
+    ],
     "tags": [
      "4K",
      "Dual Audio",
-     "External Subs"
+     "External Subs",
+     "Ad-Toggle"
     ],
     "group": "P-Stream Forks",
     "pick": true,
@@ -410,19 +427,6 @@
     "index": false
    },
    {
-    "name": "LE MOVIE",
-    "url": "https://lemovie.site/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "Pop up + Redirect Free"
-    ],
-    "group": "Dedicated-Server",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "NEPU",
     "url": "https://nepu.io/",
     "mirrors": [
@@ -431,6 +435,19 @@
     ],
     "tags": [
      "4K"
+    ],
+    "group": "Dedicated-Server",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "LE MOVIE",
+    "url": "https://lemovie.site/",
+    "mirrors": [],
+    "tags": [
+     "720p",
+     "Dual Audio",
+     "Pop up + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": true,
@@ -732,19 +749,6 @@
     "index": false
    },
    {
-    "name": "BingeBang",
-    "url": "https://bingebang.st/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Popup + Redirect Free"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Lightflix",
     "url": "https://lightflix.app/",
     "mirrors": [
@@ -929,7 +933,7 @@
      "4K",
      "Dual Audio",
      "External Subs",
-     "Pop up + Redirect Free"
+     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -1033,6 +1037,19 @@
     "index": false
    },
    {
+    "name": "Kaizoku",
+    "url": "https://kaizoku.site/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Popup + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "driftly",
     "url": "https://driftly.live/",
     "mirrors": [],
@@ -1078,6 +1095,30 @@
     "tags": [
      "1080p",
      "External Subs",
+     "Popup + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "PFlix",
+    "url": "https://pflix.net/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Popup + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Tonitrus",
+    "url": "https://tonitrus.online/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
      "Popup + Redirect Free"
     ],
     "group": "Stream Aggregators",
@@ -1140,6 +1181,20 @@
    {
     "name": "cineruv",
     "url": "https://cineruv.website/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "External Subs",
+     "Popup + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "CineBros",
+    "url": "https://cinebros.net/",
     "mirrors": [],
     "tags": [
      "1080p",
@@ -1695,7 +1750,7 @@
      "https://hydrahd.com/"
     ],
     "tags": [
-     "12 Sources"
+     "13 Sources"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -1741,29 +1796,6 @@
     "index": false
    },
    {
-    "name": "PiePrime",
-    "url": "https://pieprime.cc/",
-    "mirrors": [],
-    "tags": [
-     "3 Sources"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "Comvie",
-    "url": "https://comvie.lol/",
-    "mirrors": [],
-    "tags": [
-     "39 Sources",
-     "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "HDToday",
     "url": "https://hdtoday.com.tr/",
     "mirrors": [],
@@ -1782,6 +1814,18 @@
     "tags": [
      "38 Sources",
      "Pop up + Redirect Free"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Comvie",
+    "url": "https://comvie.lol/",
+    "mirrors": [],
+    "tags": [
+     "39 Sources",
+     "Popup + Redirect Free"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -1824,22 +1868,11 @@
     "index": false
    },
    {
-    "name": "Bingeflix",
-    "url": "https://bingeflix.tv/",
-    "mirrors": [],
-    "tags": [
-     "11 Sources"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Aloso",
     "url": "https://aloso.vercel.app/",
     "mirrors": [],
     "tags": [
-     "38 Sources",
+     "46 Sources",
      "Pop up + Redirect Free"
     ],
     "group": "Multi-Server",
@@ -1875,23 +1908,23 @@
     "index": false
    },
    {
-    "name": "ONOFLIX",
-    "url": "https://onoflix.live/",
-    "mirrors": [],
-    "tags": [
-     "16 Sources"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "FLIKER",
     "url": "https://fliker.freebuff.app/",
     "mirrors": [],
     "tags": [
      "17 Sources",
      "Popup + Redirect Free"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Bingeflix",
+    "url": "https://bingeflix.tv/",
+    "mirrors": [],
+    "tags": [
+     "11 Sources"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -1905,18 +1938,6 @@
     ],
     "tags": [
      "15 Sources",
-     "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "Snowstream",
-    "url": "https://snowstream.vercel.app/",
-    "mirrors": [],
-    "tags": [
-     "21 Sources",
      "Popup + Redirect Free"
     ],
     "group": "Multi-Server",
@@ -1953,19 +1974,6 @@
     "mirrors": [],
     "tags": [
      "16 Sources"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "Moviepire",
-    "url": "https://moviepire.ru/",
-    "mirrors": [
-     "https://phland.org/"
-    ],
-    "tags": [
-     "38 Sources"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -2050,6 +2058,19 @@
     "mirrors": [],
     "tags": [
      "51 Sources"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Moviepire",
+    "url": "https://moviepire.ru/",
+    "mirrors": [
+     "https://phland.org/"
+    ],
+    "tags": [
+     "38 Sources"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -2493,9 +2514,7 @@
    {
     "name": "KissAsian",
     "url": "https://kissasian.com.gr/",
-    "mirrors": [
-     "https://kisskh.fr/"
-    ],
+    "mirrors": [],
     "tags": [
      "TV",
      "Movies"
@@ -2624,9 +2643,7 @@
    {
     "name": "KissKH.dk",
     "url": "https://kisskh.dk/",
-    "mirrors": [
-     "https://kisskh.or.at/"
-    ],
+    "mirrors": [],
     "tags": [
      "TV",
      "Movies"
@@ -3253,7 +3270,9 @@
    {
     "name": "FlyStream",
     "url": "https://flystream.net/",
-    "mirrors": [],
+    "mirrors": [
+     "https://flystream.pk/"
+    ],
     "tags": [
      "4K",
      "Dual Audio",
@@ -3280,7 +3299,9 @@
    {
     "name": "Vivarium",
     "url": "https://vivarium.st/",
-    "mirrors": [],
+    "mirrors": [
+     "https://vivarium.cx/"
+    ],
     "tags": [
      "4K",
      "Dual Audio",
@@ -3349,7 +3370,7 @@
     "tags": [
      "4K",
      "External Subs",
-     "Popup + Redirect Free"
+     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -3393,7 +3414,6 @@
     "name": "Flixer",
     "url": "https://flixer.gd",
     "mirrors": [
-     "https://flixer.su/",
      "https://flixer.cx/",
      "https://hexa.su/"
     ],
@@ -3442,7 +3462,7 @@
     "tags": [
      "4K",
      "Dual Audio",
-     "Pop up + Redirect Free"
+     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -3462,12 +3482,22 @@
     "index": false
    },
    {
-    "name": "Aether",
-    "url": "https://aether.st/",
-    "mirrors": [
-     "https://aether.cx/",
-     "https://aether.ist/"
+    "name": "BingeBang",
+    "url": "https://bingebang.sx/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "External Subs",
+     "Popup + Redirect Free"
     ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Basement",
+    "url": "https://basementx.lol/",
+    "mirrors": [],
     "tags": [
      "4K",
      "Dual Audio",
@@ -3479,13 +3509,17 @@
     "index": false
    },
    {
-    "name": "Basement",
-    "url": "https://basementx.lol/",
-    "mirrors": [],
+    "name": "Aether",
+    "url": "https://aether.st/",
+    "mirrors": [
+     "https://aether.cx/",
+     "https://aether.ist/"
+    ],
     "tags": [
      "4K",
      "Dual Audio",
-     "External Subs"
+     "External Subs",
+     "Ad-Toggle"
     ],
     "group": "P-Stream Forks",
     "pick": true,
@@ -3508,19 +3542,6 @@
     "index": false
    },
    {
-    "name": "LE MOVIE",
-    "url": "https://lemovie.site/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "Pop up + Redirect Free"
-    ],
-    "group": "Dedicated-Server",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "NEPU",
     "url": "https://nepu.io/",
     "mirrors": [
@@ -3529,6 +3550,19 @@
     ],
     "tags": [
      "4K"
+    ],
+    "group": "Dedicated-Server",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "LE MOVIE",
+    "url": "https://lemovie.site/",
+    "mirrors": [],
+    "tags": [
+     "720p",
+     "Dual Audio",
+     "Pop up + Redirect Free"
     ],
     "group": "Dedicated-Server",
     "pick": true,
@@ -3733,19 +3767,6 @@
     "index": false
    },
    {
-    "name": "BingeBang",
-    "url": "https://bingebang.st/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs",
-     "Popup + Redirect Free"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Lightflix",
     "url": "https://lightflix.app/",
     "mirrors": [
@@ -3930,7 +3951,7 @@
      "4K",
      "Dual Audio",
      "External Subs",
-     "Pop up + Redirect Free"
+     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -4034,6 +4055,19 @@
     "index": false
    },
    {
+    "name": "Kaizoku",
+    "url": "https://kaizoku.site/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Popup + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "driftly",
     "url": "https://driftly.live/",
     "mirrors": [],
@@ -4079,6 +4113,30 @@
     "tags": [
      "1080p",
      "External Subs",
+     "Popup + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "PFlix",
+    "url": "https://pflix.net/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Popup + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Tonitrus",
+    "url": "https://tonitrus.online/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
      "Popup + Redirect Free"
     ],
     "group": "Stream Aggregators",
@@ -4141,6 +4199,20 @@
    {
     "name": "cineruv",
     "url": "https://cineruv.website/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "External Subs",
+     "Popup + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "CineBros",
+    "url": "https://cinebros.net/",
     "mirrors": [],
     "tags": [
      "1080p",
@@ -4696,7 +4768,7 @@
      "https://hydrahd.com/"
     ],
     "tags": [
-     "12 Sources"
+     "13 Sources"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -4742,29 +4814,6 @@
     "index": false
    },
    {
-    "name": "PiePrime",
-    "url": "https://pieprime.cc/",
-    "mirrors": [],
-    "tags": [
-     "3 Sources"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "Comvie",
-    "url": "https://comvie.lol/",
-    "mirrors": [],
-    "tags": [
-     "39 Sources",
-     "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "HDToday",
     "url": "https://hdtoday.com.tr/",
     "mirrors": [],
@@ -4783,6 +4832,18 @@
     "tags": [
      "38 Sources",
      "Pop up + Redirect Free"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Comvie",
+    "url": "https://comvie.lol/",
+    "mirrors": [],
+    "tags": [
+     "39 Sources",
+     "Popup + Redirect Free"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -4825,22 +4886,11 @@
     "index": false
    },
    {
-    "name": "Bingeflix",
-    "url": "https://bingeflix.tv/",
-    "mirrors": [],
-    "tags": [
-     "11 Sources"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Aloso",
     "url": "https://aloso.vercel.app/",
     "mirrors": [],
     "tags": [
-     "38 Sources",
+     "46 Sources",
      "Pop up + Redirect Free"
     ],
     "group": "Multi-Server",
@@ -4876,23 +4926,23 @@
     "index": false
    },
    {
-    "name": "ONOFLIX",
-    "url": "https://onoflix.live/",
-    "mirrors": [],
-    "tags": [
-     "16 Sources"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "FLIKER",
     "url": "https://fliker.freebuff.app/",
     "mirrors": [],
     "tags": [
      "17 Sources",
      "Popup + Redirect Free"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Bingeflix",
+    "url": "https://bingeflix.tv/",
+    "mirrors": [],
+    "tags": [
+     "11 Sources"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -4906,18 +4956,6 @@
     ],
     "tags": [
      "15 Sources",
-     "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "Snowstream",
-    "url": "https://snowstream.vercel.app/",
-    "mirrors": [],
-    "tags": [
-     "21 Sources",
      "Popup + Redirect Free"
     ],
     "group": "Multi-Server",
@@ -4954,19 +4992,6 @@
     "mirrors": [],
     "tags": [
      "16 Sources"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "Moviepire",
-    "url": "https://moviepire.ru/",
-    "mirrors": [
-     "https://phland.org/"
-    ],
-    "tags": [
-     "38 Sources"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -5051,6 +5076,19 @@
     "mirrors": [],
     "tags": [
      "51 Sources"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Moviepire",
+    "url": "https://moviepire.ru/",
+    "mirrors": [
+     "https://phland.org/"
+    ],
+    "tags": [
+     "38 Sources"
     ],
     "group": "Multi-Server",
     "pick": false,
@@ -5613,9 +5651,7 @@
    {
     "name": "KissAsian",
     "url": "https://kissasian.com.gr/",
-    "mirrors": [
-     "https://kisskh.fr/"
-    ],
+    "mirrors": [],
     "tags": [
      "TV",
      "Movies"
@@ -5744,9 +5780,7 @@
    {
     "name": "KissKH.dk",
     "url": "https://kisskh.dk/",
-    "mirrors": [
-     "https://kisskh.or.at/"
-    ],
+    "mirrors": [],
     "tags": [
      "TV",
      "Movies"
@@ -6531,7 +6565,7 @@
    },
    {
     "name": "FalconStreams",
-    "url": "https://falconstreams.app/",
+    "url": "https://falconstreams.st/",
     "mirrors": [],
     "tags": [],
     "group": "Live Sports",
@@ -6586,9 +6620,7 @@
    {
     "name": "FCTV33",
     "url": "https://www.fctv33go.hair/",
-    "mirrors": [
-     "https://emmau680.driveraudiencej2zeu49.sbs/"
-    ],
+    "mirrors": [],
     "tags": [],
     "group": "Live Sports",
     "pick": false,
@@ -6596,10 +6628,10 @@
    },
    {
     "name": "VIP Box Sports",
-    "url": "https://vipleague.me/home",
+    "url": "https://vipleague.li/",
     "mirrors": [
-     "https://olympicweb.me/home",
-     "https://fbstream.is/",
+     "https://olympiclive.me/",
+     "https://fbstream.st/",
      "https://rentry.co/vipbox-mirrors"
     ],
     "tags": [],
@@ -6707,7 +6739,7 @@
    },
    {
     "name": "F1 Live",
-    "url": "https://flive.dpdns.org/",
+    "url": "https://flive.cc.cd/",
     "mirrors": [],
     "tags": [
      "Motorsports"
@@ -7532,7 +7564,7 @@
    },
    {
     "name": "Aniwave",
-    "url": "https://aniwaves.ru/",
+    "url": "https://aniwaves.tv/",
     "mirrors": [
      "https://hianimes.ru/",
      "https://123animehub.cc/"
@@ -7571,7 +7603,7 @@
    },
    {
     "name": "AniSnatch",
-    "url": "https://anisnatch.top/",
+    "url": "https://anisnatch.cz/",
     "mirrors": [
      "https://anisnatch.site/"
     ],
@@ -7775,6 +7807,19 @@
    {
     "name": "Shonen",
     "url": "https://shonen.to/",
+    "mirrors": [],
+    "tags": [
+     "Sub",
+     "Dub",
+     "Auto-Next"
+    ],
+    "group": "Anime Streaming",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "Way2Movies Anime",
+    "url": "https://anime.way2movies.vip/",
     "mirrors": [],
     "tags": [
      "Sub",
@@ -10271,20 +10316,6 @@
     "index": false
    },
    {
-    "name": "Stigstream",
-    "url": "https://stigstream.ru/",
-    "mirrors": [],
-    "tags": [
-     "Movies",
-     "TV",
-     "Anime",
-     "Auto-Next"
-    ],
-    "group": "French",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "TF1",
     "url": "https://www.tf1.fr/",
     "mirrors": [],
@@ -10462,7 +10493,7 @@
    },
    {
     "name": "Voiranime",
-    "url": "https://voir-anime.to/",
+    "url": "https://voiranime.cx/",
     "mirrors": [],
     "tags": [
      "Anime",
@@ -11085,7 +11116,6 @@
     "name": "tainio-mania",
     "url": "https://tainio-mania.store",
     "mirrors": [
-     "https://tenies-online.best/",
      "https://voody-online.com/",
      "https://moomza.com/"
     ],
@@ -12001,7 +12031,7 @@
    },
    {
     "name": "StreamingCommunity",
-    "url": "https://streamingcommunityz.photos/",
+    "url": "https://streamingcommunityz.mov/",
     "mirrors": [],
     "tags": [
      "Movies",
@@ -13837,6 +13867,17 @@
     "index": false
    },
    {
+    "name": "AnimeGO",
+    "url": "https://animego.me/",
+    "mirrors": [],
+    "tags": [
+     "Anime"
+    ],
+    "group": "Russian",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "AniLabX",
     "url": "https://anilabx.xyz/",
     "mirrors": [],
@@ -14633,17 +14674,6 @@
     "index": false
    },
    {
-    "name": "librefutboltv",
-    "url": "https://futbol-libre.com.co/",
-    "mirrors": [],
-    "tags": [
-     "Live Football"
-    ],
-    "group": "Spanish",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Cinecalidad",
     "url": "https://www.cinecalidad.am/",
     "mirrors": [
@@ -14674,9 +14704,7 @@
    {
     "name": "verpeliculasonline",
     "url": "https://verpeliculasonline.org/",
-    "mirrors": [
-     "https://ver-peliculas-online.org/"
-    ],
+    "mirrors": [],
     "tags": [
      "Movies",
      "TV"
@@ -15493,7 +15521,9 @@
    {
     "name": "kkphim",
     "url": "https://kkphim.com/",
-    "mirrors": [],
+    "mirrors": [
+     "https://kkphim2.com/"
+    ],
     "tags": [
      "Movies",
      "TV",
@@ -15507,7 +15537,7 @@
     "index": false
    },
    {
-    "name": "NguonC",
+    "name": "NGUỒN C",
     "url": "https://phim.nguonc.com/",
     "mirrors": [],
     "tags": [
@@ -15523,8 +15553,8 @@
     "index": false
    },
    {
-    "name": "Tram Phim",
-    "url": "https://tramphim.wtf/",
+    "name": "Trạm Phim",
+    "url": "https://tramphim.beer/",
     "mirrors": [],
     "tags": [
      "Movies",
