@@ -11,20 +11,6 @@
     "index": false
    },
    {
-    "name": "Vivarium",
-    "url": "https://vivarium.st/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "ArrowTV",
     "url": "https://arrowtv.net/",
     "mirrors": [
@@ -194,13 +180,14 @@
     "index": false
    },
    {
-    "name": "Spacedom",
-    "url": "https://spacedom.live/",
+    "name": "Vivarium",
+    "url": "https://vivarium.st/",
     "mirrors": [],
     "tags": [
      "4K",
      "Dual Audio",
-     "Popup + Redirect Free"
+     "External Subs",
+     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -358,6 +345,19 @@
      "4K",
      "Dual Audio",
      "Pop up + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Spacedom",
+    "url": "https://spacedom.live/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Popup + Redirect Free"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -3109,20 +3109,6 @@
     "index": false
    },
    {
-    "name": "Vivarium",
-    "url": "https://vivarium.st/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "ArrowTV",
     "url": "https://arrowtv.net/",
     "mirrors": [
@@ -3292,13 +3278,14 @@
     "index": false
    },
    {
-    "name": "Spacedom",
-    "url": "https://spacedom.live/",
+    "name": "Vivarium",
+    "url": "https://vivarium.st/",
     "mirrors": [],
     "tags": [
      "4K",
      "Dual Audio",
-     "Popup + Redirect Free"
+     "External Subs",
+     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": true,
@@ -3456,6 +3443,19 @@
      "4K",
      "Dual Audio",
      "Pop up + Redirect Free"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Spacedom",
+    "url": "https://spacedom.live/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Popup + Redirect Free"
     ],
     "group": "Stream Aggregators",
     "pick": true,
