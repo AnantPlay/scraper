@@ -11,24 +11,6 @@
     "index": false
    },
    {
-    "name": "ArrowTV",
-    "url": "https://arrowtv.net/",
-    "mirrors": [
-     "https://arrowtv.st/",
-     "https://www.cinezo.st/",
-     "https://www.flikhub.net/"
-    ],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Movy",
     "url": "https://www.movy.sx/",
     "mirrors": [],
@@ -198,11 +180,12 @@
     "index": false
    },
    {
-    "name": "Chillflix",
-    "url": "https://chillflix.lol/",
+    "name": "ArrowTV",
+    "url": "https://arrowtv.net/",
     "mirrors": [
-     "https://toflix.co/",
-     "https://vuflix.co/"
+     "https://arrowtv.st/",
+     "https://www.cinezo.st/",
+     "https://www.flikhub.net/"
     ],
     "tags": [
      "4K",
@@ -380,8 +363,25 @@
     "index": false
    },
    {
+    "name": "Chillflix",
+    "url": "https://chillflix.lol/",
+    "mirrors": [
+     "https://toflix.co/",
+     "https://vuflix.co/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Basement",
-    "url": "https://basementx.lol/",
+    "url": "https://basementx.rest/",
     "mirrors": [],
     "tags": [
      "4K",
@@ -898,6 +898,20 @@
     "index": false
    },
    {
+    "name": "4Movie",
+    "url": "https://4movie.in/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Ad-Toggle",
+     "External Subs"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "ThugTV",
     "url": "https://thugtv.st",
     "mirrors": [],
@@ -1018,19 +1032,6 @@
      "4K",
      "External Subs",
      "Popup + Redirect Free"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "4Movie",
-    "url": "https://4movie.in/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -1820,6 +1821,18 @@
     "index": false
    },
    {
+    "name": "Aloso",
+    "url": "https://aloso.vercel.app/",
+    "mirrors": [],
+    "tags": [
+     "46 Sources",
+     "Pop up + Redirect Free"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Comvie",
     "url": "https://comvie.lol/",
     "mirrors": [],
@@ -1868,18 +1881,6 @@
     "index": false
    },
    {
-    "name": "Aloso",
-    "url": "https://aloso.vercel.app/",
-    "mirrors": [],
-    "tags": [
-     "46 Sources",
-     "Pop up + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "WatchSeries",
     "url": "https://watchseries.bar/",
     "mirrors": [
@@ -1901,18 +1902,6 @@
     ],
     "tags": [
      "30 Sources",
-     "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "FLIKER",
-    "url": "https://fliker.freebuff.app/",
-    "mirrors": [],
-    "tags": [
-     "17 Sources",
      "Popup + Redirect Free"
     ],
     "group": "Multi-Server",
@@ -3126,24 +3115,6 @@
     "index": false
    },
    {
-    "name": "ArrowTV",
-    "url": "https://arrowtv.net/",
-    "mirrors": [
-     "https://arrowtv.st/",
-     "https://www.cinezo.st/",
-     "https://www.flikhub.net/"
-    ],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Movy",
     "url": "https://www.movy.sx/",
     "mirrors": [],
@@ -3313,11 +3284,12 @@
     "index": false
    },
    {
-    "name": "Chillflix",
-    "url": "https://chillflix.lol/",
+    "name": "ArrowTV",
+    "url": "https://arrowtv.net/",
     "mirrors": [
-     "https://toflix.co/",
-     "https://vuflix.co/"
+     "https://arrowtv.st/",
+     "https://www.cinezo.st/",
+     "https://www.flikhub.net/"
     ],
     "tags": [
      "4K",
@@ -3495,8 +3467,25 @@
     "index": false
    },
    {
+    "name": "Chillflix",
+    "url": "https://chillflix.lol/",
+    "mirrors": [
+     "https://toflix.co/",
+     "https://vuflix.co/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "Basement",
-    "url": "https://basementx.lol/",
+    "url": "https://basementx.rest/",
     "mirrors": [],
     "tags": [
      "4K",
@@ -3916,6 +3905,20 @@
     "index": false
    },
    {
+    "name": "4Movie",
+    "url": "https://4movie.in/",
+    "mirrors": [],
+    "tags": [
+     "1080p",
+     "Dual Audio",
+     "Ad-Toggle",
+     "External Subs"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "ThugTV",
     "url": "https://thugtv.st",
     "mirrors": [],
@@ -4036,19 +4039,6 @@
      "4K",
      "External Subs",
      "Popup + Redirect Free"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "4Movie",
-    "url": "https://4movie.in/",
-    "mirrors": [],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -4838,6 +4828,18 @@
     "index": false
    },
    {
+    "name": "Aloso",
+    "url": "https://aloso.vercel.app/",
+    "mirrors": [],
+    "tags": [
+     "46 Sources",
+     "Pop up + Redirect Free"
+    ],
+    "group": "Multi-Server",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Comvie",
     "url": "https://comvie.lol/",
     "mirrors": [],
@@ -4886,18 +4888,6 @@
     "index": false
    },
    {
-    "name": "Aloso",
-    "url": "https://aloso.vercel.app/",
-    "mirrors": [],
-    "tags": [
-     "46 Sources",
-     "Pop up + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "WatchSeries",
     "url": "https://watchseries.bar/",
     "mirrors": [
@@ -4919,18 +4909,6 @@
     ],
     "tags": [
      "30 Sources",
-     "Popup + Redirect Free"
-    ],
-    "group": "Multi-Server",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "FLIKER",
-    "url": "https://fliker.freebuff.app/",
-    "mirrors": [],
-    "tags": [
-     "17 Sources",
      "Popup + Redirect Free"
     ],
     "group": "Multi-Server",
@@ -6188,7 +6166,7 @@
    },
    {
     "name": "Matchora",
-    "url": "https://matchora.to/channels",
+    "url": "https://matchora.st/channels",
     "mirrors": [],
     "tags": [
      "TV",
@@ -6250,18 +6228,6 @@
      "TV",
      "Sports",
      "PW: FREE-MEDIA"
-    ],
-    "group": "Live TV",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "xyzstreams",
-    "url": "https://xyzstreams.st/",
-    "mirrors": [],
-    "tags": [
-     "TV",
-     "Sports"
     ],
     "group": "Live TV",
     "pick": false,
@@ -6342,7 +6308,7 @@
    },
    {
     "name": "Matchora",
-    "url": "https://matchora.to/",
+    "url": "https://matchora.st/",
     "mirrors": [],
     "tags": [],
     "group": "Live Sports",
@@ -8322,7 +8288,7 @@
    },
    {
     "name": "Matchora",
-    "url": "https://matchora.to/channels",
+    "url": "https://matchora.st/channels",
     "mirrors": [],
     "tags": [
      "TV",
@@ -8396,18 +8362,6 @@
      "TV",
      "Sports",
      "PW: FREE-MEDIA"
-    ],
-    "group": "Live TV",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "xyzstreams",
-    "url": "https://xyzstreams.st/",
-    "mirrors": [],
-    "tags": [
-     "TV",
-     "Sports"
     ],
     "group": "Live TV",
     "pick": false,
