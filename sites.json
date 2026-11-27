@@ -108,7 +108,7 @@
     "url": "https://sweetfox.st/",
     "mirrors": [
      "http://sweetfox.app/",
-     "https://67movies.st/"
+     "https://111flix.net/"
     ],
     "tags": [
      "4K",
@@ -230,13 +230,15 @@
     "name": "Rive",
     "url": "https://www.rivestream.app/",
     "mirrors": [
-     "https://rivestream.ru/",
-     "https://rivestream.win/",
+     "https://rivestream.st/",
+     "https://rivestream.pro/",
+     "https://rivestream.cz/",
      "https://watch.corsflix.net",
      "https://watch.corsflix.dpdns.org"
     ],
     "tags": [
-     "1080p",
+     "4K",
+     "Dual Audio",
      "External Subs",
      "Ad-Toggle"
     ],
@@ -381,7 +383,7 @@
    },
    {
     "name": "Basement",
-    "url": "https://basementx.rest/",
+    "url": "https://basement.rest/",
     "mirrors": [],
     "tags": [
      "4K",
@@ -478,8 +480,8 @@
     "index": false
    },
    {
-    "name": "1Shows",
-    "url": "http://1shows.org",
+    "name": "1Waves",
+    "url": "http://1waves.gd/",
     "mirrors": [
      "https://www.1flex.org/",
      "https://www.1tube.org/"
@@ -494,7 +496,7 @@
    },
    {
     "name": "AniCine",
-    "url": "https://anicine.sbs/",
+    "url": "https://anicine.live/",
     "mirrors": [],
     "tags": [
      "11 Sources",
@@ -808,6 +810,20 @@
     "index": false
    },
    {
+    "name": "Reeflix",
+    "url": "https://reeflix.st/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Movie Night",
     "url": "https://movienig.ht/",
     "mirrors": [],
@@ -839,6 +855,22 @@
     "mirrors": [],
     "tags": [
      "1080p",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "SvStream",
+    "url": "https://svstream.cc/",
+    "mirrors": [
+     "https://nomorflix.cc/",
+     "https://diostream.cc/"
+    ],
+    "tags": [
+     "4K",
+     "External Subs",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -940,25 +972,11 @@
     "index": false
    },
    {
-    "name": "Reeflix",
-    "url": "https://reeflix.st/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "watched",
     "url": "https://watched.cx/",
     "mirrors": [],
     "tags": [
-     "1080p",
+     "4K",
      "Dual Audio",
      "External Subs",
      "Popup + Redirect Free"
@@ -1165,21 +1183,6 @@
     "index": false
    },
    {
-    "name": "SvStream",
-    "url": "https://svstream.cc/",
-    "mirrors": [
-     "https://nomorflix.cc/",
-     "https://diostream.cc/"
-    ],
-    "tags": [
-     "1080p",
-     "External Subs"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "cineruv",
     "url": "https://cineruv.website/",
     "mirrors": [],
@@ -1352,7 +1355,7 @@
    },
    {
     "name": "frameXTV",
-    "url": "https://framextv.xyz/",
+    "url": "https://framextv.cc/",
     "mirrors": [],
     "tags": [
      "4K",
@@ -1432,7 +1435,7 @@
    },
    {
     "name": "StreamingUnity",
-    "url": "https://streamingunity.fun/",
+    "url": "https://streamingunity.day/",
     "mirrors": [],
     "tags": [
      "720p",
@@ -1870,7 +1873,7 @@
    },
    {
     "name": "Flyflix",
-    "url": "https://flyflix.cc/",
+    "url": "https://flyflix.app/",
     "mirrors": [],
     "tags": [
      "23 Sources",
@@ -2606,7 +2609,9 @@
     "name": "Rive",
     "url": "https://www.rivestream.app/kdrama",
     "mirrors": [
-     "https://rivestream.ru/kdrama"
+     "https://rivestream.st/kdrama",
+     "https://rivestream.pro/kdrama",
+     "https://rivestream.cz/kdrama"
     ],
     "tags": [
      "Korean Drama",
@@ -2619,7 +2624,7 @@
    },
    {
     "name": "Vidbox",
-    "url": "https://vidbox.vc/asian-drama",
+    "url": "https://vidbox.wtf/asian-drama",
     "mirrors": [],
     "tags": [
      "TV",
@@ -3212,7 +3217,7 @@
     "url": "https://sweetfox.st/",
     "mirrors": [
      "http://sweetfox.app/",
-     "https://67movies.st/"
+     "https://111flix.net/"
     ],
     "tags": [
      "4K",
@@ -3334,13 +3339,15 @@
     "name": "Rive",
     "url": "https://www.rivestream.app/",
     "mirrors": [
-     "https://rivestream.ru/",
-     "https://rivestream.win/",
+     "https://rivestream.st/",
+     "https://rivestream.pro/",
+     "https://rivestream.cz/",
      "https://watch.corsflix.net",
      "https://watch.corsflix.dpdns.org"
     ],
     "tags": [
-     "1080p",
+     "4K",
+     "Dual Audio",
      "External Subs",
      "Ad-Toggle"
     ],
@@ -3485,7 +3492,7 @@
    },
    {
     "name": "Basement",
-    "url": "https://basementx.rest/",
+    "url": "https://basement.rest/",
     "mirrors": [],
     "tags": [
      "4K",
@@ -3582,8 +3589,8 @@
     "index": false
    },
    {
-    "name": "1Shows",
-    "url": "http://1shows.org",
+    "name": "1Waves",
+    "url": "http://1waves.gd/",
     "mirrors": [
      "https://www.1flex.org/",
      "https://www.1tube.org/"
@@ -3598,7 +3605,7 @@
    },
    {
     "name": "AniCine",
-    "url": "https://anicine.sbs/",
+    "url": "https://anicine.live/",
     "mirrors": [],
     "tags": [
      "11 Sources",
@@ -3815,6 +3822,20 @@
     "index": false
    },
    {
+    "name": "Reeflix",
+    "url": "https://reeflix.st/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Movie Night",
     "url": "https://movienig.ht/",
     "mirrors": [],
@@ -3846,6 +3867,22 @@
     "mirrors": [],
     "tags": [
      "1080p",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "SvStream",
+    "url": "https://svstream.cc/",
+    "mirrors": [
+     "https://nomorflix.cc/",
+     "https://diostream.cc/"
+    ],
+    "tags": [
+     "4K",
+     "External Subs",
      "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
@@ -3947,25 +3984,11 @@
     "index": false
    },
    {
-    "name": "Reeflix",
-    "url": "https://reeflix.st/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "watched",
     "url": "https://watched.cx/",
     "mirrors": [],
     "tags": [
-     "1080p",
+     "4K",
      "Dual Audio",
      "External Subs",
      "Popup + Redirect Free"
@@ -4172,21 +4195,6 @@
     "index": false
    },
    {
-    "name": "SvStream",
-    "url": "https://svstream.cc/",
-    "mirrors": [
-     "https://nomorflix.cc/",
-     "https://diostream.cc/"
-    ],
-    "tags": [
-     "1080p",
-     "External Subs"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "cineruv",
     "url": "https://cineruv.website/",
     "mirrors": [],
@@ -4359,7 +4367,7 @@
    },
    {
     "name": "frameXTV",
-    "url": "https://framextv.xyz/",
+    "url": "https://framextv.cc/",
     "mirrors": [],
     "tags": [
      "4K",
@@ -4439,7 +4447,7 @@
    },
    {
     "name": "StreamingUnity",
-    "url": "https://streamingunity.fun/",
+    "url": "https://streamingunity.day/",
     "mirrors": [],
     "tags": [
      "720p",
@@ -4877,7 +4885,7 @@
    },
    {
     "name": "Flyflix",
-    "url": "https://flyflix.cc/",
+    "url": "https://flyflix.app/",
     "mirrors": [],
     "tags": [
      "23 Sources",
@@ -5732,7 +5740,9 @@
     "name": "Rive",
     "url": "https://www.rivestream.app/kdrama",
     "mirrors": [
-     "https://rivestream.ru/kdrama"
+     "https://rivestream.st/kdrama",
+     "https://rivestream.pro/kdrama",
+     "https://rivestream.cz/kdrama"
     ],
     "tags": [
      "Korean Drama",
@@ -5745,7 +5755,7 @@
    },
    {
     "name": "Vidbox",
-    "url": "https://vidbox.vc/asian-drama",
+    "url": "https://vidbox.wtf/asian-drama",
     "mirrors": [],
     "tags": [
      "TV",
@@ -6221,19 +6231,6 @@
     "index": false
    },
    {
-    "name": "Watchott Live",
-    "url": "https://iptv.watchott.org/",
-    "mirrors": [],
-    "tags": [
-     "TV",
-     "Sports",
-     "PW: FREE-MEDIA"
-    ],
-    "group": "Live TV",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "TV Explorer",
     "url": "https://tvexplorer.live/",
     "mirrors": [],
@@ -6273,7 +6270,9 @@
     "name": "Rive",
     "url": "https://www.rivestream.app/iptv",
     "mirrors": [
-     "https://rivestream.ru/iptv"
+     "https://rivestream.st/iptv",
+     "https://rivestream.pro/iptv",
+     "https://rivestream.cz/iptv"
     ],
     "tags": [
      "TV",
@@ -6500,7 +6499,7 @@
    },
    {
     "name": "FSL",
-    "url": "https://freestreams-live1h.pk/",
+    "url": "https://freestreams-live1j.pk/",
     "mirrors": [],
     "tags": [],
     "group": "Live Sports",
@@ -6585,7 +6584,7 @@
    },
    {
     "name": "FCTV33",
-    "url": "https://www.fctv33go.hair/",
+    "url": "https://www.fctv33go.beauty/",
     "mirrors": [],
     "tags": [],
     "group": "Live Sports",
@@ -6945,9 +6944,7 @@
    {
     "name": "HooFoot",
     "url": "https://hoofoot.net/",
-    "mirrors": [
-     "https://mysoccerpulse.com/"
-    ],
+    "mirrors": [],
     "tags": [
      "Football Highlights"
     ],
@@ -7145,17 +7142,6 @@
     "index": false
    },
    {
-    "name": "F1 Live",
-    "url": "https://f1live.dpdns.org/",
-    "mirrors": [],
-    "tags": [
-     "Motorsports Replays"
-    ],
-    "group": "Sports Replays",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "NontonGP",
     "url": "https://replay.nontonx.com/",
     "mirrors": [],
@@ -7295,10 +7281,12 @@
    },
    {
     "name": "Ani.pm",
-    "url": "https://ani.pm/",
+    "url": "https://anipm.pk/",
     "mirrors": [
      "https://ani.nz/",
-     "https://ume.to/"
+     "https://ani.vg/",
+     "https://anipm.tv/",
+     "https://ani.pm/"
     ],
     "tags": [
      "Sub",
@@ -7389,6 +7377,21 @@
     "index": false
    },
    {
+    "name": "WeebTube",
+    "url": "https://weebtube.cc/",
+    "mirrors": [
+     "https://jjba.lol/"
+    ],
+    "tags": [
+     "Sub",
+     "Dub",
+     "Auto-Next"
+    ],
+    "group": "Anime Streaming",
+    "pick": true,
+    "index": false
+   },
+   {
     "name": "WCO",
     "url": "https://www.wco.tv/",
     "mirrors": [
@@ -7426,21 +7429,6 @@
     "name": "JustAnime",
     "url": "https://justanime.to/",
     "mirrors": [],
-    "tags": [
-     "Sub",
-     "Dub",
-     "Auto-Next"
-    ],
-    "group": "Anime Streaming",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "WeebTube",
-    "url": "https://weebtube.cc/",
-    "mirrors": [
-     "https://jjba.lol/"
-    ],
     "tags": [
      "Sub",
      "Dub",
@@ -8355,19 +8343,6 @@
     "index": false
    },
    {
-    "name": "Watchott Live",
-    "url": "https://iptv.watchott.org/",
-    "mirrors": [],
-    "tags": [
-     "TV",
-     "Sports",
-     "PW: FREE-MEDIA"
-    ],
-    "group": "Live TV",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "TV Explorer",
     "url": "https://tvexplorer.live/",
     "mirrors": [],
@@ -8418,7 +8393,9 @@
     "name": "Rive",
     "url": "https://www.rivestream.app/iptv",
     "mirrors": [
-     "https://rivestream.ru/iptv"
+     "https://rivestream.st/iptv",
+     "https://rivestream.pro/iptv",
+     "https://rivestream.cz/iptv"
     ],
     "tags": [
      "TV",
@@ -11472,8 +11449,8 @@
     "index": false
    },
    {
-    "name": "1Shows",
-    "url": "http://1shows.org",
+    "name": "1Waves",
+    "url": "http://1waves.gd/",
     "mirrors": [
      "https://www.1flex.org/",
      "https://www.1tube.org/"
@@ -15546,6 +15523,18 @@
      "Chinese Animation",
      "Sub",
      "1080p"
+    ],
+    "group": "Vietnamese",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "XemTV",
+    "url": "https://hd1.xemtv.net/",
+    "mirrors": [],
+    "tags": [
+     "Live TV",
+     "720p"
     ],
     "group": "Vietnamese",
     "pick": false,
