@@ -11,20 +11,6 @@
     "index": false
    },
    {
-    "name": "Movy",
-    "url": "https://www.movy.sx/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Cinejoy",
     "url": "https://cinejoy.pk/",
     "mirrors": [],
@@ -198,13 +184,9 @@
     "index": false
    },
    {
-    "name": "Way2Movies",
-    "url": "https://way2movies.vip/",
-    "mirrors": [
-     "https://old.way2movies.vip",
-     "https://beta.way2movies.live/",
-     "https://way2movies.live/"
-    ],
+    "name": "Movy",
+    "url": "https://www.movy.sx/",
+    "mirrors": [],
     "tags": [
      "4K",
      "Dual Audio",
@@ -368,6 +350,24 @@
     "mirrors": [
      "https://toflix.co/",
      "https://vuflix.co/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Way2Movies",
+    "url": "https://way2movies.vip/",
+    "mirrors": [
+     "https://old.way2movies.vip",
+     "https://beta.way2movies.live/",
+     "https://way2movies.live/"
     ],
     "tags": [
      "4K",
@@ -3115,20 +3115,6 @@
     "index": false
    },
    {
-    "name": "Movy",
-    "url": "https://www.movy.sx/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Cinejoy",
     "url": "https://cinejoy.pk/",
     "mirrors": [],
@@ -3302,13 +3288,9 @@
     "index": false
    },
    {
-    "name": "Way2Movies",
-    "url": "https://way2movies.vip/",
-    "mirrors": [
-     "https://old.way2movies.vip",
-     "https://beta.way2movies.live/",
-     "https://way2movies.live/"
-    ],
+    "name": "Movy",
+    "url": "https://www.movy.sx/",
+    "mirrors": [],
     "tags": [
      "4K",
      "Dual Audio",
@@ -3472,6 +3454,24 @@
     "mirrors": [
      "https://toflix.co/",
      "https://vuflix.co/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "External Subs",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": true,
+    "index": false
+   },
+   {
+    "name": "Way2Movies",
+    "url": "https://way2movies.vip/",
+    "mirrors": [
+     "https://old.way2movies.vip",
+     "https://beta.way2movies.live/",
+     "https://way2movies.live/"
     ],
     "tags": [
      "4K",
