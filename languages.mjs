@@ -6,7 +6,7 @@ import { discover, tmdb, toTitle } from './brands.mjs';
 
 // The names the app's language lists use > TMDB's original_language
 export const LANGUAGES = {
-  Hindi: 'hi', Tamil: 'ta', Telugu: 'te', Malayalam: 'ml', Kannada: 'kn', Bengali: 'bn', Marathi: 'mr', Punjabi: 'pa', Urdu: 'ur', Sinhalese: 'si',
+  Hindi: 'hi', Tamil: 'ta', Telugu: 'te', Malayalam: 'ml', Kannada: 'kn', Bengali: 'bn', Marathi: 'mr', Punjabi: 'pa', Gujarati: 'gu', Urdu: 'ur', Sinhalese: 'si',
   Nepali: 'ne', Japanese: 'ja', Korean: 'ko', Mandarin: 'zh', Malay: 'ms', Thai: 'th', Vietnamese: 'vi', Indonesian: 'id', Tagalog: 'tl',
   Turkish: 'tr', Persian: 'fa', Hebrew: 'he', Arabic: 'ar', Kurdish: 'ku', Russian: 'ru', Ukrainian: 'uk', Belarusian: 'be', Kazakh: 'kk',
   Uzbek: 'uz', Georgian: 'ka', Armenian: 'hy', Polish: 'pl', Czech: 'cs', Slovak: 'sk', Hungarian: 'hu', Romanian: 'ro', Bulgarian: 'bg',
@@ -17,6 +17,8 @@ export const LANGUAGES = {
 // Nothing is hidden: New is every release of the last year, Popular the 100 most voted for; the app shows 15 of a row and More opens all of it.
 // What is left out: films under an hour (shorts) and titles TMDB has no IMDb id for (the app's title pages are built on it).
 const POPULAR_TOP = 100;
+// The app's full language list comes from a TMDB addon that has no list for these: their file carries it as `all` (most voted first)
+export const FULL = new Set(['Gujarati']);
 const NEW_DAYS = 365;
 
 /** A row as the app reads it: the titles without the working `date`. */
@@ -29,7 +31,7 @@ export function before(today, days) {
   return new Date(Date.parse(today + 'T00:00:00Z') - days * 86400000).toISOString().slice(0, 10);
 }
 
-async function build(code, old, today) {
+async function build(code, old, today, full = false) {
   // IMDb ids found before are kept: one TMDB call per new title only
   const known = new Map();
   for (const rows of Object.values(old || {})) for (const list of Object.values(rows)) for (const t of list) known.set(t.type + t.tmdb, t.id);
@@ -53,7 +55,9 @@ async function build(code, old, today) {
   }
   const out = {};
   for (const [kind, type] of [['movie', 'movie'], ['tv', 'series']]) {
-    out[type] = { popular: row(await collect(kind, type, { sort_by: 'vote_count.desc', 'vote_count.gte': '0' }, POPULAR_TOP)) };   // most voted first, no floor
+    const voted = await collect(kind, type, { sort_by: 'vote_count.desc', 'vote_count.gte': '0' }, full ? Infinity : POPULAR_TOP);   // most voted first, no floor
+    out[type] = { popular: row(voted.slice(0, POPULAR_TOP)) };
+    if (full) out[type].all = row(voted);
     // New: every release of the last year, newest first, whatever its votes (a film just out has none yet); films of an hour or more
     const date = kind === 'movie' ? 'primary_release_date' : 'first_air_date';
     const fresh = await collect(kind, type, { sort_by: date + '.desc', [date + '.lte']: today, [date + '.gte']: before(today, NEW_DAYS), 'vote_count.gte': '0',
@@ -72,7 +76,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   async function one(name) {
     const file = `languages/${name}.json`;
     try {
-      const data = await build(LANGUAGES[name], existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : null, today);
+      const data = await build(LANGUAGES[name], existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : null, today, FULL.has(name));
       const sizes = Object.entries(data).map(([type, rows]) => Object.entries(rows).map(([r, l]) => `${type} ${r} ${l.length}`)).flat();
       if (!sizes.some(s => !s.endsWith(' 0'))) { console.log(`${name}: nothing to show`); return; }
       writeFileSync(file, JSON.stringify(data) + '\n');
