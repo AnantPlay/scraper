@@ -11,20 +11,6 @@
     "index": false
    },
    {
-    "name": "Cinejoy",
-    "url": "https://cinejoy.pk/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "7Movies",
     "url": "https://7movies.ws/",
     "mirrors": [
@@ -42,8 +28,8 @@
     "index": false
    },
    {
-    "name": "Cinecat",
-    "url": "https://cinecat.eu/",
+    "name": "Catflix",
+    "url": "https://catflix.mov/",
     "mirrors": [
      "https://beta.cinecat.eu/"
     ],
@@ -186,7 +172,9 @@
    {
     "name": "Movy",
     "url": "https://www.movy.sx/",
-    "mirrors": [],
+    "mirrors": [
+     "http://www.racz.to"
+    ],
     "tags": [
      "4K",
      "Dual Audio",
@@ -680,8 +668,8 @@
     "index": false
    },
    {
-    "name": "KatDrama",
-    "url": "https://k-drama.in/",
+    "name": "DramaHQ",
+    "url": "https://dramahq.tv/",
     "mirrors": [],
     "tags": [
      "TV",
@@ -862,6 +850,19 @@
     "index": false
    },
    {
+    "name": "ThugTV",
+    "url": "https://thugtv.st",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "SvStream",
     "url": "https://svstream.cc/",
     "mirrors": [
@@ -904,6 +905,21 @@
     "index": false
    },
    {
+    "name": "TaroFlix",
+    "url": "https://taroflix.net/",
+    "mirrors": [
+     "https://cinetaro.to/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Zenox",
     "url": "https://zenox.lol/",
     "mirrors": [],
@@ -938,19 +954,6 @@
      "Dual Audio",
      "Ad-Toggle",
      "External Subs"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "ThugTV",
-    "url": "https://thugtv.st",
-    "mirrors": [],
-    "tags": [
-     "720p",
-     "Dual Audio",
-     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -1081,15 +1084,13 @@
     "index": false
    },
    {
-    "name": "TaroFlix",
-    "url": "https://taroflix.net/",
-    "mirrors": [
-     "https://cinetaro.to/"
-    ],
+    "name": "Plyx",
+    "url": "https://plyx.cc/",
+    "mirrors": [],
     "tags": [
      "1080p",
      "Dual Audio",
-     "Ad-Toggle"
+     "External Subs"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -1223,21 +1224,6 @@
     "index": false
    },
    {
-    "name": "Cinemove",
-    "url": "https://cinemove.cc/",
-    "mirrors": [
-     "https://cinex.lol/"
-    ],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "External Subs"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Mapple",
     "url": "https://mapple.fun/",
     "mirrors": [],
@@ -1304,6 +1290,18 @@
     "index": false
    },
    {
+    "name": "frameXTV",
+    "url": "https://framextv.cc/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "External Subs"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "NetPlay",
     "url": "https://netplayz.icu/",
     "mirrors": [
@@ -1348,18 +1346,6 @@
     "tags": [
      "1080p",
      "Dual Audio"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "frameXTV",
-    "url": "https://framextv.cc/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -3120,20 +3106,6 @@
     "index": false
    },
    {
-    "name": "Cinejoy",
-    "url": "https://cinejoy.pk/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "Dual Audio",
-     "External Subs",
-     "Ad-Toggle"
-    ],
-    "group": "Stream Aggregators",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "7Movies",
     "url": "https://7movies.ws/",
     "mirrors": [
@@ -3151,8 +3123,8 @@
     "index": false
    },
    {
-    "name": "Cinecat",
-    "url": "https://cinecat.eu/",
+    "name": "Catflix",
+    "url": "https://catflix.mov/",
     "mirrors": [
      "https://beta.cinecat.eu/"
     ],
@@ -3295,7 +3267,9 @@
    {
     "name": "Movy",
     "url": "https://www.movy.sx/",
-    "mirrors": [],
+    "mirrors": [
+     "http://www.racz.to"
+    ],
     "tags": [
      "4K",
      "Dual Audio",
@@ -3739,8 +3713,8 @@
     "index": false
    },
    {
-    "name": "KatDrama",
-    "url": "https://k-drama.in/",
+    "name": "DramaHQ",
+    "url": "https://dramahq.tv/",
     "mirrors": [],
     "tags": [
      "TV",
@@ -3874,6 +3848,19 @@
     "index": false
    },
    {
+    "name": "ThugTV",
+    "url": "https://thugtv.st",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "SvStream",
     "url": "https://svstream.cc/",
     "mirrors": [
@@ -3916,6 +3903,21 @@
     "index": false
    },
    {
+    "name": "TaroFlix",
+    "url": "https://taroflix.net/",
+    "mirrors": [
+     "https://cinetaro.to/"
+    ],
+    "tags": [
+     "4K",
+     "Dual Audio",
+     "Ad-Toggle"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "Zenox",
     "url": "https://zenox.lol/",
     "mirrors": [],
@@ -3950,19 +3952,6 @@
      "Dual Audio",
      "Ad-Toggle",
      "External Subs"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "ThugTV",
-    "url": "https://thugtv.st",
-    "mirrors": [],
-    "tags": [
-     "720p",
-     "Dual Audio",
-     "Ad-Toggle"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -4093,15 +4082,13 @@
     "index": false
    },
    {
-    "name": "TaroFlix",
-    "url": "https://taroflix.net/",
-    "mirrors": [
-     "https://cinetaro.to/"
-    ],
+    "name": "Plyx",
+    "url": "https://plyx.cc/",
+    "mirrors": [],
     "tags": [
      "1080p",
      "Dual Audio",
-     "Ad-Toggle"
+     "External Subs"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -4235,21 +4222,6 @@
     "index": false
    },
    {
-    "name": "Cinemove",
-    "url": "https://cinemove.cc/",
-    "mirrors": [
-     "https://cinex.lol/"
-    ],
-    "tags": [
-     "1080p",
-     "Dual Audio",
-     "External Subs"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
     "name": "Mapple",
     "url": "https://mapple.fun/",
     "mirrors": [],
@@ -4316,6 +4288,18 @@
     "index": false
    },
    {
+    "name": "frameXTV",
+    "url": "https://framextv.cc/",
+    "mirrors": [],
+    "tags": [
+     "4K",
+     "External Subs"
+    ],
+    "group": "Stream Aggregators",
+    "pick": false,
+    "index": false
+   },
+   {
     "name": "NetPlay",
     "url": "https://netplayz.icu/",
     "mirrors": [
@@ -4360,18 +4344,6 @@
     "tags": [
      "1080p",
      "Dual Audio"
-    ],
-    "group": "Stream Aggregators",
-    "pick": false,
-    "index": false
-   },
-   {
-    "name": "frameXTV",
-    "url": "https://framextv.cc/",
-    "mirrors": [],
-    "tags": [
-     "4K",
-     "External Subs"
     ],
     "group": "Stream Aggregators",
     "pick": false,
@@ -6011,18 +5983,6 @@
     "index": false
    },
    {
-    "name": "DaddyLive",
-    "url": "https://dlhd.st/",
-    "mirrors": [
-     "https://thedaddy.li/",
-     "https://daddylive.pk/"
-    ],
-    "tags": [],
-    "group": "Live Sports",
-    "pick": true,
-    "index": false
-   },
-   {
     "name": "Basketball Video",
     "url": "https://basketball-video.com/",
     "mirrors": [],
@@ -7251,7 +7211,7 @@
    },
    {
     "name": "Gotaku",
-    "url": "https://gotaku.to//",
+    "url": "https://gotaku.to/",
     "mirrors": [
      "https://gotaku.ch",
      "https://gotaku.li"
@@ -7575,6 +7535,19 @@
     "mirrors": [],
     "tags": [
      "Sub"
+    ],
+    "group": "Anime Streaming",
+    "pick": false,
+    "index": false
+   },
+   {
+    "name": "AniGato",
+    "url": "https://anigato.lol/",
+    "mirrors": [],
+    "tags": [
+     "Sub",
+     "Dub",
+     "Auto-Next"
     ],
     "group": "Anime Streaming",
     "pick": false,
@@ -15516,7 +15489,7 @@
    },
    {
     "name": "AnimeVietsub",
-    "url": "https://animevietsub.bid/",
+    "url": "https://animevietsub.zone/",
     "mirrors": [],
     "tags": [
      "Anime",
